@@ -2,11 +2,12 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { changedIds, moveWeapon, sameLayout, shiftWeapon, tierOf } from '@/lib/layout';
-import { TIERS, tierForBand } from '@/lib/tiers';
+import { TIERS, TIER_BY_ID, tierForBand } from '@/lib/tiers';
 import { useTierLayouts } from '@/lib/useTierLayouts';
 import MoveBar from './MoveBar';
 import TierRow from './TierRow';
 import WeaponChip from './WeaponChip';
+import WeaponDetail from './WeaponDetail';
 
 const normalize = (text) =>
   text
@@ -29,6 +30,7 @@ export default function TierBoard({ data }) {
   const [query, setQuery] = useState('');
   const [editing, setEditing] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
+  const [openId, setOpenId] = useState(null);
   const [dragId, setDragId] = useState(null);
   const [dropTarget, setDropTarget] = useState(null);
   const [notice, setNotice] = useState('');
@@ -62,6 +64,7 @@ export default function TierBoard({ data }) {
   const selected = selectedId ? weaponsById[selectedId] : null;
   const selectedTier = selected ? tierOf(layout, selected.id) : null;
   const selectedIndex = selected ? layout[selectedTier].indexOf(selected.id) : -1;
+  const opened = openId ? weaponsById[openId] : null;
 
   useEffect(() => {
     if (!selectedId) return;
@@ -261,6 +264,7 @@ export default function TierBoard({ data }) {
         {needle
           ? `${matchCount} de ${category.weapons.length} armas em ${category.label} batem com a busca`
           : `${category.weapons.length} armas em ${category.label}`}
+        {editing ? '' : ' · clique numa arma para ver o comentário'}
         {totalChanged > 0
           ? ` · ${totalChanged} ${totalChanged === 1 ? 'arma fora' : 'armas fora'} do tier original`
           : ''}
@@ -292,6 +296,7 @@ export default function TierBoard({ data }) {
                     dropBefore={dropTarget?.beforeId === id && dragId !== id}
                     originalTier={changed.has(id) ? tierForBand(weapon.band) : null}
                     onSelect={() => setSelectedId((current) => (current === id ? null : id))}
+                    onOpen={() => setOpenId(id)}
                     onDragStart={(e) => {
                       e.dataTransfer.effectAllowed = 'move';
                       e.dataTransfer.setData('text/plain', weapon.name);
@@ -331,10 +336,18 @@ export default function TierBoard({ data }) {
           tier alterado por você
         </span>
         <span className="basis-full">
-          Ícones das armas: Hunt: Showdown 1896 Wiki (huntshowdown.wiki.gg). Hunt: Showdown e suas imagens pertencem à
+          Ordem e comentários: tier list de {data.source.author} para o patch 2.9, resumida em português. Ícones das armas: Hunt: Showdown 1896 Wiki (huntshowdown.wiki.gg). Hunt: Showdown e suas imagens pertencem à
           Crytek.
         </span>
       </footer>
+
+      <WeaponDetail
+        weapon={opened}
+        tier={opened ? TIER_BY_ID[tierOf(layout, opened.id)] : null}
+        categoryLabel={category.label}
+        source={data.source}
+        onClose={() => setOpenId(null)}
+      />
 
       {editing && selected ? (
         <MoveBar

@@ -24,16 +24,16 @@ export default function WeaponChip({
   dropBefore,
   originalTier,
   onSelect,
+  onOpen,
   onDragStart,
   onDragEnd,
   onDragOver,
   onDrop,
 }) {
   const image = images[weapon.name];
-  const Tag = editing ? 'button' : 'div';
+  // Editando, o clique seleciona para mover; fora da edição, abre os detalhes.
   const interactive = editing
     ? {
-        type: 'button',
         draggable: true,
         'aria-pressed': selected,
         onClick: onSelect,
@@ -42,15 +42,16 @@ export default function WeaponChip({
         onDragOver,
         onDrop,
       }
-    : {};
+    : { onClick: onOpen };
 
   return (
-    <Tag
+    <button
+      type="button"
       {...interactive}
       className={[
         'relative flex flex-col items-center gap-1.5 rounded-md border px-2 pb-2 pt-2.5 text-center transition-[opacity,border-color,box-shadow]',
         selected ? 'border-brass bg-raised ring-1 ring-brass' : 'border-line bg-raised',
-        editing && !selected ? 'hover:border-brass/60' : '',
+        selected ? '' : 'hover:border-brass/60',
         editing ? 'cursor-grab select-none active:cursor-grabbing' : '',
         dimmed ? 'opacity-25' : '',
         dragging ? 'opacity-40' : '',
@@ -92,6 +93,6 @@ export default function WeaponChip({
           <span className="sr-only">Tier original: {originalTier}</span>
         </span>
       ) : null}
-    </Tag>
+    </button>
   );
 }

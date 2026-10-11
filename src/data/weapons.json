@@ -12,277 +12,323 @@
               "id": "rifles/mosin-nagant-bayonet",
               "name": "Mosin-Nagant Bayonet",
               "band": 1,
-              "slots": 4
+              "slots": 4,
+              "comment": "No topo dos rifles: maior dano entre os de ferrolho, recarga por clip e ótima velocidade."
             },
             {
               "id": "rifles/mosin-nagant",
               "name": "Mosin-Nagant",
               "band": 1,
-              "slots": 4
+              "slots": 4,
+              "comment": "No topo dos rifles: maior dano entre os de ferrolho, recarga por clip e ótima velocidade."
             },
             {
-              "id": "rifles/winfield",
-              "name": "Winfield",
-              "band": 1
+              "id": "rifles/wildland",
+              "name": "Wildland",
+              "band": 1,
+              "slots": 4,
+              "comment": "Um dos melhores rifles do jogo: uma Centennial anabolizada, com velocidade altíssima, ótima com Levering e recarga rápida."
             },
             {
               "id": "rifles/lemat-carbine",
               "name": "LeMat Carbine",
               "band": 2,
-              "slots": 3
+              "slots": 3,
+              "comment": "Ganhou um tier próprio, entre o topo e o resto. Com High Velocity foi muito bem nos testes dele, e é barata: dá quase quatro pelo preço de um Drilling."
             },
             {
               "id": "rifles/bornheim-no-3-match",
               "name": "Bornheim No. 3 Match",
               "band": 2,
-              "slots": 2
+              "slots": 2,
+              "comment": "Rifle bom demais para 2 slots e a arma favorita dele. Com a LeMat em High Velocity, o combo LeMat Carbine + Bornheim Match cobre longe e perto e ainda tem espingarda."
             },
             {
               "id": "rifles/drilling",
               "name": "Drilling",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "A arma para quem quer versatilidade: boa velocidade, bom alcance de two-tap e uma espingarda forte embaixo."
             },
             {
               "id": "rifles/lebel-1886",
               "name": "Lebel 1886",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Mesmo dano da Mosin, mas sem recarga por clip; por isso fica logo abaixo."
             },
             {
               "id": "rifles/lebel-1886-aperture",
               "name": "Lebel 1886 Aperture",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Mesmo dano da Mosin, mas sem recarga por clip; por isso fica logo abaixo."
             },
             {
               "id": "rifles/lebel-1886-talon",
               "name": "Lebel 1886 Talon",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Mesmo dano da Mosin, mas sem recarga por clip; por isso fica logo abaixo."
             },
             {
               "id": "rifles/marathon-swift",
               "name": "Marathon Swift",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "A escolha para spam de munição compacta sem ir de Officer Carbine. Muito forte."
             },
             {
               "id": "rifles/officer-carbine",
               "name": "Officer Carbine",
               "band": 4,
-              "slots": 3
+              "slots": 3,
+              "comment": "Com boa mira é arma de topo; se você sofre com o recuo, cai um pouco. A LeMat em High Velocity compensa o nerf de munição reserva."
             },
             {
               "id": "rifles/berthier-1892",
               "name": "Berthier 1892",
               "band": 4,
-              "slots": 3
+              "slots": 3,
+              "comment": "Muito forte e com valor excelente para 3 slots."
             },
             {
               "id": "rifles/berthier-1892-riposte",
               "name": "Berthier 1892 Riposte",
               "band": 4,
-              "slots": 3
+              "slots": 3,
+              "comment": "Muito forte e com valor excelente para 3 slots."
             },
             {
               "id": "rifles/centennial",
               "name": "Centennial",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Tem acesso à bala comprável mais rápida do jogo: 725 m/s com High Velocity."
             },
             {
               "id": "rifles/centennial-trauma",
               "name": "Centennial Trauma",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Tem acesso à bala comprável mais rápida do jogo: 725 m/s com High Velocity."
             },
             {
               "id": "rifles/krag",
               "name": "Krag",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Muito forte: boa cadência, bom dano e divertida de jogar."
             },
             {
               "id": "rifles/krag-bayonet",
               "name": "Krag Bayonet",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Muito forte: boa cadência, bom dano e divertida de jogar."
             },
             {
               "id": "rifles/ranger-73-swift",
               "name": "Ranger 73 Swift",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Com Levering ganha versatilidade, mas precisa do trait para superar a Marathon, e de longe é pior: menos velocidade e menos cadência."
             },
             {
               "id": "rifles/marathon",
               "name": "Marathon",
               "band": 5,
-              "slots": 4
+              "slots": 4,
+              "comment": "O mesmo rifle que a Swift, só sem a recarga rápida."
             },
             {
               "id": "rifles/vetterli-71-cyclone",
               "name": "Vetterli 71 Cyclone",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "Ainda forte e dominante em boas mãos, mas perdeu valor com os nerfs de velocidade, dano e munição reserva."
             },
             {
               "id": "rifles/krag-silencer",
               "name": "Krag Silencer",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "O rifle silenciado mais forte, mas com menos dano: cai abaixo de 125 e não finaliza inimigo derrubado com um tiro no peito."
             },
             {
               "id": "rifles/martini-henry-ironside",
               "name": "Martini-Henry Ironside",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "A mira estranha atrapalha, mas passando disso é um rifle muito forte."
             },
             {
               "id": "rifles/mosin-obrez-match",
               "name": "Mosin Obrez Match",
               "band": 6,
               "slots": 3,
-              "note": "Revisar nomes ambíguos da captura"
+              "comment": "Limitada pelo alcance, como toda Obrez."
             },
             {
               "id": "rifles/springfield-1866",
               "name": "Springfield 1866",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "Recebeu buff de dano e virou um rifle barato eficiente mesmo com munição normal ou High Velocity. Se achar Dumdum nas torres, vira arma de topo."
             },
             {
               "id": "rifles/springfield-1866-bayonet",
               "name": "Springfield 1866 Bayonet",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "Recebeu buff de dano e virou um rifle barato eficiente mesmo com munição normal ou High Velocity. Se achar Dumdum nas torres, vira arma de topo."
             },
             {
               "id": "rifles/1890-cavalry",
               "name": "1890 Cavalry",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Basicamente uma Springfield de munição longa com menos velocidade. Outro rifle de tiro único que recebeu atenção dos devs."
             },
             {
               "id": "rifles/dolch-96-precision",
               "name": "Dolch 96 Precision",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Boa para spam, tipo uma Officer Carbine de munição especial, mas com limite de alcance. Brilha mais como secundária."
             },
             {
               "id": "rifles/vetterli-71",
               "name": "Vetterli 71",
               "band": 7,
-              "slots": 3
+              "slots": 3,
+              "comment": "Muito forte com Iron Eye, que deixa a cadência absurda, mas depende do trait."
             },
             {
               "id": "rifles/vetterli-71-bayonet",
               "name": "Vetterli 71 Bayonet",
               "band": 7,
-              "slots": 3
+              "slots": 3,
+              "comment": "Muito forte com Iron Eye, que deixa a cadência absurda, mas depende do trait."
             },
             {
               "id": "rifles/infantry-73l-bayonet",
               "name": "Infantry 73L Bayonet",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Nem ruim nem ótima: não tem recarga rápida, embora seja mais veloz que as Ranger com High Velocity."
             },
             {
               "id": "rifles/infantry-73l",
               "name": "Infantry 73L",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Nem ruim nem ótima: não tem recarga rápida, embora seja mais veloz que as Ranger com High Velocity."
             },
             {
               "id": "rifles/ranger-73",
               "name": "Ranger 73",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Fica atrás das Infantry. A Ranger é boa de Levering, mas aí o certo é usar a Swift."
             },
             {
               "id": "rifles/frontier-73c",
               "name": "Frontier 73C",
               "band": 8,
-              "slots": 3
+              "slots": 3,
+              "comment": "Pente menor que o das Ranger, mas é de 3 slots. Um pequeno demônio de headshot de que ele gosta bastante."
             },
             {
               "id": "rifles/ranger-73-aperture",
               "name": "Ranger 73 Aperture",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Fica atrás das Infantry. A Ranger é boa de Levering, mas aí o certo é usar a Swift."
             },
             {
               "id": "rifles/ranger-73-talon",
               "name": "Ranger 73 Talon",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Fica atrás das Infantry. A Ranger é boa de Levering, mas aí o certo é usar a Swift."
             },
             {
               "id": "rifles/1865-carbine",
               "name": "1865 Carbine",
               "band": 8,
-              "slots": 3
+              "slots": 3,
+              "comment": "Sólida, sem ser incrível: muito dano para briga em compound, fraca de longe."
             },
             {
               "id": "rifles/vetterli-71-silencer",
               "name": "Vetterli 71 Silencer",
               "band": 8,
-              "slots": 3
+              "slots": 3,
+              "comment": "Melhor que a Frontier Silencer, sem dúvida."
             },
             {
               "id": "rifles/1865-carbine-aperture",
               "name": "1865 Carbine Aperture",
               "band": 9,
-              "slots": 3
+              "slots": 3,
+              "comment": "Sólida, sem ser incrível: muito dano para briga em compound, fraca de longe."
             },
             {
               "id": "rifles/sparks",
               "name": "Sparks",
               "band": 10,
-              "slots": 4
+              "slots": 4,
+              "comment": "149 de dano impressiona, mas não mata sozinho: a recarga é longa e ainda precisa do segundo tiro. Ele acha que a arma precisa de um buff."
             },
             {
               "id": "rifles/centennial-shorty",
               "name": "Centennial Shorty",
               "band": 10,
-              "slots": 2
+              "slots": 2,
+              "comment": "Como rifle, fica limitada pela pouca munição reserva."
             },
             {
               "id": "rifles/centennial-shorty-silencer",
               "name": "Centennial Shorty Silencer",
               "band": 10,
-              "slots": 2
+              "slots": 2,
+              "comment": "Nas estatísticas até supera a Frontier Silencer, mas a pouca munição reserva a segura no mesmo nível."
             },
             {
               "id": "rifles/frontier-73c-silencer",
               "name": "Frontier 73C Silencer",
               "band": 10,
-              "slots": 3
+              "slots": 3,
+              "comment": "Boa para fazer missão, mas fraca no geral; ainda assim melhor que a Sparks Silencer."
             },
             {
               "id": "rifles/mako-1895",
               "name": "Mako 1895",
               "band": 11,
-              "slots": 4
+              "slots": 4,
+              "comment": "Feita para Levering, mas ele é pouco confiável nela. Depois de uma luta você fica sem bala, e repor munição longa é um pesadelo."
             },
             {
               "id": "rifles/sparks-silencer",
               "name": "Sparks Silencer",
               "band": 11,
-              "slots": 4
+              "slots": 4,
+              "comment": "Pior que a Sparks: dá menos dano."
             },
             {
               "id": "rifles/martini-henry",
               "name": "Martini-Henry",
               "band": 12,
-              "slots": 4
+              "slots": 4,
+              "comment": "No fundo de propósito: a 1890 Cavalry faz quase o mesmo em 3 slots e deixa montar um loadout melhor."
             },
             {
               "id": "rifles/1865-carbine-silencer",
               "name": "1865 Carbine Silencer",
               "band": 12,
-              "slots": 3
+              "slots": 3,
+              "comment": "Silenciador sem sentido: só vale jogando de longe, e com essa velocidade acertar a 80 m parece impossível."
             }
           ]
         },
@@ -294,223 +340,260 @@
               "id": "espingardas/homestead-78",
               "name": "Homestead 78",
               "band": 1,
-              "slots": 4
+              "slots": 4,
+              "comment": "A referência da categoria: cano longo com o one-shot da Romero, dois tiros, e ainda mata em dois tiros fora do alcance de one-shot."
             },
             {
               "id": "espingardas/auto-5",
               "name": "Auto-5",
               "band": 2,
-              "slots": 5
+              "slots": 5,
+              "comment": "Pela cadência seria topo absoluto, mas ocupa 5 slots e praticamente exige Quartermaster."
             },
             {
               "id": "espingardas/crossbow-deadeye",
               "name": "Crossbow Deadeye",
               "band": 2,
-              "slots": 4
+              "slots": 4,
+              "comment": "Não brilha na cadência, e sim no alcance: one-shot até 36 m. Dá para jogar mais atrás e abater outros jogadores de espingarda antes de chegarem. Teto de skill alto."
             },
             {
               "id": "espingardas/crossbow",
               "name": "Crossbow",
               "band": 2,
-              "slots": 4
+              "slots": 4,
+              "comment": "Não brilha na cadência, e sim no alcance: one-shot até 36 m. Dá para jogar mais atrás e abater outros jogadores de espingarda antes de chegarem. Teto de skill alto."
             },
             {
               "id": "espingardas/terminus",
               "name": "Terminus",
               "band": 2,
-              "slots": 4
+              "slots": 4,
+              "comment": "Buffada; parecida com a Auto-5, mas precisa de Levering."
             },
             {
               "id": "espingardas/burgess",
               "name": "Burgess",
               "band": 2,
-              "slots": 3
+              "slots": 3,
+              "comment": "Valor absurdo para 3 slots. Ele ficou em dúvida entre dois tiers porque testou pouco e porque desdobrar antes de atirar é meio desajeitado."
             },
             {
               "id": "espingardas/burgess-bayonet",
               "name": "Burgess Bayonet",
               "band": 3,
-              "slots": 3
+              "slots": 3,
+              "comment": "Valor absurdo para 3 slots. Ele ficou em dúvida entre dois tiers porque testou pouco e porque desdobrar antes de atirar é meio desajeitado."
             },
             {
               "id": "espingardas/burgess-trauma",
               "name": "Burgess Trauma",
               "band": 3,
-              "slots": 3
+              "slots": 3,
+              "comment": "Valor absurdo para 3 slots. Ele ficou em dúvida entre dois tiers porque testou pouco e porque desdobrar antes de atirar é meio desajeitado."
             },
             {
               "id": "espingardas/mosin-nagant-avtomat",
               "name": "Mosin-Nagant Avtomat",
               "band": 3,
-              "slots": 5
+              "slots": 5,
+              "comment": "Como espingarda é incrível: quase mata em um tiro e o segundo sai na hora. Mas a munição acaba rápido e ocupa 5 slots."
             },
             {
               "id": "espingardas/nitro-express",
               "name": "Nitro Express",
               "band": 3,
-              "slots": 5
+              "slots": 5,
+              "comment": "Voltou a ser uma potência. A mira Aperture é estranha, e ocupar 5 slots limita o loadout."
             },
             {
               "id": "espingardas/rival-78",
               "name": "Rival 78",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Basicamente uma Homestead um pouco pior."
             },
             {
               "id": "espingardas/rival-78-trauma",
               "name": "Rival 78 Trauma",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Basicamente uma Homestead um pouco pior."
             },
             {
               "id": "espingardas/drilling",
               "name": "Drilling",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Avaliado só pela espingarda de baixo: cano longo com ótimo alcance de one-shot."
             },
             {
               "id": "espingardas/bomb-launcher",
               "name": "Bomb Launcher",
               "band": 3,
-              "slots": 2
+              "slots": 2,
+              "comment": "Chato de aprender, mas o arpão mata em um tiro no braço até 30 m. Ele acha que muita gente do arco vai migrar para cá."
             },
             {
               "id": "espingardas/terminus-shorty",
               "name": "Terminus Shorty",
               "band": 4,
-              "slots": 2
+              "slots": 2,
+              "comment": "One-shot a 11 m depois dos buffs. Precisa de Levering, mas com ele deve ser uma das espingardas de bolso do meta."
             },
             {
               "id": "espingardas/hunting-bow",
               "name": "Hunting Bow",
               "band": 5,
-              "slots": 3
+              "slots": 3,
+              "comment": "Nerfado: menos alcance de one-shot (30 m com Hundred Hands, 27 m sem) e a flecha demora mais para ficar letal."
             },
             {
               "id": "espingardas/rival-78-mace",
               "name": "Rival 78 Mace",
               "band": 5,
-              "slots": 2
+              "slots": 2,
+              "comment": "Espingarda curta muito forte, que ele recomenda bastante."
             },
             {
               "id": "espingardas/rival-78-shorty",
               "name": "Rival 78 Shorty",
               "band": 5,
-              "slots": 2
+              "slots": 2,
+              "comment": "Espingarda curta muito forte, que ele recomenda bastante."
             },
             {
               "id": "espingardas/specter-1882-shorty",
               "name": "Specter 1882 Shorty",
               "band": 5,
-              "slots": 2
+              "slots": 2,
+              "comment": "Mesma avaliação das Rival curtas: muito forte para o tamanho."
             },
             {
               "id": "espingardas/slate",
               "name": "Slate",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "Forte e com cadência melhor que a Burgess, mas sofre porque a Burgess mata na mesma distância ocupando menos slots."
             },
             {
               "id": "espingardas/slate-riposte",
               "name": "Slate Riposte",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "Forte e com cadência melhor que a Burgess, mas sofre porque a Burgess mata na mesma distância ocupando menos slots."
             },
             {
               "id": "espingardas/specter-1882-bayonet",
               "name": "Specter 1882 Bayonet",
               "band": 6,
-              "slots": 4
+              "slots": 4,
+              "comment": "One-shot mais curto que o da Specter grande."
             },
             {
               "id": "espingardas/lemat-carbine-marksman",
               "name": "LeMat Carbine Marksman",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Avaliada só pela espingarda de baixo: não é ruim, mas o one-shot não é dos mais confiáveis. Chegue mais perto."
             },
             {
-              "id": "espingardas/auto-5-shorty",
-              "name": "Auto-5 Shorty",
+              "id": "espingardas/auto-4-shorty",
+              "name": "Auto-4 Shorty",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Caiu um pouco: o one-shot de 12 m da Burgess é mais tentador."
             },
             {
               "id": "espingardas/bomb-lance",
               "name": "Bomb Lance",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Arpão excelente (one-shot no braço a 30 m), mas recarrega mais devagar que o Bomb Launcher."
             },
             {
               "id": "espingardas/lemat",
               "name": "LeMat",
               "band": 6,
-              "slots": 1
+              "slots": 1,
+              "comment": "Mesmo alcance de one-shot do Haymaker e dos Drilling curtos, mas vale mais por ocupar só 1 slot."
             },
             {
               "id": "espingardas/romero-77-alamo",
               "name": "Romero 77 Alamo",
               "band": 7,
-              "slots": 4
+              "slots": 4,
+              "comment": "Uma Romero com recarga mais rápida; por isso fica um degrau acima."
             },
             {
               "id": "espingardas/shredder",
               "name": "Shredder",
               "band": 7,
-              "slots": 4
+              "slots": 4,
+              "comment": "Divertida e única, mas travada. Para ele, é basicamente uma besta piorada."
             },
             {
               "id": "espingardas/drilling-hatchet",
               "name": "Drilling Hatchet",
               "band": 7,
-              "slots": 2
+              "slots": 2,
+              "comment": "Avaliado pela espingarda: alcance de one-shot apenas mediano."
             },
             {
               "id": "espingardas/drilling-shorty",
               "name": "Drilling Shorty",
               "band": 7,
-              "slots": 2
+              "slots": 2,
+              "comment": "Avaliado pela espingarda: alcance de one-shot apenas mediano."
             },
             {
               "id": "espingardas/haymaker",
               "name": "Haymaker",
               "band": 7,
-              "slots": 2
+              "slots": 2,
+              "comment": "Mesmo alcance de one-shot dos Drilling curtos: nem ruim, nem incrível."
             },
             {
               "id": "espingardas/romero-77",
               "name": "Romero 77",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Opinião polêmica dele: toda espingarda é ótima quando mata em um tiro, e a Romero não faz nada quando não mata. Alto risco: errou, morreu. Ele adora jogar, mas admite que não é boa."
             },
             {
               "id": "espingardas/romero-77-hatchet",
               "name": "Romero 77 Hatchet",
               "band": 8,
-              "slots": 2
+              "slots": 2,
+              "comment": "Mesmo problema da Romero: um tiro só. Ele pensou em subir pelo tamanho menor, mas manteve no mesmo nível."
             },
             {
               "id": "espingardas/romero-77-shorty",
               "name": "Romero 77 Shorty",
               "band": 8,
-              "slots": 2
+              "slots": 2,
+              "comment": "Mesmo problema da Romero: um tiro só. Ele pensou em subir pelo tamanho menor, mas manteve no mesmo nível."
             },
             {
               "id": "espingardas/romero-77-talon",
               "name": "Romero 77 Talon",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Opinião polêmica dele: toda espingarda é ótima quando mata em um tiro, e a Romero não faz nada quando não mata. Alto risco: errou, morreu. Ele adora jogar, mas admite que não é boa."
             },
             {
               "id": "espingardas/chu-ko-nu",
               "name": "Chu Ko Nu",
               "band": 8,
-              "slots": 2
+              "slots": 2,
+              "comment": "Sem as caixas de carga, o virote explosivo ficou raro, e sem ele é quase inútil: one-shot no peito só até uns 10 m."
             },
             {
               "id": "espingardas/flame-rifle",
               "name": "Flame Rifle",
               "band": 9,
-              "slots": 2
+              "slots": 2,
+              "comment": "Só mata PvE."
             }
           ]
         },
@@ -522,151 +605,177 @@
               "id": "snipers/centennial-sniper",
               "name": "Centennial Sniper",
               "band": 1,
-              "slots": 4
+              "slots": 4,
+              "comment": "O ouro da categoria, num tier só dele. Quer jogar de sniper? Para ele, provavelmente deveria ser com esta."
             },
             {
               "id": "snipers/springfield-1866-marksman",
               "name": "Springfield 1866 Marksman",
               "band": 2,
-              "slots": 4
+              "slots": 4,
+              "comment": "Munição média é o meta de sniper para ele; só não sobe mais porque a Centennial Sniper existe."
             },
             {
               "id": "snipers/lemat-carbine-marksman",
               "name": "LeMat Carbine Marksman",
               "band": 2,
-              "slots": 3
+              "slots": 3,
+              "comment": "High Velocity leva a bala a 560 m/s, e ainda tem a espingarda embaixo. Deve aparecer muito no 2.9."
             },
             {
               "id": "snipers/maynard-sniper",
               "name": "Maynard Sniper",
               "band": 3,
-              "slots": 4
+              "slots": 4,
+              "comment": "Velocidade altíssima com High Velocity e muito satisfatória de jogar. Com Dumdum faz o que a Springfield Marksman faz, até melhor; só a recarga segura."
             },
             {
               "id": "snipers/berthier-1892-marksman",
               "name": "Berthier 1892 Marksman",
               "band": 3,
-              "slots": 3
+              "slots": 3,
+              "comment": "Sofre com a munição longa como os outros, mas ser de 3 slots libera combos melhores, como Berthier + Bornheim Match. Ele prefere a luneta Marksman, mas a Deadeye rende igual."
             },
             {
               "id": "snipers/berthier-1892-deadeye",
               "name": "Berthier 1892 Deadeye",
               "band": 3,
-              "slots": 3
+              "slots": 3,
+              "comment": "Sofre com a munição longa como os outros, mas ser de 3 slots libera combos melhores, como Berthier + Bornheim Match. Ele prefere a luneta Marksman, mas a Deadeye rende igual."
             },
             {
               "id": "snipers/krag-sniper",
               "name": "Krag Sniper",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Uma das maiores cadências entre os snipers com Scopesmith, o que permite ir de dois tiros no corpo."
             },
             {
               "id": "snipers/lebel-1886-marksman",
               "name": "Lebel 1886 Marksman",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Munição longa caiu para sniper porque a Spitzer virou rara. Com ela subiria; sem ela é boa, mas não é munição média."
             },
             {
               "id": "snipers/mosin-nagant-sniper",
               "name": "Mosin-Nagant Sniper",
               "band": 4,
-              "slots": 4
+              "slots": 4,
+              "comment": "Mesma situação da Lebel Marksman: limitada pela munição longa."
             },
             {
-              "id": "snipers/centennial-precision",
-              "name": "Centennial Precision",
-              "band": 4
+              "id": "snipers/centennial-pointman",
+              "name": "Centennial Pointman",
+              "band": 4,
+              "slots": 2,
+              "comment": "Sniper de bolso de 2 slots. A bala não é das melhores, mas cabe em muito loadout, e isso a torna versátil."
             },
             {
               "id": "snipers/maynard-sniper-silencer",
               "name": "Maynard Sniper Silencer",
               "band": 5,
-              "slots": 5
+              "slots": 5,
+              "comment": "Deixa jogar escondido com silenciador, mas ocupar 5 slots restringe muito o loadout. Ainda melhor que Sparks Sniper e Martini."
             },
             {
               "id": "snipers/infantry-73l-sniper",
               "name": "Infantry 73L Sniper",
               "band": 5,
-              "slots": 4
+              "slots": 4,
+              "comment": "Não chega na velocidade que se quer para sniper, mas ganha versatilidade com Levering."
             },
             {
               "id": "snipers/frontier-73c-marksman",
               "name": "Frontier 73C Marksman",
               "band": 5,
-              "slots": 3
+              "slots": 3,
+              "comment": "Parecida com a Infantry Sniper e um pouco pior: menos velocidade e pente menor, mas ocupa 3 slots."
             },
             {
-              "id": "snipers/mako-claw-sharpshooter",
-              "name": "Mako Claw Sharpshooter",
+              "id": "snipers/mosin-obrez-sharpeye",
+              "name": "Mosin Obrez Sharpeye",
               "band": 5,
-              "note": "Revisar nomes ambíguos da captura"
+              "slots": 3,
+              "comment": "Pior que os outros rifles de munição longa para sniper: a bala cai muito."
             },
             {
               "id": "snipers/officer-carbine-deadeye",
               "name": "Officer Carbine Deadeye",
               "band": 6,
-              "slots": 3
+              "slots": 3,
+              "comment": "Forte, mas não é sniper de verdade: é um rifle de spam a média distância. High Velocity compacta cai pouco, então dá para acertar headshot de longe."
             },
             {
               "id": "snipers/sparks-sniper",
               "name": "Sparks Sniper",
               "band": 7,
-              "slots": 4
+              "slots": 4,
+              "comment": "Um pouco melhor que as Martini com luneta, mas caiu demais. Ele pede um buff para a Sparks."
             },
             {
               "id": "snipers/vetterli-71-deadeye",
               "name": "Vetterli 71 Deadeye",
               "band": 7,
-              "slots": 3
+              "slots": 3,
+              "comment": "Não cumpre o papel de sniper: a velocidade não dá para 100–150 m, e de perto também não domina."
             },
             {
               "id": "snipers/vetterli-71-marksman",
               "name": "Vetterli 71 Marksman",
               "band": 7,
-              "slots": 3
-            },
-            {
-              "id": "snipers/springfield-1866-silencer",
-              "name": "Springfield 1866 Silencer",
-              "band": 7
-            },
-            {
-              "id": "snipers/vetterli-71-marksman-2",
-              "name": "Vetterli 71 Marksman",
-              "band": 7,
               "slots": 3,
-              "note": "Aparece duas vezes nesta faixa na planilha"
+              "comment": "Não cumpre o papel de sniper: a velocidade não dá para 100–150 m, e de perto também não domina."
+            },
+            {
+              "id": "snipers/springfield-1866-bullseye",
+              "name": "Springfield 1866 Bullseye",
+              "band": 7,
+              "slots": 2,
+              "comment": "Fica um pouco acima do fundo, mas a luneta Bullseye não é para sniper."
+            },
+            {
+              "id": "snipers/vandal-73c-bullseye",
+              "name": "Vandal 73C Bullseye",
+              "band": 7,
+              "slots": 2,
+              "note": "Nome deduzido do vídeo: a planilha repetia Vetterli 71 Marksman nesta posição",
+              "comment": "Também não foi feita para sniper."
             },
             {
               "id": "snipers/martini-henry-deadeye",
               "name": "Martini-Henry Deadeye",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Sniper é headshot a 100 m ou mais, e a Martini não faz isso bem. Com luneta, parece castigo."
             },
             {
               "id": "snipers/martini-henry-marksman",
               "name": "Martini-Henry Marksman",
               "band": 8,
-              "slots": 4
+              "slots": 4,
+              "comment": "Sniper é headshot a 100 m ou mais, e a Martini não faz isso bem. Com luneta, parece castigo."
             },
             {
               "id": "snipers/uppercut-deadeye",
               "name": "Uppercut Deadeye",
               "band": 8,
-              "slots": 3
+              "slots": 3,
+              "comment": "Como as Martini, não foi feita para sniper."
             },
             {
-              "id": "snipers/dolch-96-marksman",
-              "name": "Dolch 96 Marksman",
+              "id": "snipers/dolch-96-bullseye",
+              "name": "Dolch 96 Bullseye",
               "band": 8,
-              "note": "Revisar nomes ambíguos da captura"
+              "slots": 2,
+              "comment": "Ele gosta de jogar, mas é arma de meme: não é boa para sniper."
             },
             {
               "id": "snipers/nagant-m1895-deadeye",
               "name": "Nagant M1895 Deadeye",
               "band": 8,
               "slots": 2,
-              "note": "Revisar nomes ambíguos da captura"
+              "comment": "O fundo do fundo: sem cadência, sem velocidade e com bala ruim para longa distância."
             }
           ]
         }
@@ -683,127 +792,152 @@
             {
               "id": "slot-1/lemat",
               "name": "LeMat",
-              "band": 1
+              "band": 1,
+              "comment": "Ganhou munição High Velocity neste patch (450 m/s) e virou um laser, com a espingarda ainda disponível embaixo. Perdeu munição reserva, mas ficou mais forte; deve virar a secundária padrão de quem joga de espingarda."
             },
             {
               "id": "slot-1/new-army-swift",
               "name": "New Army Swift",
-              "band": 2
+              "band": 2,
+              "comment": "Para ele, um dos revólveres mais perfeitos do jogo: dá para spammar à vontade, o recuo é baixíssimo (ainda mais com FMJ) e a recarga rápida resolve o maior defeito da New Army."
             },
             {
               "id": "slot-1/officer",
               "name": "Officer",
-              "band": 2
+              "band": 2,
+              "comment": "O contraponto da New Army: bala mais rápida e boa cadência, domina headshots a média distância. Em troca tem mais recuo e um pouco menos de dano, então o two-tap é menos confiável."
             },
             {
               "id": "slot-1/officer-brawler",
               "name": "Officer Brawler",
-              "band": 2
+              "band": 2,
+              "comment": "Mesma avaliação da Officer: bala rápida e boa cadência, com mais recuo e two-tap menos confiável que a New Army."
             },
             {
               "id": "slot-1/pax-trueshot",
               "name": "Pax Trueshot",
-              "band": 2
+              "band": 2,
+              "comment": "O \"sniper de bolso\" dos 1 slot: o revólver mais rápido, principalmente com High Velocity, e quase sem queda de bala. Era a escolha padrão com espingarda; agora disputa espaço com a LeMat."
             },
             {
               "id": "slot-1/scottfield-spitfire",
               "name": "Scottfield Spitfire",
-              "band": 3
+              "band": 3,
+              "comment": "Ótima pistola, quase no nível das de cima; só perde atratividade por causa da mira de ferro."
             },
             {
               "id": "slot-1/conversion",
               "name": "Conversion",
-              "band": 3
+              "band": 3,
+              "comment": "Um dos revólveres favoritos dele: barato e excelente com Fanning, quando subiria ainda mais. Como depende de um trait caro, fica um degrau abaixo. Conversion + FMJ é o rei do custo-benefício."
             },
             {
               "id": "slot-1/conversion-chain-pistol",
               "name": "Conversion Chain Pistol",
-              "band": 3
+              "band": 3,
+              "comment": "Uma Conversion com pente maior, mas a mira é menos limpa por causa da correia. É a pior pistola do jogo para Fanning (precisão de hipfire bem pior), então nunca sobe como a Conversion."
             },
             {
               "id": "slot-1/new-army",
               "name": "New Army",
-              "band": 4
+              "band": 4,
+              "comment": "Compacta, rápida e com ótimo two-tap. O problema é a velocidade baixa da bala: você erra mais, atira mais e passa muito tempo recarregando."
             },
             {
               "id": "slot-1/bornheim-no-3-extended",
               "name": "Bornheim No. 3 Extended",
-              "band": 4
+              "band": 4,
+              "comment": "Mesma ideia da Bornheim, com pente inicial maior e recarga um pouco mais lenta. Questão de preferência."
             },
             {
               "id": "slot-1/bornheim-no-3",
               "name": "Bornheim No. 3",
-              "band": 4
+              "band": 4,
+              "comment": "Arma de skill: precisa de headshot, mas a cadência altíssima deixa despejar bala e limpar um time em segundos. Pente menor que o da Extended, recarga mais rápida."
             },
             {
               "id": "slot-1/pax",
               "name": "Pax",
-              "band": 4
+              "band": 4,
+              "comment": "Não é ruim, mas é basicamente uma Conversion com menos munição reserva, e a Trueshot existe."
             },
             {
               "id": "slot-1/sparks-pistol",
               "name": "Sparks Pistol",
-              "band": 4
+              "band": 4,
+              "comment": "Bate forte e é ótima para o tiro de finalização, mas só encaixa em loadouts específicos, como Marathon com High Velocity + Sparks Pistol."
             },
             {
               "id": "slot-1/hand-crossbow",
               "name": "Hand Crossbow",
-              "band": 5
+              "band": 5,
+              "comment": "Não é a mais forte, mas é uma ferramenta de utilidade subestimada: dá para levar dois tipos de virote, um letal até uns 21–22 m no peito e outro de utilidade (fogo, veneno etc.)."
             },
             {
               "id": "slot-1/pax-claw",
               "name": "Pax Claw",
-              "band": 5
+              "band": 5,
+              "comment": "A mesma Pax, mas ele considera o acessório Claw praticamente inútil."
             },
             {
               "id": "slot-1/sparks-pistol-silencer",
               "name": "Sparks Pistol Silencer",
-              "band": 5
+              "band": 5,
+              "comment": "Igual à Sparks Pistol, só que o silenciador traz queda de dano."
             },
             {
               "id": "slot-1/bornheim-no-3-silencer",
               "name": "Bornheim No. 3 Silencer",
-              "band": 6
+              "band": 6,
+              "comment": "Além do dano menor, a mira de ferro balança muito e parece desalinhada; difícil de mirar."
             },
             {
               "id": "slot-1/nagant-m1895-silencer",
               "name": "Nagant M1895 Silencer",
-              "band": 6
+              "band": 6,
+              "comment": "Mesmos defeitos da Nagant, mas ser silenciada ajuda no PvE e o Fanning funciona razoavelmente."
             },
             {
               "id": "slot-1/scottfield-swift",
               "name": "Scottfield Swift",
-              "band": 6
+              "band": 6,
+              "comment": "Uma Scottfield com recarga rápida, o que a deixa boa com Fanning; por isso fica acima da comum."
             },
             {
               "id": "slot-1/nagant-m1895",
               "name": "Nagant M1895",
-              "band": 7
+              "band": 7,
+              "comment": "Barata e aceitável com Fanning; sem o trait é fraca: recarga longa, velocidade e dano medianos."
             },
             {
               "id": "slot-1/scottfield",
               "name": "Scottfield",
-              "band": 7
+              "band": 7,
+              "comment": "Querida pela comunidade, mas ele não gosta: a mira em bloco tampa muita visão."
             },
             {
               "id": "slot-1/scottfield-brawler",
               "name": "Scottfield Brawler",
-              "band": 8
+              "band": 8,
+              "comment": "A pior pistola para ele: uma Scottfield comum com soco, hipfire pior, mais balanço e nenhum ganho de cadência. Parece a Spitfire, mas não é."
             },
             {
               "id": "slot-1/cavalry-saber",
               "name": "Cavalry Saber",
-              "band": 9
+              "band": 9,
+              "comment": "Corpo a corpo, ranqueado à parte. Melhor que o taco porque ganha muito alcance ao avançar no golpe."
             },
             {
               "id": "slot-1/baseball-bat",
               "name": "Baseball Bat",
-              "band": 9
+              "band": 9,
+              "comment": "Corpo a corpo, ranqueado à parte: divertido, mas não dá para comparar com arma de alcance."
             },
             {
               "id": "slot-1/machete",
               "name": "Machete",
-              "band": 9
+              "band": 9,
+              "comment": "O pior corpo a corpo para ele: às vezes não mata em um golpe, e o corte lateral acaba pegando no braço."
             }
           ]
         },
@@ -814,178 +948,212 @@
             {
               "id": "slot-2/bornheim-no-3-match",
               "name": "Bornheim No. 3 Match",
-              "band": 1
+              "band": 1,
+              "comment": "Arma-assinatura dele, que mata em dois tiros. Nada mudou nela, mas a LeMat com High Velocity abriu combos ainda melhores, como LeMat Carbine + Bornheim Match com High Velocity nas duas."
             },
             {
               "id": "slot-2/terminus-shorty",
               "name": "Terminus Shorty",
-              "band": 2
+              "band": 2,
+              "comment": "Uma das vencedoras do patch 2.9: ganhou dano e spread menor. Mata em um tiro até uns 11 m, quase como a Terminus grande, e atira várias vezes. Depende do trait Levering."
             },
             {
               "id": "slot-2/bomb-launcher",
               "name": "Bomb Launcher",
-              "band": 2
+              "band": 2,
+              "comment": "Subestimado. Com arpão mata em um tiro no braço até 30 m, e bem mais longe no peito. Difícil de acertar, mas com potencial enorme e boa utilidade com munições diferentes."
             },
             {
               "id": "slot-2/dolch-96",
               "name": "Dolch 96",
-              "band": 2
+              "band": 2,
+              "comment": "Protótipo por um motivo: cadência, alcance de two-tap e boa penetração para uma secundária. Cara, mas entrega muito; para ele sempre será dominante."
             },
             {
               "id": "slot-2/dolch-96-bullseye",
               "name": "Dolch 96 Bullseye",
-              "band": 2
+              "band": 2,
+              "comment": "Protótipo por um motivo: cadência, alcance de two-tap e boa penetração para uma secundária. Cara, mas entrega muito; para ele sempre será dominante."
             },
             {
               "id": "slot-2/dolch-96-claw",
               "name": "Dolch 96 Claw",
-              "band": 2
+              "band": 2,
+              "comment": "Protótipo por um motivo: cadência, alcance de two-tap e boa penetração para uma secundária. Cara, mas entrega muito; para ele sempre será dominante."
             },
             {
               "id": "slot-2/haymaker",
               "name": "Haymaker",
-              "band": 3
+              "band": 3,
+              "comment": "Bala muito rápida, boa para headshot, e combina bem com espingarda: munição longa que penetra e mais reserva para a espingarda."
             },
             {
               "id": "slot-2/uppercut",
               "name": "Uppercut",
-              "band": 3
+              "band": 3,
+              "comment": "O oposto do Haymaker: melhor para finalizar inimigo já ferido, com menos velocidade de bala (ainda bons 410 m/s)."
             },
             {
               "id": "slot-2/mosin-obrez-extended",
               "name": "Mosin Obrez Extended",
               "band": 3,
-              "note": "Conferir nome na imagem"
+              "comment": "Sobe um degrau em relação ao Obrez comum por causa do pente enorme."
             },
             {
               "id": "slot-2/rival-78-shorty",
               "name": "Rival 78 Shorty",
-              "band": 3
+              "band": 3,
+              "comment": "Uma das espingardas de bolso favoritas dele por causa do segundo tiro imediato. As espingardas médias perderam munição reserva, mas matam na mesma distância."
             },
             {
               "id": "slot-2/rival-78-mace",
               "name": "Rival 78 Mace",
-              "band": 3
+              "band": 3,
+              "comment": "Uma das espingardas de bolso favoritas dele por causa do segundo tiro imediato. As espingardas médias perderam munição reserva, mas matam na mesma distância."
             },
             {
               "id": "slot-2/mosin-obrez-mace",
               "name": "Mosin Obrez Mace",
-              "band": 4
+              "band": 4,
+              "comment": "Boa para acompanhar loadout de curta distância (espingarda, besta, Bomb Lance). O ferrolho atrapalha: toda vez que você volta para ele precisa ciclar, e isso às vezes custa a vida."
             },
             {
               "id": "slot-2/mosin-obrez",
               "name": "Mosin Obrez",
-              "band": 4
+              "band": 4,
+              "comment": "Boa para acompanhar loadout de curta distância (espingarda, besta, Bomb Lance). O ferrolho atrapalha: toda vez que você volta para ele precisa ciclar, e isso às vezes custa a vida."
             },
             {
               "id": "slot-2/specter-1882-shorty",
               "name": "Specter 1882 Shorty",
-              "band": 4
+              "band": 4,
+              "comment": "Melhor que as Romero curtas porque atira várias vezes, mas um pouco pior que as Rival curtas: pente pequeno e recarga meio desajeitada."
             },
             {
               "id": "slot-2/romero-77-hatchet",
               "name": "Romero 77 Hatchet",
-              "band": 4
+              "band": 4,
+              "comment": "One-shot confiável até 12 m, divertidas e muito baratas."
             },
             {
               "id": "slot-2/romero-77-shorty",
               "name": "Romero 77 Shorty",
-              "band": 4
+              "band": 4,
+              "comment": "One-shot confiável até 12 m, divertidas e muito baratas."
             },
             {
               "id": "slot-2/drilling-hatchet",
               "name": "Drilling Hatchet",
-              "band": 5
+              "band": 5,
+              "comment": "Não são ruins, mas a mira \"pirulito\" é bem maior que a do Drilling grande e tampa a visão, dificultando tiros longos e headshots precisos."
             },
             {
               "id": "slot-2/drilling-shorty",
               "name": "Drilling Shorty",
-              "band": 5
+              "band": 5,
+              "comment": "Não são ruins, mas a mira \"pirulito\" é bem maior que a do Drilling grande e tampa a visão, dificultando tiros longos e headshots precisos."
             },
             {
               "id": "slot-2/centennial-pointman",
               "name": "Centennial Pointman",
-              "band": 5
+              "band": 5,
+              "comment": "Sniper de bolso mais útil que a Centennial Shorty, mas com limite de alcance: a queda de bala pesa mesmo com High Velocity."
             },
             {
               "id": "slot-2/springfield-1866-bullseye",
               "name": "Springfield 1866 Bullseye",
-              "band": 5
+              "band": 5,
+              "comment": "Ele não gosta da luneta Bullseye; das Springfield curtas, é a que menos recomenda."
             },
             {
               "id": "slot-2/springfield-1866-shorty",
               "name": "Springfield 1866 Shorty",
-              "band": 5
+              "band": 5,
+              "comment": "Subestimada depois do buff de dano das Springfield. Boa secundária em loadout de munição média para carregar mais bala (com Cyclone ou Drilling, por exemplo) e para guardar Dumdum."
             },
             {
               "id": "slot-2/springfield-1866-striker",
               "name": "Springfield 1866 Striker",
-              "band": 5
+              "band": 5,
+              "comment": "Mesma base da Shorty; ele avisa que o acessório Striker engana, porque a carga não garante o abate."
             },
             {
               "id": "slot-2/centennial-shorty-silencer",
               "name": "Centennial Shorty Silencer",
-              "band": 6
+              "band": 6,
+              "comment": "Praticamente a mesma arma que a Centennial Shorty, com silenciador."
             },
             {
               "id": "slot-2/centennial-shorty",
               "name": "Centennial Shorty",
-              "band": 6
+              "band": 6,
+              "comment": "Levou nerf pesado de munição reserva e não é mais o rifle de bolso de antes; também balança muito."
             },
             {
               "id": "slot-2/scottfield-precision",
               "name": "Scottfield Precision",
-              "band": 6
+              "band": 6,
+              "comment": "Não é tão ruim quanto as Nagant Precision, mas é fraca; aceita Fanning, só que mal."
             },
             {
               "id": "slot-2/vandal-73c",
               "name": "Vandal 73C",
-              "band": 6
+              "band": 6,
+              "comment": "Cumpre o mesmo papel da Centennial Shorty, talvez um pouco melhor."
             },
             {
               "id": "slot-2/vandal-73c-bullseye",
               "name": "Vandal 73C Bullseye",
-              "band": 6
+              "band": 6,
+              "comment": "Para ele, a luneta Bullseye parece inútil aqui."
             },
             {
               "id": "slot-2/vandal-73c-striker",
               "name": "Vandal 73C Striker",
-              "band": 6
+              "band": 6,
+              "comment": "O Striker é \"clickbait\": a carga não mata em um golpe, precisa acertar como uma faca."
             },
             {
               "id": "slot-2/chu-ko-nu",
               "name": "Chu Ko Nu",
-              "band": 7
+              "band": 7,
+              "comment": "Sem as caixas de carga ficou difícil conseguir virote explosivo, e sem ele a arma é muito fraca."
             },
             {
               "id": "slot-2/nagant-m1895-deadeye",
               "name": "Nagant M1895 Deadeye",
-              "band": 7
+              "band": 7,
+              "comment": "Arma de paixão: lenta, sem cadência e ruim de Fanning. Funciona se você fizer funcionar, mas não é boa."
             },
             {
               "id": "slot-2/nagant-m1895-precision",
               "name": "Nagant M1895 Precision",
-              "band": 7
+              "band": 7,
+              "comment": "Arma de paixão: lenta, sem cadência e ruim de Fanning. Funciona se você fizer funcionar, mas não é boa."
             },
             {
               "id": "slot-2/flame-rifle",
               "name": "Flame Rifle",
-              "band": 8
+              "band": 8,
+              "comment": "Só serve para PvE. Tem pouco alcance e mata devagar: de perto, o inimigo ainda consegue te acertar com a espingarda antes de cair."
             },
             {
               "id": "slot-2/katana",
               "name": "Katana",
-              "band": 9
+              "band": 9,
+              "comment": "O corpo a corpo puro mais forte para ele, ainda melhor com Martialist, que deixa trocar e cortar na hora."
             },
             {
               "id": "slot-2/railroad-hammer",
               "name": "Railroad Hammer",
-              "band": 9
+              "band": 9,
+              "comment": "Corpo a corpo; melhor que o Combat Axe pelo dano absurdo por golpe. Um destruidor de chefes."
             },
             {
               "id": "slot-2/combat-axe",
               "name": "Combat Axe",
-              "band": 9
+              "band": 9,
+              "comment": "Corpo a corpo; ele nem entende por que ocupa 2 slots."
             }
           ]
         },
@@ -996,160 +1164,188 @@
             {
               "id": "slot-3/lemat-carbine",
               "name": "LeMat Carbine",
-              "band": 1
+              "band": 1,
+              "comment": "A grande vencedora do 2.9, que ganhou um tier só dela. Com High Velocity chega a 560 m/s e ainda tem a espingarda embaixo. Versatilidade imbatível pelo preço; ele aposta que será nerfada."
             },
             {
               "id": "slot-3/lemat-carbine-marksman",
               "name": "LeMat Carbine Marksman",
-              "band": 1
+              "band": 1,
+              "comment": "A mesma LeMat Carbine com High Velocity e espingarda, agora com luneta."
             },
             {
               "id": "slot-3/berthier-1892-marksman",
               "name": "Berthier 1892 Marksman",
-              "band": 2
+              "band": 2,
+              "comment": "Para ele, a melhor versão da Berthier, que segue absurda mesmo depois do nerf."
             },
             {
               "id": "slot-3/berthier-1892",
               "name": "Berthier 1892",
-              "band": 2
+              "band": 2,
+              "comment": "Levou nerf no evento anterior e continua fortíssima; ele não entende como ainda não foi mais nerfada."
             },
             {
               "id": "slot-3/berthier-1892-deadeye",
               "name": "Berthier 1892 Deadeye",
-              "band": 2
+              "band": 2,
+              "comment": "Mesmo ele não gostando da luneta Deadeye, a Berthier é forte demais para cair."
             },
             {
               "id": "slot-3/berthier-1892-riposte",
               "name": "Berthier 1892 Riposte",
-              "band": 2
+              "band": 2,
+              "comment": "Entra com o resto da família Berthier, que continua fortíssima."
             },
             {
               "id": "slot-3/dolch-96-precision",
               "name": "Dolch 96 Precision",
-              "band": 2
+              "band": 2,
+              "comment": "Não cabe em qualquer loadout, mas quando cabe dá para sentir a força. Protótipo por um motivo."
             },
             {
               "id": "slot-3/officer-carbine",
               "name": "Officer Carbine",
-              "band": 3
+              "band": 3,
+              "comment": "Perdeu munição reserva de novo, mas a LeMat com High Velocity serve de carregadora de munição e de espingarda de bolso, o que compensa. O recuo é difícil de controlar."
             },
             {
               "id": "slot-3/officer-carbine-deadeye",
               "name": "Officer Carbine Deadeye",
-              "band": 3
+              "band": 3,
+              "comment": "Perdeu munição reserva de novo, mas a LeMat com High Velocity serve de carregadora de munição e de espingarda de bolso, o que compensa. O recuo é difícil de controlar."
             },
             {
               "id": "slot-3/burgess",
               "name": "Burgess",
-              "band": 3
+              "band": 3,
+              "comment": "Espingarda nova, dobrável, de 3 slots e com one-shot até 12 m. Fortíssima pelo espaço que ocupa; só exige acertar o tempo da troca, porque precisa desdobrar antes de atirar."
             },
             {
               "id": "slot-3/burgess-trauma",
               "name": "Burgess Trauma",
-              "band": 3
+              "band": 3,
+              "comment": "Espingarda nova, dobrável, de 3 slots e com one-shot até 12 m. Fortíssima pelo espaço que ocupa; só exige acertar o tempo da troca, porque precisa desdobrar antes de atirar."
             },
             {
               "id": "slot-3/burgess-bayonet",
               "name": "Burgess Bayonet",
-              "band": 3
+              "band": 3,
+              "comment": "Espingarda nova, dobrável, de 3 slots e com one-shot até 12 m. Fortíssima pelo espaço que ocupa; só exige acertar o tempo da troca, porque precisa desdobrar antes de atirar."
             },
             {
               "id": "slot-3/mosin-obrez-match",
               "name": "Mosin Obrez Match",
-              "band": 3
+              "band": 3,
+              "comment": "Ficou boa com os buffs de dano; ele só não curte a mira de ferro, que acha estranha."
             },
             {
-              "id": "slot-3/mosin-obrez-sharpshooter",
-              "name": "Mosin Obrez Sharpshooter",
+              "id": "slot-3/mosin-obrez-sharpeye",
+              "name": "Mosin Obrez Sharpeye",
               "band": 3,
-              "note": "Conferir nome na imagem"
+              "comment": "Mesma base da Obrez Match; vale se você gosta de luneta no estilo Deadeye."
             },
             {
               "id": "slot-3/1890-cavalry",
               "name": "1890 Cavalry",
               "band": 4,
-              "note": "Conferir nome na imagem"
+              "comment": "Barata e muito forte, ótima arma de orçamento. Ele adora o combo Cavalry + Uppercut."
             },
             {
-              "id": "slot-3/auto-5-shorty",
-              "name": "Auto-5 Shorty",
+              "id": "slot-3/auto-4-shorty",
+              "name": "Auto-4 Shorty",
               "band": 4,
-              "note": "Confirmar no jogo"
+              "comment": "Ainda boa pela cadência, mas a Burgess leva vantagem por matar em um tiro mais longe."
             },
             {
               "id": "slot-3/vetterli-71",
               "name": "Vetterli 71",
-              "band": 4
+              "band": 4,
+              "comment": "Ótimo rifle de orçamento, principalmente combinado com Iron Eye."
             },
             {
               "id": "slot-3/vetterli-71-bayonet",
               "name": "Vetterli 71 Bayonet",
-              "band": 4
+              "band": 4,
+              "comment": "Ótimo rifle de orçamento, principalmente combinado com Iron Eye."
             },
             {
               "id": "slot-3/bomb-lance",
               "name": "Bomb Lance",
-              "band": 5
+              "band": 5,
+              "comment": "O arpão continua muito eficaz, mas o Bomb Launcher é melhor: recarrega mais rápido, e o ataque corpo a corpo raramente decide contra quem tem espingarda de bolso."
             },
             {
               "id": "slot-3/frontier-73c",
               "name": "Frontier 73C",
-              "band": 5
+              "band": 5,
+              "comment": "Não é a melhor, mas com High Velocity fica bem forte, e ser de 3 slots abre combinações divertidas de loadout."
             },
             {
               "id": "slot-3/frontier-73c-marksman",
               "name": "Frontier 73C Marksman",
-              "band": 5
+              "band": 5,
+              "comment": "Não é a melhor, mas com High Velocity fica bem forte, e ser de 3 slots abre combinações divertidas de loadout."
             },
             {
               "id": "slot-3/hunting-bow",
               "name": "Hunting Bow",
-              "band": 5
+              "band": 5,
+              "comment": "Nerfado no 2.9: o one-shot caiu de 36 para 30 m com Hundred Hands (de 29 para 27 m sem) e a flecha demora mais para chegar ao dano letal, então errar custa caro. Ainda é forte."
             },
             {
               "id": "slot-3/vetterli-71-marksman",
               "name": "Vetterli 71 Marksman",
-              "band": 5
+              "band": 5,
+              "comment": "Ótima como rifle, nem tanto como sniper: velocidade e queda de bala limitam, mesmo com High Velocity."
             },
             {
               "id": "slot-3/vetterli-71-deadeye",
               "name": "Vetterli 71 Deadeye",
-              "band": 5
+              "band": 5,
+              "comment": "Ótima como rifle, nem tanto como sniper: velocidade e queda de bala limitam, mesmo com High Velocity."
             },
             {
               "id": "slot-3/uppercut-precision",
               "name": "Uppercut Precision",
-              "band": 6
+              "band": 6,
+              "comment": "Não é ruim, mas para 3 slots decepciona: Berthier e Obrez Match fazem o mesmo bem melhor. A vantagem é usar munição longa comum, fácil de repor."
             },
             {
               "id": "slot-3/1865-carbine-aperture",
               "name": "1865 Carbine Aperture",
-              "band": 6
+              "band": 6,
+              "comment": "Um pouco melhor que a comum: com a mira Aperture levantada, a visão fica bem mais limpa."
             },
             {
               "id": "slot-3/1865-carbine",
               "name": "1865 Carbine",
-              "band": 6
+              "band": 6,
+              "comment": "Ele gosta: boa arma de briga dentro de compound, com muito dano, mas fraca de longe."
             },
             {
               "id": "slot-3/vetterli-71-silencer",
               "name": "Vetterli 71 Silencer",
-              "band": 6
+              "band": 6,
+              "comment": "O rifle silenciado mais forte entre os 3 slots, mas ainda abaixo dos barulhentos. Para ele, furtividade nunca deve ser a prioridade."
             },
             {
               "id": "slot-3/frontier-73c-silencer",
               "name": "Frontier 73C Silencer",
-              "band": 7
+              "band": 7,
+              "comment": "O silenciador costuma mais atrapalhar que ajudar: depois que a luta começa, só deixa cada tiro mais difícil de acertar."
             },
             {
               "id": "slot-3/1865-carbine-silencer",
               "name": "1865 Carbine Silencer",
-              "band": 8
+              "band": 8,
+              "comment": "Bala muito lenta. De perto te ouvem do mesmo jeito, e de longe quase não dá para acertar; o silenciador perde o sentido."
             },
             {
               "id": "slot-3/uppercut-deadeye",
               "name": "Uppercut Deadeye",
-              "band": 9
+              "band": 9,
+              "comment": "Luneta sem propósito: com a queda de bala do Uppercut, não dá para atirar de longe."
             }
           ]
         },
@@ -1160,268 +1356,320 @@
             {
               "id": "slot-4/centennial-sniper",
               "name": "Centennial Sniper",
-              "band": 1
+              "band": 1,
+              "comment": "Para ele, o melhor sniper do jogo, sem concorrência: a bala comprável mais rápida, boa cadência e quase sem queda. É mirar na cabeça e clicar."
             },
             {
               "id": "slot-4/mosin-nagant-bayonet",
               "name": "Mosin-Nagant Bayonet",
-              "band": 1
+              "band": 1,
+              "comment": "Mesma avaliação da Mosin: maior dano entre os rifles de ferrolho, recarga por clip e boa velocidade."
             },
             {
               "id": "slot-4/mosin-nagant",
               "name": "Mosin-Nagant",
-              "band": 1
+              "band": 1,
+              "comment": "O ápice dos rifles de ferrolho: maior dano da família (mata com tiro no estômago), recarga por clip de 5 balas e ótima velocidade."
             },
             {
               "id": "slot-4/drilling",
               "name": "Drilling",
-              "band": 1
+              "band": 1,
+              "comment": "Faz tudo: espingarda com one-shot longo, rifle com boa velocidade e pouca queda de bala. Caro, mas incrível."
             },
             {
               "id": "slot-4/homestead-78",
               "name": "Homestead 78",
-              "band": 1
+              "band": 1,
+              "comment": "A melhor espingarda do jogo para ele: dois tiros com o alcance de one-shot da Romero. Só se acha no mapa; pegue toda que encontrar."
             },
             {
               "id": "slot-4/wildland",
               "name": "Wildland",
               "band": 1,
-              "note": "Conferir nome na imagem"
+              "comment": "Uma Centennial anabolizada: 126 de dano (finaliza inimigo já derrubado), ótima com Levering, recarga rápida e bala ainda mais veloz."
             },
             {
               "id": "slot-4/lebel-1886",
               "name": "Lebel 1886",
-              "band": 2
+              "band": 2,
+              "comment": "Ganhou dano para igualar a Mosin, mas sem recarga por clip fica um pouco abaixo dela."
             },
             {
               "id": "slot-4/lebel-1886-aperture",
               "name": "Lebel 1886 Aperture",
-              "band": 2
+              "band": 2,
+              "comment": "Ganhou dano para igualar a Mosin, mas sem recarga por clip fica um pouco abaixo dela."
             },
             {
               "id": "slot-4/lebel-1886-talon",
               "name": "Lebel 1886 Talon",
-              "band": 2
+              "band": 2,
+              "comment": "Ganhou dano para igualar a Mosin, mas sem recarga por clip fica um pouco abaixo dela."
             },
             {
               "id": "slot-4/crossbow-deadeye",
               "name": "Crossbow Deadeye",
-              "band": 2
+              "band": 2,
+              "comment": "A versão que ele prefere. Teto de skill altíssimo: tiro em braço ou perna não mata, mas dominada vira a melhor arma do arsenal. Use virote de aço."
             },
             {
               "id": "slot-4/crossbow",
               "name": "Crossbow",
-              "band": 2
+              "band": 2,
+              "comment": "Uma das favoritas dele: alto risco, alta recompensa. É punitiva e exige tempo de treino; com virote de aço fica fortíssima."
             },
             {
               "id": "slot-4/marathon-swift",
               "name": "Marathon Swift",
-              "band": 2
+              "band": 2,
+              "comment": "Tem recarga rápida e é a arma que mais se beneficia do Iron Eye. Um combo barato e eficiente que ele recomenda para todo mundo."
             },
             {
               "id": "slot-4/springfield-1866-marksman",
               "name": "Springfield 1866 Marksman",
-              "band": 2
+              "band": 2,
+              "comment": "O melhor sniper de tiro único para ele. Aceita dois tipos de munição (High Velocity + outra) e, se você achar Dumdum, sobe ainda mais."
             },
             {
               "id": "slot-4/terminus",
               "name": "Terminus",
-              "band": 2
+              "band": 2,
+              "comment": "Buffada no 2.9, com mais dano e menos spread. Ótima e divertida, mas depende de Levering, e a Shorty faz quase o mesmo."
             },
             {
               "id": "slot-4/maynard-sniper",
               "name": "Maynard Sniper",
-              "band": 3
+              "band": 3,
+              "comment": "Bom sniper de tiro único, com bala muito rápida. A recarga longa obriga a fazer cada tiro valer; ele prefere a Springfield Marksman por pouco."
             },
             {
               "id": "slot-4/krag-sniper",
               "name": "Krag Sniper",
-              "band": 3
+              "band": 3,
+              "comment": "Cadência absurda para um sniper. Com Scopesmith dá para ir de dois tiros no corpo e derrubar um time inteiro atravessando o rio."
             },
             {
               "id": "slot-4/lebel-1886-marksman",
               "name": "Lebel 1886 Marksman",
-              "band": 3
+              "band": 3,
+              "comment": "Boa, mas munição longa perdeu espaço para sniper: a física da bala é pior que a da munição média, e de luneta você quer o headshot de qualquer jeito."
             },
             {
               "id": "slot-4/mosin-nagant-sniper",
               "name": "Mosin-Nagant Sniper",
-              "band": 3
+              "band": 3,
+              "comment": "Não é ruim, mas caiu bastante: munição longa piorou para sniper e a Spitzer agora é rara. A Centennial Sniper é mais barata e melhor."
             },
             {
               "id": "slot-4/centennial",
               "name": "Centennial",
-              "band": 3
+              "band": 3,
+              "comment": "O rifle com a bala mais rápida que dá para comprar na loja: 725 m/s com High Velocity."
             },
             {
               "id": "slot-4/centennial-trauma",
               "name": "Centennial Trauma",
-              "band": 3
+              "band": 3,
+              "comment": "O rifle com a bala mais rápida que dá para comprar na loja: 725 m/s com High Velocity."
             },
             {
               "id": "slot-4/krag",
               "name": "Krag",
-              "band": 3
+              "band": 3,
+              "comment": "Muito sólida: boa cadência, bom dano e divertida de jogar."
             },
             {
               "id": "slot-4/krag-bayonet",
               "name": "Krag Bayonet",
-              "band": 3
+              "band": 3,
+              "comment": "Muito sólida: boa cadência, bom dano e divertida de jogar."
             },
             {
               "id": "slot-4/marathon",
               "name": "Marathon",
-              "band": 4
+              "band": 4,
+              "comment": "A mesma Marathon, sem a recarga rápida da Swift, que é a versão melhor."
             },
             {
               "id": "slot-4/rival-78",
               "name": "Rival 78",
-              "band": 4
+              "band": 4,
+              "comment": "Uma das melhores espingardas baratas, quase uma Homestead. O segundo tiro imediato salva quando o primeiro não mata; para ele, cadência é o atributo mais subestimado em espingarda."
             },
             {
               "id": "slot-4/rival-78-trauma",
               "name": "Rival 78 Trauma",
-              "band": 4
+              "band": 4,
+              "comment": "Uma das melhores espingardas baratas, quase uma Homestead. O segundo tiro imediato salva quando o primeiro não mata; para ele, cadência é o atributo mais subestimado em espingarda."
             },
             {
               "id": "slot-4/specter-1882",
               "name": "Specter 1882",
-              "band": 4
+              "band": 4,
+              "comment": "Cano longo, então mata em um tiro mais longe que a versão Bayonet. Ele recomenda testar."
             },
             {
               "id": "slot-4/springfield-1866",
               "name": "Springfield 1866",
-              "band": 4
+              "band": 4,
+              "comment": "Muito subestimada. O buff de dano a tornou viável mesmo sem Dumdum; se achar Dumdum, vira arma de topo."
             },
             {
               "id": "slot-4/springfield-1866-bayonet",
               "name": "Springfield 1866 Bayonet",
-              "band": 4
+              "band": 4,
+              "comment": "Muito subestimada. O buff de dano a tornou viável mesmo sem Dumdum; se achar Dumdum, vira arma de topo."
             },
             {
               "id": "slot-4/vetterli-71-cyclone",
               "name": "Vetterli 71 Cyclone",
-              "band": 5
+              "band": 5,
+              "comment": "Ainda forte e com ótima cadência, mas piorou com os nerfs de velocidade, dano e munição reserva."
             },
             {
               "id": "slot-4/infantry-73l-sniper",
               "name": "Infantry 73L Sniper",
-              "band": 5
+              "band": 5,
+              "comment": "Boa com High Velocity, e dá para usar Levering para avançar, o que a deixa mais versátil."
             },
             {
               "id": "slot-4/krag-silencer",
               "name": "Krag Silencer",
-              "band": 5
+              "band": 5,
+              "comment": "A arma silenciada mais forte do jogo. Fica abaixo das Krag comuns porque o dano cai abaixo de 125 e não finaliza inimigo já derrubado com um tiro no peito."
             },
             {
               "id": "slot-4/martini-henry-ironside",
               "name": "Martini-Henry Ironside",
-              "band": 5
+              "band": 5,
+              "comment": "Rifle barato fortíssimo, com ótimo potencial de two-tap. A mira atrapalha bastante; depois que acostuma, rende muito."
             },
             {
               "id": "slot-4/ranger-73-swift",
               "name": "Ranger 73 Swift",
-              "band": 5
+              "band": 5,
+              "comment": "A recarga rápida deixa aproveitar o Levering de verdade. Como depende de um trait caro, não sobe mais."
             },
             {
               "id": "slot-4/slate",
               "name": "Slate",
-              "band": 5
+              "band": 5,
+              "comment": "Boa cadência, divertida e satisfatória: a espingarda \"clássica\". Só que é simplesmente pior que a Specter."
             },
             {
               "id": "slot-4/slate-riposte",
               "name": "Slate Riposte",
-              "band": 5
+              "band": 5,
+              "comment": "Boa cadência, divertida e satisfatória: a espingarda \"clássica\". Só que é simplesmente pior que a Specter."
             },
             {
               "id": "slot-4/infantry-73l-bayonet",
               "name": "Infantry 73L Bayonet",
-              "band": 6
+              "band": 6,
+              "comment": "Um pouco melhor que as Ranger comuns (mais velocidade com High Velocity e mais balas), mas sem recarga rápida."
             },
             {
               "id": "slot-4/infantry-73l",
               "name": "Infantry 73L",
-              "band": 6
+              "band": 6,
+              "comment": "Um pouco melhor que as Ranger comuns (mais velocidade com High Velocity e mais balas), mas sem recarga rápida."
             },
             {
               "id": "slot-4/ranger-73",
               "name": "Ranger 73",
-              "band": 6
+              "band": 6,
+              "comment": "Fica atrás da Infantry, que tem mais velocidade e mais balas. Para jogar de Levering, a Swift é a escolha."
             },
             {
               "id": "slot-4/ranger-73-aperture",
               "name": "Ranger 73 Aperture",
-              "band": 6
+              "band": 6,
+              "comment": "Fica atrás da Infantry, que tem mais velocidade e mais balas. Para jogar de Levering, a Swift é a escolha."
             },
             {
               "id": "slot-4/ranger-73-talon",
               "name": "Ranger 73 Talon",
-              "band": 6
+              "band": 6,
+              "comment": "Fica atrás da Infantry, que tem mais velocidade e mais balas. Para jogar de Levering, a Swift é a escolha."
             },
             {
               "id": "slot-4/romero-77-alamo",
               "name": "Romero 77 Alamo",
-              "band": 6
+              "band": 6,
+              "comment": "Um pouco acima da Romero comum por recarregar mais rápido, mas ainda não é grande coisa."
             },
             {
               "id": "slot-4/specter-1882-bayonet",
               "name": "Specter 1882 Bayonet",
-              "band": 6
+              "band": 6,
+              "comment": "Cano médio, então o one-shot é mais curto que o da Specter grande."
             },
             {
               "id": "slot-4/shredder",
               "name": "Shredder",
-              "band": 6
+              "band": 6,
+              "comment": "Única e divertida, mas travada: recarregar as serras toda hora cansa, a velocidade é baixa e o one-shot é inconsistente. Ele prefere a besta."
             },
             {
               "id": "slot-4/mako-1895",
               "name": "Mako 1895",
-              "band": 7
+              "band": 7,
+              "comment": "Velocidade de 400 m/s é lenta demais para munição longa, que ainda é difícil de repor. Você erra muito de longe e fica sem bala."
             },
             {
               "id": "slot-4/romero-77",
               "name": "Romero 77",
-              "band": 7
+              "band": 7,
+              "comment": "Perdeu valor com a Burgess: ocupa 4 slots, enquanto a Burgess faz parecido em 3 e libera loadouts melhores."
             },
             {
               "id": "slot-4/romero-77-talon",
               "name": "Romero 77 Talon",
-              "band": 7
+              "band": 7,
+              "comment": "Mesma avaliação da Romero comum: 4 slots é caro agora que a Burgess existe."
             },
             {
               "id": "slot-4/sparks",
               "name": "Sparks",
-              "band": 7
+              "band": 7,
+              "comment": "Bate como um caminhão, mas ainda precisa de um segundo tiro. Fraca para 4 slots; ganha valor em lutas longas."
             },
             {
               "id": "slot-4/sparks-sniper",
               "name": "Sparks Sniper",
-              "band": 8
+              "band": 8,
+              "comment": "A perdedora dos snipers: Maynard Sniper e Springfield Marksman fazem o mesmo, só que melhor. Ele acha que a Sparks precisa de um buff."
             },
             {
               "id": "slot-4/martini-henry",
               "name": "Martini-Henry",
-              "band": 8
+              "band": 8,
+              "comment": "Ocupa o mesmo espaço da 1890 Cavalry e é só um pouco melhor, mas custa mais e ocupa 4 slots."
             },
             {
               "id": "slot-4/martini-henry-riposte",
               "name": "Martini-Henry Riposte",
-              "band": 8
+              "band": 8,
+              "comment": "Ocupa o mesmo espaço da 1890 Cavalry e é só um pouco melhor, mas custa mais e ocupa 4 slots."
             },
             {
               "id": "slot-4/sparks-silencer",
               "name": "Sparks Silencer",
-              "band": 8
+              "band": 8,
+              "comment": "Pior que a Sparks comum: dá menos dano."
             },
             {
               "id": "slot-4/martini-henry-marksman",
               "name": "Martini-Henry Marksman",
-              "band": 9
+              "band": 9,
+              "comment": "Arma de meme para sniper: queda e velocidade da bala não combinam com luneta, como acontece no Uppercut Deadeye."
             },
             {
               "id": "slot-4/martini-henry-deadeye",
               "name": "Martini-Henry Deadeye",
-              "band": 9
+              "band": 9,
+              "comment": "Arma de meme para sniper: queda e velocidade da bala não combinam com luneta, como acontece no Uppercut Deadeye."
             }
           ]
         },
@@ -1432,26 +1680,35 @@
             {
               "id": "slot-5/nitro-express",
               "name": "Nitro Express",
-              "band": 1
+              "band": 1,
+              "comment": "A melhor arma de 5 slots: tiraram o desvio de bala, então voltou a acertar one-shot no peito a 40 m ou mais com confiança."
             },
             {
               "id": "slot-5/auto-5",
               "name": "Auto-5",
-              "band": 2
+              "band": 2,
+              "comment": "Ainda uma das espingardas mais fortes do jogo."
             },
             {
               "id": "slot-5/mosin-nagant-avtomat",
               "name": "Mosin-Nagant Avtomat",
-              "band": 3
+              "band": 3,
+              "comment": "Divertida e poderosa, mas a munição é muito difícil de repor: acabou, acabou."
             },
             {
               "id": "slot-5/maynard-sniper-silencer",
               "name": "Maynard Sniper Silencer",
-              "band": 5
+              "band": 5,
+              "comment": "Não é tão boa; é mais irritante de enfrentar do que forte, e incentiva o estilo de ficar longe atirando e fugindo."
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "source": {
+    "author": "Whityyy",
+    "title": "2.9 | ULTIMATE WEAPON TIERLIST for Hunt: Showdown 1896",
+    "url": "https://www.youtube.com/watch?v=__wfWF6b7jU"
+  }
 }
