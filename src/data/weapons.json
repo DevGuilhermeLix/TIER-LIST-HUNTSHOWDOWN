@@ -1,0 +1,1457 @@
+{
+  "views": [
+    {
+      "id": "classe",
+      "label": "Por classe",
+      "categories": [
+        {
+          "id": "rifles",
+          "label": "Rifles",
+          "weapons": [
+            {
+              "id": "rifles/mosin-nagant-bayonet",
+              "name": "Mosin-Nagant Bayonet",
+              "band": 1,
+              "slots": 4
+            },
+            {
+              "id": "rifles/mosin-nagant",
+              "name": "Mosin-Nagant",
+              "band": 1,
+              "slots": 4
+            },
+            {
+              "id": "rifles/winfield",
+              "name": "Winfield",
+              "band": 1
+            },
+            {
+              "id": "rifles/lemat-carbine",
+              "name": "LeMat Carbine",
+              "band": 2,
+              "slots": 3
+            },
+            {
+              "id": "rifles/bornheim-no-3-match",
+              "name": "Bornheim No. 3 Match",
+              "band": 2,
+              "slots": 2
+            },
+            {
+              "id": "rifles/drilling",
+              "name": "Drilling",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "rifles/lebel-1886",
+              "name": "Lebel 1886",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "rifles/lebel-1886-aperture",
+              "name": "Lebel 1886 Aperture",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "rifles/lebel-1886-talon",
+              "name": "Lebel 1886 Talon",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "rifles/marathon-swift",
+              "name": "Marathon Swift",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "rifles/officer-carbine",
+              "name": "Officer Carbine",
+              "band": 4,
+              "slots": 3
+            },
+            {
+              "id": "rifles/berthier-1892",
+              "name": "Berthier 1892",
+              "band": 4,
+              "slots": 3
+            },
+            {
+              "id": "rifles/berthier-1892-riposte",
+              "name": "Berthier 1892 Riposte",
+              "band": 4,
+              "slots": 3
+            },
+            {
+              "id": "rifles/centennial",
+              "name": "Centennial",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "rifles/centennial-trauma",
+              "name": "Centennial Trauma",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "rifles/krag",
+              "name": "Krag",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "rifles/krag-bayonet",
+              "name": "Krag Bayonet",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "rifles/ranger-73-swift",
+              "name": "Ranger 73 Swift",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "rifles/marathon",
+              "name": "Marathon",
+              "band": 5,
+              "slots": 4
+            },
+            {
+              "id": "rifles/vetterli-71-cyclone",
+              "name": "Vetterli 71 Cyclone",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "rifles/krag-silencer",
+              "name": "Krag Silencer",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "rifles/martini-henry-ironside",
+              "name": "Martini-Henry Ironside",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "rifles/mosin-obrez-match",
+              "name": "Mosin Obrez Match",
+              "band": 6,
+              "slots": 3,
+              "note": "Revisar nomes ambíguos da captura"
+            },
+            {
+              "id": "rifles/springfield-1866",
+              "name": "Springfield 1866",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "rifles/springfield-1866-bayonet",
+              "name": "Springfield 1866 Bayonet",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "rifles/1890-cavalry",
+              "name": "1890 Cavalry",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "rifles/dolch-96-precision",
+              "name": "Dolch 96 Precision",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "rifles/vetterli-71",
+              "name": "Vetterli 71",
+              "band": 7,
+              "slots": 3
+            },
+            {
+              "id": "rifles/vetterli-71-bayonet",
+              "name": "Vetterli 71 Bayonet",
+              "band": 7,
+              "slots": 3
+            },
+            {
+              "id": "rifles/infantry-73l-bayonet",
+              "name": "Infantry 73L Bayonet",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "rifles/infantry-73l",
+              "name": "Infantry 73L",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "rifles/ranger-73",
+              "name": "Ranger 73",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "rifles/frontier-73c",
+              "name": "Frontier 73C",
+              "band": 8,
+              "slots": 3
+            },
+            {
+              "id": "rifles/ranger-73-aperture",
+              "name": "Ranger 73 Aperture",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "rifles/ranger-73-talon",
+              "name": "Ranger 73 Talon",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "rifles/1865-carbine",
+              "name": "1865 Carbine",
+              "band": 8,
+              "slots": 3
+            },
+            {
+              "id": "rifles/vetterli-71-silencer",
+              "name": "Vetterli 71 Silencer",
+              "band": 8,
+              "slots": 3
+            },
+            {
+              "id": "rifles/1865-carbine-aperture",
+              "name": "1865 Carbine Aperture",
+              "band": 9,
+              "slots": 3
+            },
+            {
+              "id": "rifles/sparks",
+              "name": "Sparks",
+              "band": 10,
+              "slots": 4
+            },
+            {
+              "id": "rifles/centennial-shorty",
+              "name": "Centennial Shorty",
+              "band": 10,
+              "slots": 2
+            },
+            {
+              "id": "rifles/centennial-shorty-silencer",
+              "name": "Centennial Shorty Silencer",
+              "band": 10,
+              "slots": 2
+            },
+            {
+              "id": "rifles/frontier-73c-silencer",
+              "name": "Frontier 73C Silencer",
+              "band": 10,
+              "slots": 3
+            },
+            {
+              "id": "rifles/mako-1895",
+              "name": "Mako 1895",
+              "band": 11,
+              "slots": 4
+            },
+            {
+              "id": "rifles/sparks-silencer",
+              "name": "Sparks Silencer",
+              "band": 11,
+              "slots": 4
+            },
+            {
+              "id": "rifles/martini-henry",
+              "name": "Martini-Henry",
+              "band": 12,
+              "slots": 4
+            },
+            {
+              "id": "rifles/1865-carbine-silencer",
+              "name": "1865 Carbine Silencer",
+              "band": 12,
+              "slots": 3
+            }
+          ]
+        },
+        {
+          "id": "espingardas",
+          "label": "Espingardas",
+          "weapons": [
+            {
+              "id": "espingardas/homestead-78",
+              "name": "Homestead 78",
+              "band": 1,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/auto-5",
+              "name": "Auto-5",
+              "band": 2,
+              "slots": 5
+            },
+            {
+              "id": "espingardas/crossbow-deadeye",
+              "name": "Crossbow Deadeye",
+              "band": 2,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/crossbow",
+              "name": "Crossbow",
+              "band": 2,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/terminus",
+              "name": "Terminus",
+              "band": 2,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/burgess",
+              "name": "Burgess",
+              "band": 2,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/burgess-bayonet",
+              "name": "Burgess Bayonet",
+              "band": 3,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/burgess-trauma",
+              "name": "Burgess Trauma",
+              "band": 3,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/mosin-nagant-avtomat",
+              "name": "Mosin-Nagant Avtomat",
+              "band": 3,
+              "slots": 5
+            },
+            {
+              "id": "espingardas/nitro-express",
+              "name": "Nitro Express",
+              "band": 3,
+              "slots": 5
+            },
+            {
+              "id": "espingardas/rival-78",
+              "name": "Rival 78",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/rival-78-trauma",
+              "name": "Rival 78 Trauma",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/drilling",
+              "name": "Drilling",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/bomb-launcher",
+              "name": "Bomb Launcher",
+              "band": 3,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/terminus-shorty",
+              "name": "Terminus Shorty",
+              "band": 4,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/hunting-bow",
+              "name": "Hunting Bow",
+              "band": 5,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/rival-78-mace",
+              "name": "Rival 78 Mace",
+              "band": 5,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/rival-78-shorty",
+              "name": "Rival 78 Shorty",
+              "band": 5,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/specter-1882-shorty",
+              "name": "Specter 1882 Shorty",
+              "band": 5,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/slate",
+              "name": "Slate",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/slate-riposte",
+              "name": "Slate Riposte",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/specter-1882-bayonet",
+              "name": "Specter 1882 Bayonet",
+              "band": 6,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/lemat-carbine-marksman",
+              "name": "LeMat Carbine Marksman",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/auto-5-shorty",
+              "name": "Auto-5 Shorty",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/bomb-lance",
+              "name": "Bomb Lance",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "espingardas/lemat",
+              "name": "LeMat",
+              "band": 6,
+              "slots": 1
+            },
+            {
+              "id": "espingardas/romero-77-alamo",
+              "name": "Romero 77 Alamo",
+              "band": 7,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/shredder",
+              "name": "Shredder",
+              "band": 7,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/drilling-hatchet",
+              "name": "Drilling Hatchet",
+              "band": 7,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/drilling-shorty",
+              "name": "Drilling Shorty",
+              "band": 7,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/haymaker",
+              "name": "Haymaker",
+              "band": 7,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/romero-77",
+              "name": "Romero 77",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/romero-77-hatchet",
+              "name": "Romero 77 Hatchet",
+              "band": 8,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/romero-77-shorty",
+              "name": "Romero 77 Shorty",
+              "band": 8,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/romero-77-talon",
+              "name": "Romero 77 Talon",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "espingardas/chu-ko-nu",
+              "name": "Chu Ko Nu",
+              "band": 8,
+              "slots": 2
+            },
+            {
+              "id": "espingardas/flame-rifle",
+              "name": "Flame Rifle",
+              "band": 9,
+              "slots": 2
+            }
+          ]
+        },
+        {
+          "id": "snipers",
+          "label": "Snipers",
+          "weapons": [
+            {
+              "id": "snipers/centennial-sniper",
+              "name": "Centennial Sniper",
+              "band": 1,
+              "slots": 4
+            },
+            {
+              "id": "snipers/springfield-1866-marksman",
+              "name": "Springfield 1866 Marksman",
+              "band": 2,
+              "slots": 4
+            },
+            {
+              "id": "snipers/lemat-carbine-marksman",
+              "name": "LeMat Carbine Marksman",
+              "band": 2,
+              "slots": 3
+            },
+            {
+              "id": "snipers/maynard-sniper",
+              "name": "Maynard Sniper",
+              "band": 3,
+              "slots": 4
+            },
+            {
+              "id": "snipers/berthier-1892-marksman",
+              "name": "Berthier 1892 Marksman",
+              "band": 3,
+              "slots": 3
+            },
+            {
+              "id": "snipers/berthier-1892-deadeye",
+              "name": "Berthier 1892 Deadeye",
+              "band": 3,
+              "slots": 3
+            },
+            {
+              "id": "snipers/krag-sniper",
+              "name": "Krag Sniper",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "snipers/lebel-1886-marksman",
+              "name": "Lebel 1886 Marksman",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "snipers/mosin-nagant-sniper",
+              "name": "Mosin-Nagant Sniper",
+              "band": 4,
+              "slots": 4
+            },
+            {
+              "id": "snipers/centennial-precision",
+              "name": "Centennial Precision",
+              "band": 4
+            },
+            {
+              "id": "snipers/maynard-sniper-silencer",
+              "name": "Maynard Sniper Silencer",
+              "band": 5,
+              "slots": 5
+            },
+            {
+              "id": "snipers/infantry-73l-sniper",
+              "name": "Infantry 73L Sniper",
+              "band": 5,
+              "slots": 4
+            },
+            {
+              "id": "snipers/frontier-73c-marksman",
+              "name": "Frontier 73C Marksman",
+              "band": 5,
+              "slots": 3
+            },
+            {
+              "id": "snipers/mako-claw-sharpshooter",
+              "name": "Mako Claw Sharpshooter",
+              "band": 5,
+              "note": "Revisar nomes ambíguos da captura"
+            },
+            {
+              "id": "snipers/officer-carbine-deadeye",
+              "name": "Officer Carbine Deadeye",
+              "band": 6,
+              "slots": 3
+            },
+            {
+              "id": "snipers/sparks-sniper",
+              "name": "Sparks Sniper",
+              "band": 7,
+              "slots": 4
+            },
+            {
+              "id": "snipers/vetterli-71-deadeye",
+              "name": "Vetterli 71 Deadeye",
+              "band": 7,
+              "slots": 3
+            },
+            {
+              "id": "snipers/vetterli-71-marksman",
+              "name": "Vetterli 71 Marksman",
+              "band": 7,
+              "slots": 3
+            },
+            {
+              "id": "snipers/springfield-1866-silencer",
+              "name": "Springfield 1866 Silencer",
+              "band": 7
+            },
+            {
+              "id": "snipers/vetterli-71-marksman-2",
+              "name": "Vetterli 71 Marksman",
+              "band": 7,
+              "slots": 3,
+              "note": "Aparece duas vezes nesta faixa na planilha"
+            },
+            {
+              "id": "snipers/martini-henry-deadeye",
+              "name": "Martini-Henry Deadeye",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "snipers/martini-henry-marksman",
+              "name": "Martini-Henry Marksman",
+              "band": 8,
+              "slots": 4
+            },
+            {
+              "id": "snipers/uppercut-deadeye",
+              "name": "Uppercut Deadeye",
+              "band": 8,
+              "slots": 3
+            },
+            {
+              "id": "snipers/dolch-96-marksman",
+              "name": "Dolch 96 Marksman",
+              "band": 8,
+              "note": "Revisar nomes ambíguos da captura"
+            },
+            {
+              "id": "snipers/nagant-m1895-deadeye",
+              "name": "Nagant M1895 Deadeye",
+              "band": 8,
+              "slots": 2,
+              "note": "Revisar nomes ambíguos da captura"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slots",
+      "label": "Por slots",
+      "categories": [
+        {
+          "id": "slot-1",
+          "label": "1 slot",
+          "weapons": [
+            {
+              "id": "slot-1/lemat",
+              "name": "LeMat",
+              "band": 1
+            },
+            {
+              "id": "slot-1/new-army-swift",
+              "name": "New Army Swift",
+              "band": 2
+            },
+            {
+              "id": "slot-1/officer",
+              "name": "Officer",
+              "band": 2
+            },
+            {
+              "id": "slot-1/officer-brawler",
+              "name": "Officer Brawler",
+              "band": 2
+            },
+            {
+              "id": "slot-1/pax-trueshot",
+              "name": "Pax Trueshot",
+              "band": 2
+            },
+            {
+              "id": "slot-1/scottfield-spitfire",
+              "name": "Scottfield Spitfire",
+              "band": 3
+            },
+            {
+              "id": "slot-1/conversion",
+              "name": "Conversion",
+              "band": 3
+            },
+            {
+              "id": "slot-1/conversion-chain-pistol",
+              "name": "Conversion Chain Pistol",
+              "band": 3
+            },
+            {
+              "id": "slot-1/new-army",
+              "name": "New Army",
+              "band": 4
+            },
+            {
+              "id": "slot-1/bornheim-no-3-extended",
+              "name": "Bornheim No. 3 Extended",
+              "band": 4
+            },
+            {
+              "id": "slot-1/bornheim-no-3",
+              "name": "Bornheim No. 3",
+              "band": 4
+            },
+            {
+              "id": "slot-1/pax",
+              "name": "Pax",
+              "band": 4
+            },
+            {
+              "id": "slot-1/sparks-pistol",
+              "name": "Sparks Pistol",
+              "band": 4
+            },
+            {
+              "id": "slot-1/hand-crossbow",
+              "name": "Hand Crossbow",
+              "band": 5
+            },
+            {
+              "id": "slot-1/pax-claw",
+              "name": "Pax Claw",
+              "band": 5
+            },
+            {
+              "id": "slot-1/sparks-pistol-silencer",
+              "name": "Sparks Pistol Silencer",
+              "band": 5
+            },
+            {
+              "id": "slot-1/bornheim-no-3-silencer",
+              "name": "Bornheim No. 3 Silencer",
+              "band": 6
+            },
+            {
+              "id": "slot-1/nagant-m1895-silencer",
+              "name": "Nagant M1895 Silencer",
+              "band": 6
+            },
+            {
+              "id": "slot-1/scottfield-swift",
+              "name": "Scottfield Swift",
+              "band": 6
+            },
+            {
+              "id": "slot-1/nagant-m1895",
+              "name": "Nagant M1895",
+              "band": 7
+            },
+            {
+              "id": "slot-1/scottfield",
+              "name": "Scottfield",
+              "band": 7
+            },
+            {
+              "id": "slot-1/scottfield-brawler",
+              "name": "Scottfield Brawler",
+              "band": 8
+            },
+            {
+              "id": "slot-1/cavalry-saber",
+              "name": "Cavalry Saber",
+              "band": 9
+            },
+            {
+              "id": "slot-1/baseball-bat",
+              "name": "Baseball Bat",
+              "band": 9
+            },
+            {
+              "id": "slot-1/machete",
+              "name": "Machete",
+              "band": 9
+            }
+          ]
+        },
+        {
+          "id": "slot-2",
+          "label": "2 slots",
+          "weapons": [
+            {
+              "id": "slot-2/bornheim-no-3-match",
+              "name": "Bornheim No. 3 Match",
+              "band": 1
+            },
+            {
+              "id": "slot-2/terminus-shorty",
+              "name": "Terminus Shorty",
+              "band": 2
+            },
+            {
+              "id": "slot-2/bomb-launcher",
+              "name": "Bomb Launcher",
+              "band": 2
+            },
+            {
+              "id": "slot-2/dolch-96",
+              "name": "Dolch 96",
+              "band": 2
+            },
+            {
+              "id": "slot-2/dolch-96-bullseye",
+              "name": "Dolch 96 Bullseye",
+              "band": 2
+            },
+            {
+              "id": "slot-2/dolch-96-claw",
+              "name": "Dolch 96 Claw",
+              "band": 2
+            },
+            {
+              "id": "slot-2/haymaker",
+              "name": "Haymaker",
+              "band": 3
+            },
+            {
+              "id": "slot-2/uppercut",
+              "name": "Uppercut",
+              "band": 3
+            },
+            {
+              "id": "slot-2/mosin-obrez-extended",
+              "name": "Mosin Obrez Extended",
+              "band": 3,
+              "note": "Conferir nome na imagem"
+            },
+            {
+              "id": "slot-2/rival-78-shorty",
+              "name": "Rival 78 Shorty",
+              "band": 3
+            },
+            {
+              "id": "slot-2/rival-78-mace",
+              "name": "Rival 78 Mace",
+              "band": 3
+            },
+            {
+              "id": "slot-2/mosin-obrez-mace",
+              "name": "Mosin Obrez Mace",
+              "band": 4
+            },
+            {
+              "id": "slot-2/mosin-obrez",
+              "name": "Mosin Obrez",
+              "band": 4
+            },
+            {
+              "id": "slot-2/specter-1882-shorty",
+              "name": "Specter 1882 Shorty",
+              "band": 4
+            },
+            {
+              "id": "slot-2/romero-77-hatchet",
+              "name": "Romero 77 Hatchet",
+              "band": 4
+            },
+            {
+              "id": "slot-2/romero-77-shorty",
+              "name": "Romero 77 Shorty",
+              "band": 4
+            },
+            {
+              "id": "slot-2/drilling-hatchet",
+              "name": "Drilling Hatchet",
+              "band": 5
+            },
+            {
+              "id": "slot-2/drilling-shorty",
+              "name": "Drilling Shorty",
+              "band": 5
+            },
+            {
+              "id": "slot-2/centennial-pointman",
+              "name": "Centennial Pointman",
+              "band": 5
+            },
+            {
+              "id": "slot-2/springfield-1866-bullseye",
+              "name": "Springfield 1866 Bullseye",
+              "band": 5
+            },
+            {
+              "id": "slot-2/springfield-1866-shorty",
+              "name": "Springfield 1866 Shorty",
+              "band": 5
+            },
+            {
+              "id": "slot-2/springfield-1866-striker",
+              "name": "Springfield 1866 Striker",
+              "band": 5
+            },
+            {
+              "id": "slot-2/centennial-shorty-silencer",
+              "name": "Centennial Shorty Silencer",
+              "band": 6
+            },
+            {
+              "id": "slot-2/centennial-shorty",
+              "name": "Centennial Shorty",
+              "band": 6
+            },
+            {
+              "id": "slot-2/scottfield-precision",
+              "name": "Scottfield Precision",
+              "band": 6
+            },
+            {
+              "id": "slot-2/vandal-73c",
+              "name": "Vandal 73C",
+              "band": 6
+            },
+            {
+              "id": "slot-2/vandal-73c-bullseye",
+              "name": "Vandal 73C Bullseye",
+              "band": 6
+            },
+            {
+              "id": "slot-2/vandal-73c-striker",
+              "name": "Vandal 73C Striker",
+              "band": 6
+            },
+            {
+              "id": "slot-2/chu-ko-nu",
+              "name": "Chu Ko Nu",
+              "band": 7
+            },
+            {
+              "id": "slot-2/nagant-m1895-deadeye",
+              "name": "Nagant M1895 Deadeye",
+              "band": 7
+            },
+            {
+              "id": "slot-2/nagant-m1895-precision",
+              "name": "Nagant M1895 Precision",
+              "band": 7
+            },
+            {
+              "id": "slot-2/flame-rifle",
+              "name": "Flame Rifle",
+              "band": 8
+            },
+            {
+              "id": "slot-2/katana",
+              "name": "Katana",
+              "band": 9
+            },
+            {
+              "id": "slot-2/railroad-hammer",
+              "name": "Railroad Hammer",
+              "band": 9
+            },
+            {
+              "id": "slot-2/combat-axe",
+              "name": "Combat Axe",
+              "band": 9
+            }
+          ]
+        },
+        {
+          "id": "slot-3",
+          "label": "3 slots",
+          "weapons": [
+            {
+              "id": "slot-3/lemat-carbine",
+              "name": "LeMat Carbine",
+              "band": 1
+            },
+            {
+              "id": "slot-3/lemat-carbine-marksman",
+              "name": "LeMat Carbine Marksman",
+              "band": 1
+            },
+            {
+              "id": "slot-3/berthier-1892-marksman",
+              "name": "Berthier 1892 Marksman",
+              "band": 2
+            },
+            {
+              "id": "slot-3/berthier-1892",
+              "name": "Berthier 1892",
+              "band": 2
+            },
+            {
+              "id": "slot-3/berthier-1892-deadeye",
+              "name": "Berthier 1892 Deadeye",
+              "band": 2
+            },
+            {
+              "id": "slot-3/berthier-1892-riposte",
+              "name": "Berthier 1892 Riposte",
+              "band": 2
+            },
+            {
+              "id": "slot-3/dolch-96-precision",
+              "name": "Dolch 96 Precision",
+              "band": 2
+            },
+            {
+              "id": "slot-3/officer-carbine",
+              "name": "Officer Carbine",
+              "band": 3
+            },
+            {
+              "id": "slot-3/officer-carbine-deadeye",
+              "name": "Officer Carbine Deadeye",
+              "band": 3
+            },
+            {
+              "id": "slot-3/burgess",
+              "name": "Burgess",
+              "band": 3
+            },
+            {
+              "id": "slot-3/burgess-trauma",
+              "name": "Burgess Trauma",
+              "band": 3
+            },
+            {
+              "id": "slot-3/burgess-bayonet",
+              "name": "Burgess Bayonet",
+              "band": 3
+            },
+            {
+              "id": "slot-3/mosin-obrez-match",
+              "name": "Mosin Obrez Match",
+              "band": 3
+            },
+            {
+              "id": "slot-3/mosin-obrez-sharpshooter",
+              "name": "Mosin Obrez Sharpshooter",
+              "band": 3,
+              "note": "Conferir nome na imagem"
+            },
+            {
+              "id": "slot-3/1890-cavalry",
+              "name": "1890 Cavalry",
+              "band": 4,
+              "note": "Conferir nome na imagem"
+            },
+            {
+              "id": "slot-3/auto-5-shorty",
+              "name": "Auto-5 Shorty",
+              "band": 4,
+              "note": "Confirmar no jogo"
+            },
+            {
+              "id": "slot-3/vetterli-71",
+              "name": "Vetterli 71",
+              "band": 4
+            },
+            {
+              "id": "slot-3/vetterli-71-bayonet",
+              "name": "Vetterli 71 Bayonet",
+              "band": 4
+            },
+            {
+              "id": "slot-3/bomb-lance",
+              "name": "Bomb Lance",
+              "band": 5
+            },
+            {
+              "id": "slot-3/frontier-73c",
+              "name": "Frontier 73C",
+              "band": 5
+            },
+            {
+              "id": "slot-3/frontier-73c-marksman",
+              "name": "Frontier 73C Marksman",
+              "band": 5
+            },
+            {
+              "id": "slot-3/hunting-bow",
+              "name": "Hunting Bow",
+              "band": 5
+            },
+            {
+              "id": "slot-3/vetterli-71-marksman",
+              "name": "Vetterli 71 Marksman",
+              "band": 5
+            },
+            {
+              "id": "slot-3/vetterli-71-deadeye",
+              "name": "Vetterli 71 Deadeye",
+              "band": 5
+            },
+            {
+              "id": "slot-3/uppercut-precision",
+              "name": "Uppercut Precision",
+              "band": 6
+            },
+            {
+              "id": "slot-3/1865-carbine-aperture",
+              "name": "1865 Carbine Aperture",
+              "band": 6
+            },
+            {
+              "id": "slot-3/1865-carbine",
+              "name": "1865 Carbine",
+              "band": 6
+            },
+            {
+              "id": "slot-3/vetterli-71-silencer",
+              "name": "Vetterli 71 Silencer",
+              "band": 6
+            },
+            {
+              "id": "slot-3/frontier-73c-silencer",
+              "name": "Frontier 73C Silencer",
+              "band": 7
+            },
+            {
+              "id": "slot-3/1865-carbine-silencer",
+              "name": "1865 Carbine Silencer",
+              "band": 8
+            },
+            {
+              "id": "slot-3/uppercut-deadeye",
+              "name": "Uppercut Deadeye",
+              "band": 9
+            }
+          ]
+        },
+        {
+          "id": "slot-4",
+          "label": "4 slots",
+          "weapons": [
+            {
+              "id": "slot-4/centennial-sniper",
+              "name": "Centennial Sniper",
+              "band": 1
+            },
+            {
+              "id": "slot-4/mosin-nagant-bayonet",
+              "name": "Mosin-Nagant Bayonet",
+              "band": 1
+            },
+            {
+              "id": "slot-4/mosin-nagant",
+              "name": "Mosin-Nagant",
+              "band": 1
+            },
+            {
+              "id": "slot-4/drilling",
+              "name": "Drilling",
+              "band": 1
+            },
+            {
+              "id": "slot-4/homestead-78",
+              "name": "Homestead 78",
+              "band": 1
+            },
+            {
+              "id": "slot-4/wildland",
+              "name": "Wildland",
+              "band": 1,
+              "note": "Conferir nome na imagem"
+            },
+            {
+              "id": "slot-4/lebel-1886",
+              "name": "Lebel 1886",
+              "band": 2
+            },
+            {
+              "id": "slot-4/lebel-1886-aperture",
+              "name": "Lebel 1886 Aperture",
+              "band": 2
+            },
+            {
+              "id": "slot-4/lebel-1886-talon",
+              "name": "Lebel 1886 Talon",
+              "band": 2
+            },
+            {
+              "id": "slot-4/crossbow-deadeye",
+              "name": "Crossbow Deadeye",
+              "band": 2
+            },
+            {
+              "id": "slot-4/crossbow",
+              "name": "Crossbow",
+              "band": 2
+            },
+            {
+              "id": "slot-4/marathon-swift",
+              "name": "Marathon Swift",
+              "band": 2
+            },
+            {
+              "id": "slot-4/springfield-1866-marksman",
+              "name": "Springfield 1866 Marksman",
+              "band": 2
+            },
+            {
+              "id": "slot-4/terminus",
+              "name": "Terminus",
+              "band": 2
+            },
+            {
+              "id": "slot-4/maynard-sniper",
+              "name": "Maynard Sniper",
+              "band": 3
+            },
+            {
+              "id": "slot-4/krag-sniper",
+              "name": "Krag Sniper",
+              "band": 3
+            },
+            {
+              "id": "slot-4/lebel-1886-marksman",
+              "name": "Lebel 1886 Marksman",
+              "band": 3
+            },
+            {
+              "id": "slot-4/mosin-nagant-sniper",
+              "name": "Mosin-Nagant Sniper",
+              "band": 3
+            },
+            {
+              "id": "slot-4/centennial",
+              "name": "Centennial",
+              "band": 3
+            },
+            {
+              "id": "slot-4/centennial-trauma",
+              "name": "Centennial Trauma",
+              "band": 3
+            },
+            {
+              "id": "slot-4/krag",
+              "name": "Krag",
+              "band": 3
+            },
+            {
+              "id": "slot-4/krag-bayonet",
+              "name": "Krag Bayonet",
+              "band": 3
+            },
+            {
+              "id": "slot-4/marathon",
+              "name": "Marathon",
+              "band": 4
+            },
+            {
+              "id": "slot-4/rival-78",
+              "name": "Rival 78",
+              "band": 4
+            },
+            {
+              "id": "slot-4/rival-78-trauma",
+              "name": "Rival 78 Trauma",
+              "band": 4
+            },
+            {
+              "id": "slot-4/specter-1882",
+              "name": "Specter 1882",
+              "band": 4
+            },
+            {
+              "id": "slot-4/springfield-1866",
+              "name": "Springfield 1866",
+              "band": 4
+            },
+            {
+              "id": "slot-4/springfield-1866-bayonet",
+              "name": "Springfield 1866 Bayonet",
+              "band": 4
+            },
+            {
+              "id": "slot-4/vetterli-71-cyclone",
+              "name": "Vetterli 71 Cyclone",
+              "band": 5
+            },
+            {
+              "id": "slot-4/infantry-73l-sniper",
+              "name": "Infantry 73L Sniper",
+              "band": 5
+            },
+            {
+              "id": "slot-4/krag-silencer",
+              "name": "Krag Silencer",
+              "band": 5
+            },
+            {
+              "id": "slot-4/martini-henry-ironside",
+              "name": "Martini-Henry Ironside",
+              "band": 5
+            },
+            {
+              "id": "slot-4/ranger-73-swift",
+              "name": "Ranger 73 Swift",
+              "band": 5
+            },
+            {
+              "id": "slot-4/slate",
+              "name": "Slate",
+              "band": 5
+            },
+            {
+              "id": "slot-4/slate-riposte",
+              "name": "Slate Riposte",
+              "band": 5
+            },
+            {
+              "id": "slot-4/infantry-73l-bayonet",
+              "name": "Infantry 73L Bayonet",
+              "band": 6
+            },
+            {
+              "id": "slot-4/infantry-73l",
+              "name": "Infantry 73L",
+              "band": 6
+            },
+            {
+              "id": "slot-4/ranger-73",
+              "name": "Ranger 73",
+              "band": 6
+            },
+            {
+              "id": "slot-4/ranger-73-aperture",
+              "name": "Ranger 73 Aperture",
+              "band": 6
+            },
+            {
+              "id": "slot-4/ranger-73-talon",
+              "name": "Ranger 73 Talon",
+              "band": 6
+            },
+            {
+              "id": "slot-4/romero-77-alamo",
+              "name": "Romero 77 Alamo",
+              "band": 6
+            },
+            {
+              "id": "slot-4/specter-1882-bayonet",
+              "name": "Specter 1882 Bayonet",
+              "band": 6
+            },
+            {
+              "id": "slot-4/shredder",
+              "name": "Shredder",
+              "band": 6
+            },
+            {
+              "id": "slot-4/mako-1895",
+              "name": "Mako 1895",
+              "band": 7
+            },
+            {
+              "id": "slot-4/romero-77",
+              "name": "Romero 77",
+              "band": 7
+            },
+            {
+              "id": "slot-4/romero-77-talon",
+              "name": "Romero 77 Talon",
+              "band": 7
+            },
+            {
+              "id": "slot-4/sparks",
+              "name": "Sparks",
+              "band": 7
+            },
+            {
+              "id": "slot-4/sparks-sniper",
+              "name": "Sparks Sniper",
+              "band": 8
+            },
+            {
+              "id": "slot-4/martini-henry",
+              "name": "Martini-Henry",
+              "band": 8
+            },
+            {
+              "id": "slot-4/martini-henry-riposte",
+              "name": "Martini-Henry Riposte",
+              "band": 8
+            },
+            {
+              "id": "slot-4/sparks-silencer",
+              "name": "Sparks Silencer",
+              "band": 8
+            },
+            {
+              "id": "slot-4/martini-henry-marksman",
+              "name": "Martini-Henry Marksman",
+              "band": 9
+            },
+            {
+              "id": "slot-4/martini-henry-deadeye",
+              "name": "Martini-Henry Deadeye",
+              "band": 9
+            }
+          ]
+        },
+        {
+          "id": "slot-5",
+          "label": "5 slots",
+          "weapons": [
+            {
+              "id": "slot-5/nitro-express",
+              "name": "Nitro Express",
+              "band": 1
+            },
+            {
+              "id": "slot-5/auto-5",
+              "name": "Auto-5",
+              "band": 2
+            },
+            {
+              "id": "slot-5/mosin-nagant-avtomat",
+              "name": "Mosin-Nagant Avtomat",
+              "band": 3
+            },
+            {
+              "id": "slot-5/maynard-sniper-silencer",
+              "name": "Maynard Sniper Silencer",
+              "band": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
