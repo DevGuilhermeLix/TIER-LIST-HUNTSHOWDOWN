@@ -2,8 +2,18 @@
 
 import { useEffect, useRef } from 'react';
 import images from '@/data/weapon-images.json';
+import { TRAIT_TYPE_LABEL, TraitIcon } from './WeaponChip';
 
-export default function WeaponDetail({ weapon, tier, categoryLabel, source, onClose }) {
+function metaLine(weapon, kind, contextLabel) {
+  if (kind === 'traits') {
+    const cost = weapon.cost ? `${weapon.cost} ${weapon.cost === 1 ? 'ponto' : 'pontos'}` : 'só achado no mapa';
+    return [contextLabel, cost, ...(weapon.types || []).map((t) => TRAIT_TYPE_LABEL[t])].join(' · ');
+  }
+  const slots = weapon.slots ? `${weapon.slots} ${weapon.slots === 1 ? 'slot' : 'slots'}` : null;
+  return [contextLabel, slots].filter(Boolean).join(' · ');
+}
+
+export default function WeaponDetail({ weapon, kind, tier, contextLabel, source, onClose }) {
   const dialog = useRef(null);
 
   useEffect(() => {
@@ -12,7 +22,8 @@ export default function WeaponDetail({ weapon, tier, categoryLabel, source, onCl
     if (!weapon && el.open) el.close();
   }, [weapon]);
 
-  const image = weapon ? images[weapon.name] : null;
+  const isTrait = kind === 'traits';
+  const image = weapon && !isTrait ? images[weapon.name] : null;
 
   return (
     <dialog
@@ -30,14 +41,12 @@ export default function WeaponDetail({ weapon, tier, categoryLabel, source, onCl
             >
               {tier.id}
             </span>
+            {isTrait ? <TraitIcon name={weapon.name} className="size-12 shrink-0" /> : null}
             <div className="min-w-0 flex-1">
               <h2 className="font-display text-2xl font-semibold uppercase leading-tight tracking-wide">
                 {weapon.name}
               </h2>
-              <p className="mt-0.5 text-sm text-muted">
-                {categoryLabel}
-                {weapon.slots ? ` · ${weapon.slots} ${weapon.slots === 1 ? 'slot' : 'slots'}` : ''}
-              </p>
+              <p className="mt-0.5 text-sm text-muted">{metaLine(weapon, kind, contextLabel)}</p>
             </div>
             <button
               type="button"
@@ -60,9 +69,10 @@ export default function WeaponDetail({ weapon, tier, categoryLabel, source, onCl
           ) : null}
 
           <p className="mt-5 text-[15px] leading-relaxed">
-            {weapon.comment || 'O vídeo não comenta esta arma nesta categoria.'}
+            {weapon.comment || 'A fonte não comenta este item nesta categoria.'}
           </p>
 
+          {weapon.update ? <p className="mt-3 text-sm leading-relaxed text-brass">{weapon.update}</p> : null}
           {weapon.note ? <p className="mt-3 text-sm text-brass">{weapon.note}.</p> : null}
 
           {source ? (

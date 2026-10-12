@@ -1,0 +1,609 @@
+{
+  "id": "traits",
+  "label": "Traits",
+  "kind": "traits",
+  "source": {
+    "author": "REXNOR",
+    "title": "The ULTIMATE Trait Guide & Tier List | Hunt: Showdown 1896 (2026)",
+    "url": "https://www.youtube.com/watch?v=7k402Q-CktQ"
+  },
+  "categories": [
+    {
+      "id": "traits",
+      "label": "Traits",
+      "groups": [
+        {
+          "id": "burn-scarce",
+          "label": "Burn e Scarce"
+        },
+        {
+          "id": "cura-defesa",
+          "label": "Cura e Defesa"
+        },
+        {
+          "id": "movimento",
+          "label": "Movimento"
+        },
+        {
+          "id": "tiro",
+          "label": "Tiro"
+        },
+        {
+          "id": "melee",
+          "label": "Corpo a Corpo"
+        },
+        {
+          "id": "info",
+          "label": "Informação"
+        },
+        {
+          "id": "utilidade",
+          "label": "Utilidade"
+        }
+      ],
+      "items": [
+        {
+          "id": "traits/necromancer",
+          "name": "Necromancer",
+          "band": 2,
+          "group": "burn-scarce",
+          "cost": 4,
+          "types": [
+            "burn"
+          ],
+          "comment": "Revive um aliado caído à distância pelo Dark Sight (até 25 m); jogando solo, revive você mesmo. Para ele é um dos traits mais fortes do jogo: entrar sem ele, solo ou em time, já é desvantagem. A queima pausa enquanto você canaliza, mas não funciona em quem já queimou por completo."
+        },
+        {
+          "id": "traits/death-cheat",
+          "name": "Death Cheat",
+          "band": 2,
+          "group": "burn-scarce",
+          "types": [
+            "burn",
+            "scarce"
+          ],
+          "comment": "Se você morrer sem extrair, mantém o caçador e perde só o equipamento. Reduz muito o risco e acelera a progressão: ótimo para levar caçador ao nível máximo e para subir de prestígio."
+        },
+        {
+          "id": "traits/shadow",
+          "name": "Shadow",
+          "band": 2,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Os monstros deixam de te ver e atacar (ainda ouvem). Dá controle do mapa: você ignora o PvE, não faz barulho matando e ainda luta ao lado de Brutes e Meatheads sem apanhar. Funciona melhor quando o time todo tem."
+        },
+        {
+          "id": "traits/doctor",
+          "name": "Doctor",
+          "band": 2,
+          "group": "cura-defesa",
+          "cost": 9,
+          "comment": "O kit médico cura 100 de vida em vez de 50. Como pedaços de vida não zerados regeneram sozinhos, muitas vezes uma carga já te deixa cheio. Muda quanto tempo você aguenta na luta e fica ainda melhor com Physician e Surefoot."
+        },
+        {
+          "id": "traits/physician",
+          "name": "Physician",
+          "band": 2,
+          "group": "cura-defesa",
+          "cost": 5,
+          "comment": "Usar o kit médico leva cerca de 3 s em vez de 5, o que costuma ser a diferença entre curar e ser empurrado. Sozinho ele nem priorizaria; com Doctor e Surefoot vira uma das melhores combinações do jogo."
+        },
+        {
+          "id": "traits/resilience",
+          "name": "Resilience",
+          "band": 2,
+          "group": "cura-defesa",
+          "cost": 3,
+          "comment": "Ao ser revivido, os pedaços de vida que sobraram voltam cheios. Sem ele você levanta morrendo para qualquer tiro. Para time é obrigatório, e ele nunca entra sem; para solo não faz nada, porque o auto-revive já restaura tudo."
+        },
+        {
+          "id": "traits/dauntless",
+          "name": "Dauntless",
+          "band": 2,
+          "group": "cura-defesa",
+          "cost": 1,
+          "comment": "Deixa apagar qualquer coisa com pavio: dinamite, bombas, sinalizadores, choke. Por 1 ponto, salva vidas e tem teto de skill alto (dá para desarmar no ar com auto-interagir). Ou você usa sempre, ou nunca."
+        },
+        {
+          "id": "traits/surefoot",
+          "name": "Surefoot",
+          "band": 2,
+          "group": "movimento",
+          "cost": 6,
+          "comment": "Corre enquanto segura arremessáveis, kit médico e consumíveis. Remove a maior desvantagem desses itens: dá para avançar com dinamite pronta ou recuar curando em velocidade total. Com Doctor, Physician e Frontiersman a sinergia é absurda."
+        },
+        {
+          "id": "traits/blast-sense",
+          "name": "Blast Sense",
+          "band": 2,
+          "group": "info",
+          "cost": 2,
+          "comment": "Mostra tiros e explosões no Dark Sight a até 200 m, sem limite de uso. Quanto melhor o jogador, mais rende: confirma posições exatas e quantos estão na luta. Virou um dos favoritos dele."
+        },
+        {
+          "id": "traits/vigilant",
+          "name": "Vigilant",
+          "band": 2,
+          "group": "info",
+          "cost": 1,
+          "comment": "Mostra armadilhas e besouros ativos no Dark Sight até 25 m (50 m com Catalyst). Por 1 ponto, evita mortes instantâneas ao invadir um compound. Ele quase nunca entra sem."
+        },
+        {
+          "id": "traits/witness",
+          "name": "Witness",
+          "band": 2,
+          "group": "info",
+          "cost": 4,
+          "comment": "Mostra caçadores e monstros mortos no Dark Sight. Serve para contar corpos, saber se alguém foi revivido e ler há quanto tempo passaram por ali. Ele pega sempre, depois do essencial."
+        },
+        {
+          "id": "traits/magpie",
+          "name": "Magpie",
+          "band": 2,
+          "group": "info",
+          "cost": 1,
+          "comment": "Pegar uma recompensa dá antídoto, stamina e regeneração. O valor real é para solo: dobra o Dark Sight Boost e a capacidade dele, igualando um time. Está ranqueado como trait de solo; em time ele daria C."
+        },
+        {
+          "id": "traits/quartermaster",
+          "name": "Quartermaster",
+          "band": 2,
+          "group": "utilidade",
+          "cost": 8,
+          "comment": "Aumenta a capacidade de armas e libera combinações que não cabem de outro jeito, como Auto-5 com Dolch Precision. Não é obrigatório, mas alguns dos loadouts mais fortes do meta só existem com ele.",
+          "update": "Patch 2.8: reformulado para +1 de capacidade de armas, e o custo subiu de 6 para 8."
+        },
+        {
+          "id": "traits/frontiersman",
+          "name": "Frontiersman",
+          "band": 2,
+          "group": "utilidade",
+          "cost": 6,
+          "comment": "Uma carga extra em todas as ferramentas com carga: kit médico, armas de arremesso, armadilhas. Faz parte do combo com Doctor, Physician e Surefoot. Solo com Catalyst ganha duas cargas.",
+          "update": "Patch 2.8: o custo subiu de 5 para 6."
+        },
+        {
+          "id": "traits/vulture",
+          "name": "Vulture",
+          "band": 2,
+          "group": "utilidade",
+          "cost": 2,
+          "comment": "Todo caçador saqueado pela primeira vez rende de 50 a 1.000 Hunt Dollars, e isso acumula com o Packmule. Não ajuda em nada na luta; ele ranqueia pelo que o trait se propõe a fazer, que é dinheiro.",
+          "update": "Patch 2.9: com Catalyst, também rende munição ao saquear, o que o REXNOR achou bem forte."
+        },
+        {
+          "id": "traits/rampage",
+          "name": "Rampage",
+          "band": 3,
+          "group": "burn-scarce",
+          "types": [
+            "burn",
+            "scarce"
+          ],
+          "comment": "Matar um caçador inimigo com pelo menos um pedaço de vida faltando restaura toda a sua vida. Salva quando não há tempo de curar e combina com luneta, mas depende de estar ferido e conseguir o abate."
+        },
+        {
+          "id": "traits/remedy",
+          "name": "Remedy",
+          "band": 3,
+          "group": "burn-scarce",
+          "types": [
+            "burn",
+            "scarce"
+          ],
+          "comment": "Canalizando em qualquer trait próximo pelo Dark Sight, restaura a vida do time inteiro. Dá para planejar o uso (traits selados; Meatheads e Brutes costumam dropar) e funciona pela visão do besouro. Ótimo em time coordenado, fraco para solo."
+        },
+        {
+          "id": "traits/siphon",
+          "name": "Siphon",
+          "band": 3,
+          "group": "burn-scarce",
+          "types": [
+            "burn",
+            "scarce",
+            "evento"
+          ],
+          "comment": "Ao saquear um caçador morto, rouba um trait scarce dele e deixa o Siphon no lugar. Prioriza Death Cheat; jogando solo, depois tenta Necromancer (não dá para roubar de outro solo). Vem dos Blood Wells do evento Blood Testament. O REXNOR viu potencial enorme, principalmente para solo.",
+          "update": "Novo no patch 2.9 e fora do guia. Posição sugerida por mim, a partir do que o REXNOR comentou na cobertura do patch.",
+          "adjusted": true
+        },
+        {
+          "id": "traits/crack-shot",
+          "name": "Crack Shot",
+          "band": 3,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Reduz o balanço das armas e aumenta o zoom da mira de ferro em rifles e pistolas com coronha (não vale para espingardas nem versões serradas). Voltou no 2.9 como trait scarce, achado em torres de vigia e pontos de suprimento temáticos.",
+          "update": "Novo no patch 2.9 e fora do guia. Posição sugerida por mim, a partir do que o REXNOR comentou na cobertura do patch.",
+          "adjusted": true
+        },
+        {
+          "id": "traits/vigor",
+          "name": "Vigor",
+          "band": 3,
+          "group": "cura-defesa",
+          "cost": 3,
+          "comment": "Dobra a regeneração de vida e stamina no Dark Sight. Acelera injeções de regeneração e a recuperação de vida carbonizada, mais ainda se você estiver molhado. Ficou mais forte depois que Relentless e as injeções de recuperação passaram a carbonizar 24 de vida."
+        },
+        {
+          "id": "traits/levering",
+          "name": "Levering",
+          "band": 3,
+          "group": "tiro",
+          "cost": 7,
+          "comment": "Aumenta muito a cadência no hipfire das armas de alavanca, incluindo a Terminus. Sempre é melhoria, mas custa caro; ele compra depois de extrair, como luxo.",
+          "update": "Patch 2.9: a Terminus foi buffada e depende deste trait, o que aumenta o valor dele."
+        },
+        {
+          "id": "traits/iron-eye",
+          "name": "Iron Eye",
+          "band": 3,
+          "group": "tiro",
+          "cost": 3,
+          "comment": "Mantém a mira ao ciclar armas de ferrolho, alavanca e pump, e ainda aumenta a cadência delas, coisa que o jogo não avisa. Depende da arma e do estilo de jogo."
+        },
+        {
+          "id": "traits/fanning",
+          "name": "Fanning",
+          "band": 3,
+          "group": "tiro",
+          "cost": 8,
+          "comment": "Hipfire rápido em pistolas de ação simples, agora também nas de duas mãos. Pode salvar um loadout lento, principalmente solo. É caro e varia por arma: a Conversion é a favorita dele; Haymaker e Uppercut só de muito perto."
+        },
+        {
+          "id": "traits/scopesmith",
+          "name": "Scopesmith",
+          "band": 3,
+          "group": "tiro",
+          "cost": 2,
+          "comment": "Fica na luneta ao ciclar e, o que o jogo não diz, aumenta a cadência das armas com luneta que não são de tiro único. Ele usa quase sempre nesses snipers."
+        },
+        {
+          "id": "traits/martialist",
+          "name": "Martialist",
+          "band": 3,
+          "group": "melee",
+          "cost": 2,
+          "comment": "Só para a katana: o golpe saindo da bainha é muito rápido, atravessa vários inimigos, mata até acertando na perna e não gasta stamina. Se for jogar de katana, vale sempre."
+        },
+        {
+          "id": "traits/bolt-thrower",
+          "name": "Bolt Thrower",
+          "band": 3,
+          "group": "melee",
+          "cost": 3,
+          "comment": "Corta pela metade a recarga de bestas, Bomb Lance, Bomb Launcher e Chu Ko Nu (a besta cai de 5,3 para 2,65 s). Quase obrigatório para quem usa essas armas."
+        },
+        {
+          "id": "traits/packmule",
+          "name": "Packmule",
+          "band": 3,
+          "group": "utilidade",
+          "cost": 4,
+          "comment": "Saquear caçador, caixa de ferramentas ou alforje dá um item extra. Mantém você abastecido e, quando já está cheio, rende dinheiro. Fortíssimo; ele só não prioriza porque a concorrência é grande."
+        },
+        {
+          "id": "traits/relentless",
+          "name": "Relentless",
+          "band": 4,
+          "group": "burn-scarce",
+          "types": [
+            "burn",
+            "scarce"
+          ],
+          "comment": "Ao ser derrubado, você não perde o pedaço de vida. Depois do nerf, a barra volta com 24 pontos carbonizados, então você fica com 126 de vida por um bom tempo, ao alcance de um tiro no torso das armas fortes. Só vale em time; solo não muda nada."
+        },
+        {
+          "id": "traits/berserker",
+          "name": "Berserker",
+          "band": 4,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Dobra o dano corpo a corpo. Em PvP muda pouco, porque quase tudo já mata em um golpe; brilha no PvE, derrubando chefes muito mais rápido, inclusive arremessando pás, machados e marretas achados no mapa."
+        },
+        {
+          "id": "traits/catalyst",
+          "name": "Catalyst",
+          "band": 4,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Liga os efeitos extras de outros traits. O que pesa de verdade é Frontiersman no solo (+2 cargas em vez de +1) e Beastface para furtividade; o resto é bônus. Ocupa um espaço de trait, então só vale em builds específicas.",
+          "update": "Patch 2.9: ganhou sinergia com Vulture (munição ao saquear) e Lightfoot (não quebra galhos)."
+        },
+        {
+          "id": "traits/chupacabra",
+          "name": "Chupacabra",
+          "band": 4,
+          "group": "burn-scarce",
+          "cost": 2,
+          "types": [
+            "burn",
+            "evento"
+          ],
+          "comment": "Interagindo com um cavalo, vaca ou gaiola de animais vivos, recupera um pedaço de vida perdido (o animal morre). O REXNOR achou muito útil por 2 pontos, já que economiza uma injeção de recuperação, mas arriscado de depender.",
+          "update": "Novo no patch 2.9 e fora do guia. Posição sugerida por mim, a partir do que o REXNOR comentou na cobertura do patch.",
+          "adjusted": true
+        },
+        {
+          "id": "traits/blademancer",
+          "name": "Blademancer",
+          "band": 4,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "No Dark Sight, a munição recuperável à sua frente (flechas, virotes, facas) volta sozinha para o inventário, até 100 m. O REXNOR destaca a combinação com o arco, que perdeu munição no 2.9.",
+          "update": "Novo no patch 2.9 e fora do guia. Posição sugerida por mim, a partir do que o REXNOR comentou na cobertura do patch.",
+          "adjusted": true
+        },
+        {
+          "id": "traits/corpse-seer",
+          "name": "Corpse Seer",
+          "band": 4,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Saquear caçadores caídos dá Dark Sight Boost. Voltou no 2.9 como trait scarce, achado em torres de vigia e pontos de suprimento temáticos.",
+          "update": "Novo no patch 2.9 e fora do guia. Posição sugerida por mim, a partir do que o REXNOR comentou na cobertura do patch.",
+          "adjusted": true
+        },
+        {
+          "id": "traits/ghoul",
+          "name": "Ghoul",
+          "band": 4,
+          "group": "cura-defesa",
+          "cost": 3,
+          "comment": "Matar monstros recupera um pouco de vida, com qualquer arma. Economiza kits, mas já existem muitas formas de curar; o problema é ocupar um espaço de trait."
+        },
+        {
+          "id": "traits/salveskin",
+          "name": "Salveskin",
+          "band": 4,
+          "group": "cura-defesa",
+          "cost": 2,
+          "comment": "Limita o dano de fogo e a velocidade com que a queima piora; munição incendiária não te acende no primeiro tiro. Perdeu a proteção ao corpo caído, então ele raramente usa."
+        },
+        {
+          "id": "traits/bloodless",
+          "name": "Bloodless",
+          "band": 4,
+          "group": "cura-defesa",
+          "cost": 3,
+          "comment": "O sangramento nunca passa de leve. Fortíssimo contra munição de sangramento, inútil fora disso; o custo real é o espaço de trait."
+        },
+        {
+          "id": "traits/bulwark",
+          "name": "Bulwark",
+          "band": 4,
+          "group": "cura-defesa",
+          "cost": 2,
+          "comment": "Corta pela metade o dano de explosões (dinamite, barris, munição explosiva) e encurta o efeito de flash. Não protege de bomba de fragmentação nem de arpão grudado. Ótimo custo no começo; em build completa costuma sair."
+        },
+        {
+          "id": "traits/kiteskin",
+          "name": "Kiteskin",
+          "band": 4,
+          "group": "movimento",
+          "cost": 1,
+          "comment": "Reduz o dano de queda em cerca de um terço. Ótimo preenchimento por 1 ponto em caçador novo; com Catalyst você não morre de queda. É um dos primeiros a sair em build completa."
+        },
+        {
+          "id": "traits/lightfoot",
+          "name": "Lightfoot",
+          "band": 4,
+          "group": "movimento",
+          "cost": 5,
+          "comment": "Pula obstáculos, cai e sobe escadas sem barulho, e faz menos ruído em armadilhas sonoras. Vale para quem joga furtivo; ele admite que deveria usar mais e entende quem coloca um tier acima.",
+          "update": "Patch 2.9: com Catalyst, você não quebra mais galhos (efeito que antes era do Beastface)."
+        },
+        {
+          "id": "traits/fast-fingers",
+          "name": "Fast Fingers",
+          "band": 4,
+          "group": "tiro",
+          "cost": 4,
+          "comment": "Prepara balas entre os dedos para recarregar mais rápido rifles de tiro único (Sparks, Martini-Henry, Maynard, Springfield). Muito forte na Springfield, razoável nas outras; 4 pontos é difícil de justificar."
+        },
+        {
+          "id": "traits/bulletgrubber",
+          "name": "Bulletgrubber",
+          "band": 4,
+          "group": "tiro",
+          "cost": 4,
+          "comment": "Recupera a bala ejetada em recarga parcial. Em muita arma dá para contornar recarregando com a câmara aberta; vale mesmo no Mosin Obrez e na Terminus com Levering."
+        },
+        {
+          "id": "traits/hundred-hands",
+          "name": "Hundred Hands",
+          "band": 4,
+          "group": "melee",
+          "cost": 3,
+          "comment": "Aumenta em 10% o dano do arco no puxão completo, reduz o balanço e permite golpear com flechas. Continua recomendado para quem joga de arco, mas rende menos do que na época do guia.",
+          "update": "Ajustado por mim: o guia dava A, quando o trait custava 2 e rendia +6 m de one-shot no torso. No 2.8 o custo subiu para 3 e, com o nerf do arco no 2.9, a diferença caiu para +3 m (30 m com o trait, 27 m sem).",
+          "adjusted": true
+        },
+        {
+          "id": "traits/pitcher",
+          "name": "Pitcher",
+          "band": 4,
+          "group": "melee",
+          "cost": 4,
+          "comment": "Arremessa mais longe ferramentas e consumíveis: dinamite, bombas, lanternas, até besouros. Forte para quem joga de explosivo e combina com Surefoot; o trunfo é pegar o inimigo de surpresa."
+        },
+        {
+          "id": "traits/serpent",
+          "name": "Serpent",
+          "band": 4,
+          "group": "info",
+          "cost": 4,
+          "comment": "Pega pistas, fendas, banimento e tokens de recompensa à distância pelo Dark Sight (25 m; 50 m solo), inclusive com o besouro. Reduz muito o risco, mas costuma perder a vaga para traits mais fortes."
+        },
+        {
+          "id": "traits/beastface",
+          "name": "Beastface",
+          "band": 4,
+          "group": "utilidade",
+          "cost": 4,
+          "comment": "Os animais só reagem a você de mais perto. Sozinho é fraco; com Catalyst eles deixam de detectar seu movimento por completo, e é por esse combo que ele sobe.",
+          "update": "Patch 2.9: o efeito de não quebrar galhos com Catalyst passou para o Lightfoot."
+        },
+        {
+          "id": "traits/shadow-leap",
+          "name": "Shadow Leap",
+          "band": 5,
+          "group": "burn-scarce",
+          "types": [
+            "scarce"
+          ],
+          "comment": "Teleporta até um monstro comum pelo Dark Sight e o mata. Na prática rende pouco: a canalização demora, tira vida, e os monstros acabam cedo na partida. Para ele é o mais fraco dos burn e scarce.",
+          "update": "Patch 2.8.1: a canalização caiu de 4 para 3 segundos."
+        },
+        {
+          "id": "traits/greyhound",
+          "name": "Greyhound",
+          "band": 5,
+          "group": "movimento",
+          "cost": 2,
+          "comment": "Dobra o tempo de corrida, de 34 para 68 s. Só que não faz nada com um efeito de stamina ativo, e ele sempre leva injeção de stamina. Bom no começo, sai em build completa."
+        },
+        {
+          "id": "traits/determination",
+          "name": "Determination",
+          "band": 5,
+          "group": "movimento",
+          "cost": 1,
+          "comment": "A stamina de corrida e de corpo a corpo começa a voltar em 1,5 s em vez de 3. Mesmo problema do Greyhound: inútil com efeito de stamina ativo."
+        },
+        {
+          "id": "traits/conduit",
+          "name": "Conduit",
+          "band": 5,
+          "group": "movimento",
+          "cost": 5,
+          "comment": "Pegar uma pista dá 3 minutos de stamina e 50 de vida. Solo recebe em dobro e pega duas pistas de uma vez; por isso, para solo ele sobe um tier. Em time não compensa 5 pontos para quem já leva injeção de stamina."
+        },
+        {
+          "id": "traits/steady-aim",
+          "name": "Steady Aim",
+          "band": 5,
+          "group": "tiro",
+          "cost": 2,
+          "comment": "Reduz aos poucos o balanço na luneta e na mira Aperture. Para ele é muleta: agachar dá efeito parecido de graça. Ajuda em tiros muito longos."
+        },
+        {
+          "id": "traits/ambidextrous",
+          "name": "Ambidextrous",
+          "band": 5,
+          "group": "tiro",
+          "cost": 3,
+          "comment": "Recarrega mais rápido pistolas duplas. Como elas já têm muita munição antes de recarregar, quase nunca faz falta."
+        },
+        {
+          "id": "traits/silent-killer",
+          "name": "Silent Killer",
+          "band": 5,
+          "group": "melee",
+          "cost": 3,
+          "comment": "Menos barulho nos ataques corpo a corpo: somem o grunhido e a respiração do golpe pesado. Ajuda em emboscada, mas com bom posicionamento dá para fazer o mesmo sem ele."
+        },
+        {
+          "id": "traits/assailant",
+          "name": "Assailant",
+          "band": 5,
+          "group": "melee",
+          "cost": 1,
+          "comment": "Facas e machados de arremesso ficam mais fortes no corpo a corpo e ganham novas animações. Só que a lança de arremesso supera os dois, então quase ninguém os leva."
+        },
+        {
+          "id": "traits/pain-sense",
+          "name": "Pain Sense",
+          "band": 5,
+          "group": "info",
+          "cost": 3,
+          "comment": "Mostra no Dark Sight caçadores sangrando, envenenados ou queimando. Só rende em builds que aplicam esses efeitos, e mesmo nelas raramente faz falta."
+        },
+        {
+          "id": "traits/poltergeist",
+          "name": "Poltergeist",
+          "band": 5,
+          "group": "info",
+          "cost": 2,
+          "comment": "Interage com objetos do mundo a até 50 m pelo Dark Sight: abre portas, toca sinos, assusta animais. Cria jogadas, mas polui demais o Dark Sight destacando tudo."
+        },
+        {
+          "id": "traits/poacher",
+          "name": "Poacher",
+          "band": 5,
+          "group": "utilidade",
+          "cost": 1,
+          "comment": "Coloca e desarma armadilhas sem barulho. Permite armar no meio da luta sem o inimigo perceber; divertido, mas de nicho."
+        },
+        {
+          "id": "traits/whispersmith",
+          "name": "Whispersmith",
+          "band": 5,
+          "group": "utilidade",
+          "cost": 1,
+          "comment": "Menos barulho ao trocar de arma, ferramenta e consumível. Se o inimigo ouve isso, provavelmente já sabe onde você está."
+        },
+        {
+          "id": "traits/hornskin",
+          "name": "Hornskin",
+          "band": 6,
+          "group": "cura-defesa",
+          "cost": 3,
+          "comment": "Reduz em 25% o dano corpo a corpo contundente. Na prática não muda nada: o taco ainda mata em um golpe pesado, e contra katana não serve."
+        },
+        {
+          "id": "traits/mithridatist",
+          "name": "Mithridatist",
+          "band": 6,
+          "group": "cura-defesa",
+          "cost": 2,
+          "comment": "Recupera do veneno mais rápido. Veneno não causa dano sozinho e já é anulado por injeção de antídoto, que dura de 5 a 10 minutos. Ele nunca compra."
+        },
+        {
+          "id": "traits/adrenaline",
+          "name": "Adrenaline",
+          "band": 6,
+          "group": "movimento",
+          "cost": 1,
+          "comment": "Dá um pouco de stamina ao entrar em vida crítica. Situacional demais; para solo ativa ao levantar do auto-revive, mas quase não faz diferença."
+        },
+        {
+          "id": "traits/gator-legs",
+          "name": "Gator Legs",
+          "band": 6,
+          "group": "movimento",
+          "cost": 3,
+          "comment": "Anda e corre mais rápido e com menos barulho em água funda. Depende demais do mapa, e ficar na água já é má ideia."
+        },
+        {
+          "id": "traits/blade-seer",
+          "name": "Blade Seer",
+          "band": 6,
+          "group": "info",
+          "cost": 1,
+          "comment": "Mostra projéteis recuperáveis no Dark Sight até 75 m. Desde o patch 2.5 você já vê até 25 m sem o trait, então sobra pouca utilidade."
+        },
+        {
+          "id": "traits/decoy-supply",
+          "name": "Decoy Supply",
+          "band": 6,
+          "group": "utilidade",
+          "cost": 1,
+          "comment": "Reabastece iscas em caixas de munição. Ele mal lembra que existe."
+        }
+      ]
+    }
+  ]
+}

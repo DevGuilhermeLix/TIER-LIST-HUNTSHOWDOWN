@@ -27,6 +27,7 @@ export default function TierBoard({ data }) {
   const [categoryByView, setCategoryByView] = useState(() =>
     Object.fromEntries(data.views.map((v) => [v.id, v.categories[0].id])),
   );
+  const [groupByCategory, setGroupByCategory] = useState({});
   const [query, setQuery] = useState('');
   const [editing, setEditing] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
@@ -44,9 +45,21 @@ export default function TierBoard({ data }) {
     [category],
   );
 
+  const isTraits = view.kind === 'traits';
+  const noun = isTraits ? { one: 'trait', other: 'traits' } : { one: 'arma', other: 'armas' };
+
+  // Categorias com grupos (traits) trocam as abas de categoria por um filtro de grupo.
+  const groups = view.categories.length === 1 ? category.groups || null : null;
+  const groupId = groups ? groupByCategory[category.id] || null : null;
+  const group = groupId ? groups.find((g) => g.id === groupId) : null;
+  const inGroup = (weapon) => !groupId || weapon.group === groupId;
+  const shown = category.weapons.filter(inGroup);
+  // "63 traits", mas "46 armas em Rifles" ou "14 traits em Burn e Scarce".
+  const scope = groups && !group ? '' : ` em ${group ? group.label : category.label}`;
+
   const needle = normalize(query.trim());
   const matches = (weapon) => !needle || normalize(weapon.name).includes(needle);
-  const matchCount = category.weapons.filter(matches).length;
+  const matchCount = shown.filter(matches).length;
 
   const changed = useMemo(() => changedIds(category, layout), [category, layout]);
   const totalChanged = useMemo(
@@ -56,10 +69,12 @@ export default function TierBoard({ data }) {
   const categoryDirty = !sameLayout(layout, defaults[category.id]);
   const anyDirty = allCategories.some((c) => !sameLayout(layouts[c.id], defaults[c.id]));
 
-  // Fora do modo de edição, esconde os tiers vazios do fim da lista.
-  const defaultTierCount = Math.max(...category.weapons.map((w) => w.band));
-  const lastUsed = TIERS.reduce((last, t, i) => (layout[t.id].length ? i : last), 0);
-  const visibleTiers = editing ? TIERS : TIERS.slice(0, Math.max(defaultTierCount, lastUsed + 1));
+  // Fora do modo de edição, esconde os tiers vazios antes do primeiro e depois do último em uso.
+  const bands = category.weapons.map((w) => w.band - 1);
+  const used = TIERS.map((t, i) => (layout[t.id].length ? i : -1)).filter((i) => i >= 0);
+  const firstTier = Math.min(...bands, ...used);
+  const lastTier = Math.max(...bands, ...used);
+  const visibleTiers = editing ? TIERS : TIERS.slice(firstTier, lastTier + 1);
 
   const selected = selectedId ? weaponsById[selectedId] : null;
   const selectedTier = selected ? tierOf(layout, selected.id) : null;
@@ -80,6 +95,11 @@ export default function TierBoard({ data }) {
 
   function switchCategory(id) {
     setCategoryByView((prev) => ({ ...prev, [viewId]: id }));
+    setSelectedId(null);
+  }
+
+  function switchGroup(id) {
+    setGroupByCategory((prev) => ({ ...prev, [category.id]: id }));
     setSelectedId(null);
   }
 
@@ -141,7 +161,7 @@ export default function TierBoard({ data }) {
       <header>
         <p className="font-display text-xs uppercase tracking-[0.3em] text-brass">Hunt: Showdown 1896</p>
         <h1 className="mt-2 font-display text-4xl font-semibold uppercase tracking-wide sm:text-5xl">
-          Tier list de armas
+          Tier list de {noun.other}
         </h1>
       </header>
 
@@ -168,8 +188,8 @@ export default function TierBoard({ data }) {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Buscar arma…"
-            aria-label="Buscar arma"
+            placeholder={`Buscar ${noun.one}…`}
+            aria-label={`Buscar ${noun.one}`}
             className="order-last h-9 w-full rounded-md border border-line bg-panel px-3 text-sm text-bone placeholder:text-muted focus:border-brass focus:outline-none sm:order-none sm:w-auto sm:max-w-xs sm:flex-1"
           />
 
@@ -186,25 +206,39 @@ export default function TierBoard({ data }) {
           </button>
         </div>
 
-        <div className="mt-3 flex gap-1 overflow-x-auto [scrollbar-width:none]" role="tablist" aria-label={view.label}>
-          {view.categories.map((c) => {
-            const active = c.id === category.id;
-            const total = c.weapons.length;
-            const found = needle ? c.weapons.filter(matches).length : total;
+        <div className="mt-3 flex gap-1 overflow-x-auto [scrollbar-width:none] sm:flex-wrap" role="tablist" aria-label={view.label}>
+          {(groups
+            ? [{ id: null, label: 'Todos' }, ...groups].map((g) => ({
+                key: g.id || 'todos',
+                label: g.label,
+                active: g.id === groupId,
+                items: g.id ? category.weapons.filter((w) => w.group === g.id) : category.weapons,
+                onSelect: () => switchGroup(g.id),
+              }))
+            : view.categories.map((c) => ({
+                key: c.id,
+                label: c.label,
+                active: c.id === category.id,
+                items: c.weapons,
+                onSelect: () => switchCategory(c.id),
+              }))
+          ).map((tab) => {
+            const total = tab.items.length;
+            const found = needle ? tab.items.filter(matches).length : total;
             return (
               <button
-                key={c.id}
+                key={tab.key}
                 type="button"
                 role="tab"
-                aria-selected={active}
-                onClick={() => switchCategory(c.id)}
+                aria-selected={tab.active}
+                onClick={tab.onSelect}
                 className={[
                   'flex shrink-0 items-baseline gap-2 border-b-2 px-3 py-2 font-display text-base uppercase tracking-wide transition-colors',
-                  active ? 'border-brass text-bone' : 'border-transparent text-muted hover:text-bone',
+                  tab.active ? 'border-brass text-bone' : 'border-transparent text-muted hover:text-bone',
                   needle && found === 0 ? 'opacity-40' : '',
                 ].join(' ')}
               >
-                {c.label}
+                {tab.label}
                 <span className="font-sans text-xs font-medium normal-case tracking-normal tabular-nums text-muted">
                   {needle ? `${found}/${total}` : total}
                 </span>
@@ -217,7 +251,7 @@ export default function TierBoard({ data }) {
       {editing ? (
         <div className="mt-4 rounded-lg border border-brass/40 bg-brass/5 p-3 sm:p-4">
           <p className="text-sm text-bone">
-            Arraste uma arma para outra faixa, ou clique nela e escolha o tier. As mudanças ficam salvas neste
+            Arraste um card para outra faixa, ou clique nele e escolha o tier. As mudanças ficam salvas neste
             navegador.
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -237,7 +271,7 @@ export default function TierBoard({ data }) {
               className={toolButton}
               disabled={!anyDirty}
               onClick={() => {
-                if (!window.confirm('Voltar todas as categorias para os tiers originais da planilha?')) return;
+                if (!window.confirm('Voltar todas as listas para os tiers originais?')) return;
                 resetAll();
                 setSelectedId(null);
               }}
@@ -262,22 +296,21 @@ export default function TierBoard({ data }) {
 
       <p className="mt-4 text-sm text-muted">
         {needle
-          ? `${matchCount} de ${category.weapons.length} armas em ${category.label} batem com a busca`
-          : `${category.weapons.length} armas em ${category.label}`}
-        {editing ? '' : ' · clique numa arma para ver o comentário'}
-        {totalChanged > 0
-          ? ` · ${totalChanged} ${totalChanged === 1 ? 'arma fora' : 'armas fora'} do tier original`
-          : ''}
+          ? `${matchCount} de ${shown.length} ${noun.other}${scope} batem com a busca`
+          : `${shown.length} ${noun.other}${scope}`}
+        {editing ? '' : ' · clique num card para ver o comentário'}
+        {totalChanged > 0 ? ` · ${totalChanged} fora do tier original` : ''}
       </p>
 
       <div className="mt-3 flex flex-col gap-2" onDragEnd={endDrag}>
         {visibleTiers.map((tier) => {
-          const ids = layout[tier.id];
+          const ids = layout[tier.id].filter((id) => inGroup(weaponsById[id]));
           return (
             <TierRow
               key={tier.id}
               tier={tier}
               count={ids.length}
+              compact={isTraits}
               editing={editing}
               dropActive={dropTarget?.tier === tier.id}
               onDragOver={(e) => markDropTarget(e, tier.id, null)}
@@ -289,6 +322,7 @@ export default function TierBoard({ data }) {
                   <WeaponChip
                     key={id}
                     weapon={weapon}
+                    kind={view.kind}
                     editing={editing}
                     selected={id === selectedId}
                     dimmed={!matches(weapon)}
@@ -325,27 +359,37 @@ export default function TierBoard({ data }) {
             slots que a arma ocupa
           </span>
         ) : null}
-        <span className="flex items-center gap-2">
-          <span className="flex size-4 items-center justify-center rounded-full border border-brass/60 text-[10px] font-semibold text-brass">
-            ?
+        {isTraits ? (
+          <>
+            <span>pts = custo em pontos de upgrade</span>
+            <span className="flex items-center gap-2">
+              <span className="flex size-4 items-center justify-center rounded-full border border-brass/60 text-[10px] font-semibold text-brass">
+                *
+              </span>
+              posição definida fora do guia
+            </span>
+          </>
+        ) : (
+          <span className="flex items-center gap-2">
+            <span className="flex size-4 items-center justify-center rounded-full border border-brass/60 text-[10px] font-semibold text-brass">
+              ?
+            </span>
+            nome a conferir
           </span>
-          nome a conferir (transcrito de captura de tela)
-        </span>
+        )}
         <span className="flex items-center gap-2">
           <span className="size-2 rounded-full bg-brass" />
           tier alterado por você
         </span>
-        <span className="basis-full">
-          Ordem e comentários: tier list de {data.source.author} para o patch 2.9, resumida em português. Ícones das armas: Hunt: Showdown 1896 Wiki (huntshowdown.wiki.gg). Hunt: Showdown e suas imagens pertencem à
-          Crytek.
-        </span>
+        <span className="basis-full">{view.credit} Hunt: Showdown e suas imagens pertencem à Crytek.</span>
       </footer>
 
       <WeaponDetail
         weapon={opened}
+        kind={view.kind}
         tier={opened ? TIER_BY_ID[tierOf(layout, opened.id)] : null}
-        categoryLabel={category.label}
-        source={data.source}
+        contextLabel={opened && groups ? groups.find((g) => g.id === opened.group)?.label : category.label}
+        source={view.source}
         onClose={() => setOpenId(null)}
       />
 

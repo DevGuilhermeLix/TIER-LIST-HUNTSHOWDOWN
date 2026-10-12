@@ -1,6 +1,9 @@
 'use client';
 
+import traitIcons from '@/data/trait-icons.json';
 import images from '@/data/weapon-images.json';
+
+export const TRAIT_TYPE_LABEL = { burn: 'Burn', scarce: 'Scarce', evento: 'Evento' };
 
 function SlotPips({ slots }) {
   return (
@@ -15,8 +18,83 @@ function SlotPips({ slots }) {
   );
 }
 
+function Marker({ symbol, title }) {
+  return (
+    <span
+      title={title}
+      className="flex size-4 shrink-0 items-center justify-center rounded-full border border-brass/60 text-[10px] font-semibold text-brass"
+    >
+      {symbol}
+      <span className="sr-only"> {title}</span>
+    </span>
+  );
+}
+
+export function TraitIcon({ name, className }) {
+  const icon = traitIcons[name];
+  if (icon) {
+    return <img src={`/traits/${icon}`} alt="" width={64} height={64} draggable={false} className={className} />;
+  }
+  const initials = name
+    .split(' ')
+    .map((word) => word[0])
+    .join('')
+    .slice(0, 2);
+  return (
+    <span
+      className={`flex items-center justify-center rounded-full border border-line bg-ink font-display text-lg text-muted ${className}`}
+    >
+      {initials}
+    </span>
+  );
+}
+
+function WeaponBody({ weapon }) {
+  const image = images[weapon.name];
+  return (
+    <>
+      {image ? (
+        <img
+          src={`/weapons/${image}`}
+          alt=""
+          width={512}
+          height={128}
+          loading="lazy"
+          draggable={false}
+          className="aspect-[4/1] w-full object-contain drop-shadow-[0_2px_3px_rgb(0_0_0/0.6)]"
+        />
+      ) : (
+        <span className="flex aspect-[4/1] w-full items-center justify-center rounded border border-dashed border-line text-[10px] uppercase tracking-wider text-muted">
+          sem imagem
+        </span>
+      )}
+      <span className="flex min-h-8 flex-wrap items-center justify-center gap-x-1.5 gap-y-1 text-xs leading-tight">
+        <span>{weapon.name}</span>
+        {weapon.slots ? <SlotPips slots={weapon.slots} /> : null}
+        {weapon.note ? <Marker symbol="?" title={weapon.note} /> : null}
+      </span>
+    </>
+  );
+}
+
+function TraitBody({ trait }) {
+  const cost = trait.cost ? `${trait.cost} ${trait.cost === 1 ? 'pt' : 'pts'}` : null;
+  const tags = [cost, ...(trait.types || []).map((t) => TRAIT_TYPE_LABEL[t])];
+  return (
+    <>
+      <TraitIcon name={trait.name} className="size-12" />
+      <span className="flex items-center justify-center gap-1.5 text-xs leading-tight">
+        <span>{trait.name}</span>
+        {trait.adjusted ? <Marker symbol="*" title="Posição definida fora do guia" /> : null}
+      </span>
+      <span className="text-[11px] leading-none text-muted">{tags.filter(Boolean).join(' · ')}</span>
+    </>
+  );
+}
+
 export default function WeaponChip({
   weapon,
+  kind,
   editing,
   selected,
   dimmed,
@@ -30,7 +108,6 @@ export default function WeaponChip({
   onDragOver,
   onDrop,
 }) {
-  const image = images[weapon.name];
   // Editando, o clique seleciona para mover; fora da edição, abre os detalhes.
   const interactive = editing
     ? {
@@ -58,33 +135,7 @@ export default function WeaponChip({
         dropBefore ? 'shadow-[-4px_0_0_0_var(--color-brass)]' : '',
       ].join(' ')}
     >
-      {image ? (
-        <img
-          src={`/weapons/${image}`}
-          alt=""
-          width={512}
-          height={128}
-          loading="lazy"
-          draggable={false}
-          className="aspect-[4/1] w-full object-contain drop-shadow-[0_2px_3px_rgb(0_0_0/0.6)]"
-        />
-      ) : (
-        <span className="flex aspect-[4/1] w-full items-center justify-center rounded border border-dashed border-line text-[10px] uppercase tracking-wider text-muted">
-          sem imagem
-        </span>
-      )}
-      <span className="flex min-h-8 flex-wrap items-center justify-center gap-x-1.5 gap-y-1 text-xs leading-tight">
-        <span>{weapon.name}</span>
-        {weapon.slots ? <SlotPips slots={weapon.slots} /> : null}
-        {weapon.note ? (
-          <span
-            title={weapon.note}
-            className="flex size-4 shrink-0 items-center justify-center rounded-full border border-brass/60 text-[10px] font-semibold text-brass"
-          >
-            ?<span className="sr-only"> {weapon.note}</span>
-          </span>
-        ) : null}
-      </span>
+      {kind === 'traits' ? <TraitBody trait={weapon} /> : <WeaponBody weapon={weapon} />}
       {originalTier ? (
         <span
           title={`Tier original: ${originalTier}`}

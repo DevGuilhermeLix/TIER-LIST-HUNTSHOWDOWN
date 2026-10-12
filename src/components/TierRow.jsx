@@ -1,6 +1,6 @@
 'use client';
 
-export default function TierRow({ tier, count, editing, dropActive, onDragOver, onDrop, children }) {
+export default function TierRow({ tier, count, compact, editing, dropActive, onDragOver, onDrop, children }) {
   const empty = count === 0;
   return (
     <section
@@ -20,9 +20,16 @@ export default function TierRow({ tier, count, editing, dropActive, onDragOver, 
         <span className="font-display text-2xl font-semibold leading-none sm:text-4xl">{tier.id}</span>
         <span className="mt-1.5 text-[11px] font-semibold tabular-nums opacity-70">{count}</span>
       </div>
-      <div className="grid min-h-16 grid-cols-[repeat(auto-fill,minmax(7rem,1fr))] content-center gap-2 p-2.5 sm:grid-cols-[repeat(auto-fill,minmax(10.5rem,1fr))] sm:p-3">
+      <div
+        className={[
+          'grid min-h-16 content-center gap-2 p-2.5 sm:p-3',
+          compact
+            ? 'grid-cols-[repeat(auto-fill,minmax(6.25rem,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))]'
+            : 'grid-cols-[repeat(auto-fill,minmax(7rem,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(10.5rem,1fr))]',
+        ].join(' ')}
+      >
         {empty ? (
-          <span className="col-span-full px-1 text-sm text-muted">{editing ? 'Solte uma arma aqui' : 'Nenhuma arma'}</span>
+          <span className="col-span-full px-1 text-sm text-muted">{editing ? 'Solte aqui' : 'Vazio'}</span>
         ) : (
           children
         )}
