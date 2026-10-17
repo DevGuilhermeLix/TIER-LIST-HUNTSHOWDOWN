@@ -5,6 +5,7 @@ import { changedIds, moveWeapon, sameLayout, shiftWeapon, tierOf } from '@/lib/l
 import { TIERS, TIER_BY_ID, tierForBand } from '@/lib/tiers';
 import { useTierLayouts } from '@/lib/useTierLayouts';
 import BossGuide from './BossGuide';
+import LoadoutGuide from './LoadoutGuide';
 import MoveBar from './MoveBar';
 import TierRow from './TierRow';
 import WeaponChip from './WeaponChip';
@@ -25,8 +26,9 @@ export default function TierBoard({ data }) {
     useTierLayouts(allCategories);
 
   const [viewId, setViewId] = useState(data.views[0].id);
-  // O guia de bosses não é uma tier list: ao abri-lo, a última lista fica guardada em viewId.
-  const [showBosses, setShowBosses] = useState(false);
+  // Os guias (loadouts, bosses) não são tier lists: ao abrir um, a última lista fica guardada em viewId.
+  const [guideId, setGuideId] = useState(null);
+  const guide = data.guides.find((g) => g.id === guideId) || null;
   const [categoryByView, setCategoryByView] = useState(() =>
     Object.fromEntries(data.views.map((v) => [v.id, v.categories[0].id])),
   );
@@ -93,12 +95,12 @@ export default function TierBoard({ data }) {
 
   function switchView(id) {
     setViewId(id);
-    setShowBosses(false);
+    setGuideId(null);
     setSelectedId(null);
   }
 
-  function openBosses() {
-    setShowBosses(true);
+  function openGuide(id) {
+    setGuideId(id);
     setEditing(false);
     setSelectedId(null);
   }
@@ -171,7 +173,7 @@ export default function TierBoard({ data }) {
       <header>
         <p className="font-display text-xs uppercase tracking-[0.3em] text-brass">Hunt: Showdown 1896</p>
         <h1 className="mt-2 font-display text-4xl font-semibold uppercase tracking-wide sm:text-5xl">
-          {showBosses ? 'Guia de bosses' : `Tier list de ${noun.other}`}
+          {guide ? guide.heading : `Tier list de ${noun.other}`}
         </h1>
       </header>
 
@@ -182,30 +184,33 @@ export default function TierBoard({ data }) {
               <button
                 key={v.id}
                 type="button"
-                aria-pressed={!showBosses && v.id === viewId}
+                aria-pressed={!guide && v.id === viewId}
                 onClick={() => switchView(v.id)}
                 className={[
                   'rounded px-3 py-1.5 text-sm font-medium transition-colors',
-                  !showBosses && v.id === viewId ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
+                  !guide && v.id === viewId ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
                 ].join(' ')}
               >
                 {v.label}
               </button>
             ))}
-            <button
-              type="button"
-              aria-pressed={showBosses}
-              onClick={openBosses}
-              className={[
-                'rounded px-3 py-1.5 text-sm font-medium transition-colors',
-                showBosses ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
-              ].join(' ')}
-            >
-              {data.bosses.label}
-            </button>
+            {data.guides.map((g) => (
+              <button
+                key={g.id}
+                type="button"
+                aria-pressed={g.id === guideId}
+                onClick={() => openGuide(g.id)}
+                className={[
+                  'rounded px-3 py-1.5 text-sm font-medium transition-colors',
+                  g.id === guideId ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
+                ].join(' ')}
+              >
+                {g.label}
+              </button>
+            ))}
           </div>
 
-          {showBosses ? null : (
+          {guide ? null : (
             <>
           <input
             type="search"
@@ -231,7 +236,7 @@ export default function TierBoard({ data }) {
           )}
         </div>
 
-        {showBosses ? null : (
+        {guide ? null : (
         <div className="mt-3 flex gap-1 overflow-x-auto [scrollbar-width:none] sm:flex-wrap" role="tablist" aria-label={view.label}>
           {(groups
             ? [{ id: null, label: 'Todos' }, ...groups].map((g) => ({
@@ -275,8 +280,10 @@ export default function TierBoard({ data }) {
         )}
       </div>
 
-      {showBosses ? (
-        <BossGuide guide={data.bosses} />
+      {guide?.kind === 'bosses' ? (
+        <BossGuide guide={guide} />
+      ) : guide?.kind === 'loadouts' ? (
+        <LoadoutGuide guide={guide} />
       ) : (
         <>
       {editing ? (

@@ -1,0 +1,1867 @@
+{
+  "id": "loadouts",
+  "label": "Loadouts",
+  "kind": "loadouts",
+  "loadouts": [
+    {
+      "id": "officer-carbine-duas-lemat",
+      "name": "Officer Carbine + duas LeMat",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Médio alcance"
+      ],
+      "source": {
+        "creator": "Whityyy",
+        "title": "THIS COMBO GOT EVEN STRONGER!",
+        "url": "https://www.youtube.com/watch?v=agp-1e9WZCQ"
+      },
+      "summary": "O \"loadout de conforto\" do Whityyy, o que ele usa quando quer ganhar. Com High Velocity, a Officer Carbine acerta headshot de longe; as duas LeMat (agora também com High Velocity) seguram o avanço com o cano de espingarda e ainda servem de reserva de munição. Dica dele: saia e volte da mira entre os tiros para recentralizar o recuo, e mexa-se um pouco entre os disparos.",
+      "weapons": [
+        {
+          "name": "Officer Carbine",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "LeMat",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "count": 2,
+          "note": "duas, empunhadura dupla",
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Ambidextrous",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 823,
+      "points": 34,
+      "hasSuggestions": true
+    },
+    {
+      "id": "lemat-carbine-lemat",
+      "name": "LeMat Carbine + LeMat",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Versátil"
+      ],
+      "source": {
+        "creator": "REXNOR",
+        "title": "The Most VERSATILE Weapon Just Got BETTER!",
+        "url": "https://www.youtube.com/watch?v=VRoIz1iQRa0"
+      },
+      "summary": "No 2.9 a família LeMat ganhou High Velocity: a carabina sai de 460 para 560 m/s e quase não precisa compensar queda até 150 m, mantendo o cano de espingarda. Para o REXNOR é uma arma S tier. No vídeo ele usa dark dynamite satchel, sticky bomb e dinamite, e comenta que levou Vigilant e Scopesmith (este último ele admite que não precisava).",
+      "weapons": [
+        {
+          "name": "LeMat Carbine",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            },
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "note": "revólver com High Velocity, cano de espingarda com chumbo",
+          "slots": 3
+        },
+        {
+          "name": "LeMat",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit"
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Dark Dynamite Satchel"
+        },
+        {
+          "name": "Sticky Bomb"
+        },
+        {
+          "name": "Dynamite Stick"
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Vigilant"
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 4,
+      "cost": 710,
+      "points": 31,
+      "hasSuggestions": true
+    },
+    {
+      "id": "lemat-carbine-bornheim-match",
+      "name": "LeMat Carbine + Bornheim Match",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Versátil"
+      ],
+      "source": {
+        "creator": "Whityyy",
+        "title": "Tier list de armas 2.9 (combo recomendado)",
+        "url": "https://www.youtube.com/watch?v=__wfWF6b7jU"
+      },
+      "summary": "O combo que o Whityyy aposta como um dos mais populares do 2.9, a ponto de colocar a Bornheim Match no tier da LeMat: carabina com High Velocity para o tiro de longe, espingarda embaixo para o perto e a Bornheim Match (que mata em dois tiros) para despejar bala a curta distância. Tudo em munição compacta High Velocity.",
+      "weapons": [
+        {
+          "name": "LeMat Carbine",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            },
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "Bornheim No. 3 Match",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "slots": 2
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 709,
+      "points": 31,
+      "hasSuggestions": true
+    },
+    {
+      "id": "burgess-lemat-carbine",
+      "name": "Burgess + LeMat Carbine",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Quartermaster"
+      ],
+      "source": {
+        "creator": "RachtaZ",
+        "title": "The Burgess Shotgun is Extremely Satisfying...",
+        "url": "https://www.youtube.com/watch?v=OnVMDgSw_OQ"
+      },
+      "summary": "A recomendação do RachtaZ para a espingarda nova do 2.9: Burgess com slugs e, de secundária com Quartermaster, a LeMat Carbine também com slugs (e High Velocity no revólver). A Burgess dobrável ocupa só 3 slots, mas demora para sacar e guardar, então vale mais como arma de apoio para quem joga de rifle; ele não recomenda para solo. O REXNOR aposta em outra parceira para ela: a Dolch 96 Precision, também com Quartermaster.",
+      "weapons": [
+        {
+          "name": "Burgess",
+          "ammo": [
+            {
+              "name": "Slug"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "LeMat Carbine",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            },
+            {
+              "name": "Slug"
+            }
+          ],
+          "slots": 3
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Quartermaster"
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 6,
+      "cost": 939,
+      "points": 39,
+      "hasSuggestions": true
+    },
+    {
+      "id": "terminus-pax-trueshot",
+      "name": "Terminus + Pax Trueshot",
+      "category": "meta",
+      "tags": [
+        "Solo",
+        "Curta distância"
+      ],
+      "source": {
+        "creator": "NOAURA",
+        "title": "The BEST SOLO CQC Loadout GUIDE",
+        "url": "https://www.youtube.com/watch?v=x9g2gN0IPUY"
+      },
+      "summary": "Guia completo do NOAURA para solo de curta distância no 2.9. A Terminus foi buffada e agora tem o mesmo spread e dano (207) da Burgess e da Slate, só que cicla mais devagar. Com Levering vira \"S tier\", mas ele mostra que funciona sem ela em caçador nível 1. A Pax Trueshot com FMJ é para ele a melhor pistola para qualquer espingarda de 4 slots: atravessa metal fino e mantém o dano 10 m mais longe.",
+      "weapons": [
+        {
+          "name": "Terminus",
+          "ammo": [
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "Pax Trueshot",
+          "ammo": [
+            {
+              "name": "FMJ"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "Throwing Axes"
+        },
+        {
+          "name": "First Aid Kit"
+        },
+        {
+          "name": "Decoy Fuses"
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Regeneration Shot (Weak)"
+        },
+        {
+          "name": "Vitality Shot (Weak)",
+          "count": 2
+        },
+        {
+          "name": "Stamina Shot"
+        },
+        {
+          "name": "Waxed Dynamite Stick"
+        }
+      ],
+      "traits": [
+        {
+          "name": "Levering"
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Bulletgrubber",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 688,
+      "points": 17,
+      "hasSuggestions": true
+    },
+    {
+      "id": "crossbow-pax",
+      "name": "Crossbow + Pax",
+      "category": "meta",
+      "tags": [
+        "Solo",
+        "Barato"
+      ],
+      "source": {
+        "creator": "NOAURA",
+        "title": "The BEST BUDGET LOADOUT Is a MONEY PRINTER!",
+        "url": "https://www.youtube.com/watch?v=pkuW3WBgIe4"
+      },
+      "summary": "O loadout barato favorito do NOAURA, com tudo detalhado. A besta mata em um tiro no tronco até ~35 m e, se não matar, deixa sangramento pesado. Ele usa virote comum para mostrar que nem precisa gastar, mas o Whityyy recomenda Steel Bolt (mais rápido, menos queda) dividido com Shot Bolt. A Pax cobre a média distância. Bolt Thrower é obrigatório para recarregar a besta.",
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "ammo": [
+            {
+              "name": "Virote padrão"
+            }
+          ],
+          "note": "Whityyy prefere Steel Bolt + Shot Bolt",
+          "slots": 4
+        },
+        {
+          "name": "Pax",
+          "ammo": [
+            {
+              "name": "Padrão"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "Knuckle Knife"
+        },
+        {
+          "name": "First Aid Kit"
+        },
+        {
+          "name": "Decoy Fuses"
+        },
+        {
+          "name": "Fusees"
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "count": 2
+        },
+        {
+          "name": "Stamina Shot"
+        },
+        {
+          "name": "Waxed Dynamite Stick"
+        }
+      ],
+      "traits": [
+        {
+          "name": "Necromancer"
+        },
+        {
+          "name": "Bolt Thrower"
+        },
+        {
+          "name": "Dauntless"
+        },
+        {
+          "name": "Magpie"
+        },
+        {
+          "name": "Adrenaline"
+        }
+      ],
+      "slots": 5,
+      "cost": 399,
+      "points": 10,
+      "hasSuggestions": false
+    },
+    {
+      "id": "mosin-sniper-lemat",
+      "name": "Mosin-Nagant Sniper + LeMat",
+      "category": "meta",
+      "tags": [
+        "Solo",
+        "Sniper"
+      ],
+      "source": {
+        "creator": "Psychoghost Gaming",
+        "title": "The BEST Solo Loadout - Solo Mosin Sniper Spitzer",
+        "url": "https://www.youtube.com/watch?v=rXi3m1cVkWQ"
+      },
+      "summary": "Para o Psychoghost, jogar de sniper é o estilo mais forte para solo. Mosin Sniper com Spitzer (mais velocidade e penetração, permite colaterais; é munição rara, achada no mapa) e a LeMat com munição incendiária para acender barris vermelhos e armadilhas, mais o cano de espingarda para o perto. O erro mais comum, segundo ele, é ficar perto demais.",
+      "weapons": [
+        {
+          "name": "Mosin-Nagant Sniper",
+          "ammo": [
+            {
+              "name": "Spitzer",
+              "scarce": true
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "LeMat",
+          "ammo": [
+            {
+              "name": "Incendiária"
+            },
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Spyglass",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Ammo Box",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Scopesmith",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 1154,
+      "points": 25,
+      "hasSuggestions": true
+    },
+    {
+      "id": "frontier-silencer-hunting-bow",
+      "name": "Frontier 73C Silencer + Hunting Bow",
+      "category": "meta",
+      "tags": [
+        "Furtivo",
+        "Quartermaster"
+      ],
+      "source": {
+        "creator": "REXNOR",
+        "title": "The Search Is OVER... THIS Is The NEW Stealth Meta!",
+        "url": "https://www.youtube.com/watch?v=jo_dA-2ZDi0"
+      },
+      "summary": "O novo meta furtivo segundo o REXNOR, depois de testar quatro rifles silenciados com o arco. A Frontier venceu pela queda de bala mais longa, mira mais limpa e muito mais munição. Precisa de Quartermaster; antes de liberar o trait, a melhor opção é a Centennial Shorty Silencer, que cabe sem ele mas sofre com pouca munição (aí vale levar Ammo Box). No vídeo ele arma dark dynamite satchels e usa Witness e Levering.",
+      "weapons": [
+        {
+          "name": "Frontier 73C Silencer",
+          "ammo": [
+            {
+              "name": "Padrão"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "Hunting Bow",
+          "ammo": [
+            {
+              "name": "Flecha padrão"
+            }
+          ],
+          "slots": 3
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit"
+        },
+        {
+          "name": "Bear Traps"
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Dark Dynamite Satchel"
+        },
+        {
+          "name": "Dynamite Stick"
+        },
+        {
+          "name": "Ammo Box"
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Quartermaster"
+        },
+        {
+          "name": "Levering"
+        },
+        {
+          "name": "Witness"
+        },
+        {
+          "name": "Hundred Hands",
+          "suggested": true
+        },
+        {
+          "name": "Lightfoot",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        }
+      ],
+      "slots": 6,
+      "cost": 515,
+      "points": 35,
+      "hasSuggestions": true
+    },
+    {
+      "id": "springfield-marksman",
+      "name": "Springfield 1866 Marksman + LeMat",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Barato",
+        "Sniper"
+      ],
+      "source": {
+        "creator": "REXNOR",
+        "title": "This BUDGET Rifle Never Lets Me Down...",
+        "url": "https://www.youtube.com/watch?v=8lkXlQ2QiLU"
+      },
+      "summary": "Rifle de 42 dólares que, com High Velocity, chega a 615 m/s e 180 m de alcance sem queda. O REXNOR leva só uma pilha de High Velocity e outra de munição normal, para conseguir reabastecer em qualquer caixa de munição, e usa Ammo Box. Ele discute Fast Fingers (recarga mais rápida, funciona na Springfield) contra Witness. A secundária não aparece no vídeo; a LeMat é sugestão.",
+      "weapons": [
+        {
+          "name": "Springfield 1866 Marksman",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            },
+            {
+              "name": "Padrão"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "LeMat",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "suggested": true,
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Ammo Box"
+        },
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Fast Fingers"
+        },
+        {
+          "name": "Witness"
+        },
+        {
+          "name": "Necromancer"
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 534,
+      "points": 39,
+      "hasSuggestions": true
+    },
+    {
+      "id": "marathon-swift-sparks-pistol",
+      "name": "Marathon Swift + Sparks Pistol",
+      "category": "meta",
+      "tags": [
+        "Time",
+        "Barato"
+      ],
+      "source": {
+        "creator": "Whityyy",
+        "title": "Tier list de armas 2.9 (combo recomendado)",
+        "url": "https://www.youtube.com/watch?v=__wfWF6b7jU"
+      },
+      "summary": "O \"combo de ouro\" barato do Whityyy: a Marathon Swift é a arma que mais se beneficia do Iron Eye, e a recarga rápida resolve o maior problema da Marathon. Com High Velocity ela vira arma de spam compacto a média distância, e a Sparks Pistol entra para finalizar quem já levou dano.",
+      "weapons": [
+        {
+          "name": "Marathon Swift",
+          "ammo": [
+            {
+              "name": "High Velocity"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "Sparks Pistol",
+          "ammo": [
+            {
+              "name": "Padrão"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Iron Eye"
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 594,
+      "points": 34,
+      "hasSuggestions": true
+    },
+    {
+      "id": "romero-iniciante",
+      "name": "Romero 77 + Pax Trueshot",
+      "category": "meta",
+      "tags": [
+        "Iniciante",
+        "Barato"
+      ],
+      "source": {
+        "creator": "REXNOR",
+        "title": "If I Was A Beginner, I'd Play THIS Shotgun...",
+        "url": "https://www.youtube.com/watch?v=zZTkZHO47lw"
+      },
+      "summary": "A espingarda que o REXNOR jogaria se estivesse começando: custa 66 dólares, é muito consistente e tem bom alcance. Leve chumbo para PvP e Penny Shot para abrir portas e bater em boss. O ponto fraco é ser de um tiro só, então posicionamento é tudo. A secundária não aparece no vídeo; a Pax Trueshot é sugestão, já que o NOAURA a considera a melhor pistola para espingardas de 4 slots.",
+      "weapons": [
+        {
+          "name": "Romero 77",
+          "ammo": [
+            {
+              "name": "Chumbo (padrão)"
+            },
+            {
+              "name": "Penny Shot"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "Pax Trueshot",
+          "ammo": [
+            {
+              "name": "FMJ"
+            }
+          ],
+          "suggested": true,
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Regeneration Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Surefoot",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        },
+        {
+          "name": "Vigilant",
+          "suggested": true
+        },
+        {
+          "name": "Blast Sense",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 556,
+      "points": 31,
+      "hasSuggestions": true
+    },
+    {
+      "id": "sparks-choke",
+      "name": "149 + 1: Sparks + Hand Crossbow",
+      "category": "divertido",
+      "tags": [
+        "Time",
+        "Barato"
+      ],
+      "source": {
+        "creator": "REXNOR",
+        "title": "149 + 1 Damage = The Most DISRESPECTFUL Loadout!",
+        "url": "https://www.youtube.com/watch?v=QnINji-LtBI"
+      },
+      "summary": "A Sparks tira 149 de vida no tronco até 40 m, e todo caçador tem 150. O 1 que falta vem da nuvem do virote Choke, que atravessa paredes e cobertura. A munição venenosa impede o inimigo de curar enquanto você troca para a besta de mão. Ele divide as duas armas meio a meio (para reabastecer em qualquer caixa) e ainda serve para o título Total Smokeshow (25 abates com choke).",
+      "weapons": [
+        {
+          "name": "Sparks Sniper",
+          "ammo": [
+            {
+              "name": "Venenosa"
+            },
+            {
+              "name": "Padrão"
+            }
+          ],
+          "note": "a Sparks comum também funciona",
+          "slots": 4
+        },
+        {
+          "name": "Hand Crossbow",
+          "ammo": [
+            {
+              "name": "Virote Choke"
+            },
+            {
+              "name": "Virote padrão"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Frag Bomb"
+        },
+        {
+          "name": "Dark Dynamite Satchel"
+        },
+        {
+          "name": "Ammo Box"
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Bolt Thrower"
+        },
+        {
+          "name": "Pain Sense"
+        },
+        {
+          "name": "Fast Fingers",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Resilience",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 698,
+      "points": 26,
+      "hasSuggestions": true
+    },
+    {
+      "id": "bomb-lance-caos",
+      "name": "Caos solo: Bomb Lance + Hand Crossbow",
+      "category": "divertido",
+      "tags": [
+        "Solo"
+      ],
+      "source": {
+        "creator": "EMAIZA",
+        "title": "The FUNNIEST Solo Loadout in Hunt: Showdown 1896",
+        "url": "https://www.youtube.com/watch?v=HoJ5wD3JzWU"
+      },
+      "summary": "O loadout que a EMAIZA usa quando nada dá certo e ela só quer brigas caóticas: Bomb Lance com Dragon Breath, besta de mão com virotes venenosos e a Quad Derringer como ferramenta. Ela admite que às vezes morre todo jogo, mas às vezes sai com uma pilha de abates.",
+      "weapons": [
+        {
+          "name": "Bomb Lance",
+          "ammo": [
+            {
+              "name": "Carga Dragon Breath"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "Hand Crossbow",
+          "ammo": [
+            {
+              "name": "Virote venenoso"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "Quad Derringer"
+        },
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Fusees",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Liquid Fire Bomb",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Bolt Thrower",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        }
+      ],
+      "slots": 4,
+      "cost": 553,
+      "points": 22,
+      "hasSuggestions": true
+    },
+    {
+      "id": "piores-armas",
+      "name": "As \"piores armas\": besta de mão + facão",
+      "category": "divertido",
+      "tags": [
+        "Solo",
+        "Barato"
+      ],
+      "source": {
+        "creator": "EMAIZA",
+        "title": "The Most Fun With the Worst \"GUNS\"",
+        "url": "https://www.youtube.com/watch?v=4JfHWvySbas"
+      },
+      "summary": "Desafio da EMAIZA: entrar só com o que todo mundo considera as armas secundárias mais fracas. Besta de mão carregada só com virote venenoso, um facão e a Quad Derringer. Não tem arma de verdade no loadout; a graça é sobreviver e roubar o que encontrar.",
+      "weapons": [
+        {
+          "name": "Hand Crossbow",
+          "ammo": [
+            {
+              "name": "Virote venenoso"
+            }
+          ],
+          "slots": 1
+        },
+        {
+          "name": "Machete",
+          "ammo": [],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "Quad Derringer"
+        },
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Throwing Spear",
+          "suggested": true
+        },
+        {
+          "name": "Fusees",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Poison Bomb",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Bolt Thrower",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        }
+      ],
+      "slots": 2,
+      "cost": 469,
+      "points": 22,
+      "hasSuggestions": true
+    },
+    {
+      "id": "drilling-sabre",
+      "name": "Drilling + Cavalry Saber",
+      "category": "divertido",
+      "tags": [
+        "Solo",
+        "Pedido de viewer"
+      ],
+      "source": {
+        "creator": "Psychoghost Gaming",
+        "title": "Viewers wanted me to play this...",
+        "url": "https://www.youtube.com/watch?v=nXp-6CcUfvI"
+      },
+      "summary": "Pedido de viewer jogado pelo Psychoghost: Drilling com munição de sangramento (forte, mas hoje rara, achada no mapa) e o sabre, que ele chama de \"palito de dente gigante\" mas rende momentos engraçados. Ele joga sem cuidado nenhum de propósito.",
+      "weapons": [
+        {
+          "name": "Drilling",
+          "ammo": [
+            {
+              "name": "Dumdum",
+              "scarce": true
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "Cavalry Saber",
+          "ammo": [],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Throwing Spear",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Fusees",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        },
+        {
+          "name": "Liquid Fire Bomb",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 949,
+      "points": 20,
+      "hasSuggestions": true
+    },
+    {
+      "id": "frontier-armadilhas",
+      "name": "Old school: Frontier Silencer + Specter Shorty + armadilhas",
+      "category": "divertido",
+      "tags": [
+        "Solo",
+        "Furtivo"
+      ],
+      "source": {
+        "creator": "Psychoghost Gaming",
+        "title": "4 Shot Boon Nerf brings back an old-school combo",
+        "url": "https://www.youtube.com/watch?v=T7b4VFiQueg"
+      },
+      "summary": "Depois do nerf dos boons de quatro tiros, o Psychoghost voltou a um combo antigo: Frontier silenciada com munição incendiária, Specter Shorty para quem chega perto e o combo de armadilhas Concertina + mina venenosa para defender o compound.",
+      "weapons": [
+        {
+          "name": "Frontier 73C Silencer",
+          "ammo": [
+            {
+              "name": "Incendiária"
+            }
+          ],
+          "slots": 3
+        },
+        {
+          "name": "Specter 1882 Shorty",
+          "ammo": [
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "slots": 2
+        }
+      ],
+      "tools": [
+        {
+          "name": "Concertina Trip Mines"
+        },
+        {
+          "name": "Poison Trip Mines"
+        },
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Antidote Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Levering",
+          "suggested": true
+        },
+        {
+          "name": "Poacher",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 648,
+      "points": 27,
+      "hasSuggestions": true
+    },
+    {
+      "id": "mako-roleta",
+      "name": "Roleta: Mako Aperture + besta de mão venenosa",
+      "category": "divertido",
+      "tags": [
+        "Solo",
+        "Roleta"
+      ],
+      "source": {
+        "creator": "NOAURA",
+        "title": "The BEST BUDGET LOADOUT Is a MONEY PRINTER! (partida final)",
+        "url": "https://www.youtube.com/watch?v=pkuW3WBgIe4"
+      },
+      "summary": "Sorteado na roleta da live do NOAURA e jogado no controle contra jogadores de PC: Mako 1895 Aperture com a besta de mão de virotes venenosos. Ele diz que ficou \"insano\" mesmo assim.",
+      "weapons": [
+        {
+          "name": "Mako 1895 Aperture",
+          "ammo": [
+            {
+              "name": "Padrão"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "Hand Crossbow",
+          "ammo": [
+            {
+              "name": "Virote venenoso"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knuckle Knife",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        },
+        {
+          "name": "Fusees",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        },
+        {
+          "name": "Ammo Box",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Levering",
+          "suggested": true
+        },
+        {
+          "name": "Bolt Thrower",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 747,
+      "points": 24,
+      "hasSuggestions": true
+    },
+    {
+      "id": "centennial-lemat-lockbay",
+      "name": "Centennial Trauma + LeMat incendiária",
+      "category": "divertido",
+      "tags": [
+        "Solo",
+        "Pedido de viewer"
+      ],
+      "source": {
+        "creator": "Psychoghost Gaming",
+        "title": "Spicy loadouts from my viewers",
+        "url": "https://www.youtube.com/watch?v=uMAkhWt7lIw"
+      },
+      "summary": "Outro pedido de viewer que o Psychoghost achou válido e usou numa das brigas mais intensas do mês, em Lockbay: Centennial Trauma com FMJ e a LeMat com munição incendiária no revólver e chumbo no cano de espingarda para o corpo a corpo.",
+      "weapons": [
+        {
+          "name": "Centennial Trauma",
+          "ammo": [
+            {
+              "name": "FMJ"
+            }
+          ],
+          "slots": 4
+        },
+        {
+          "name": "LeMat",
+          "ammo": [
+            {
+              "name": "Incendiária"
+            },
+            {
+              "name": "Chumbo (padrão)"
+            }
+          ],
+          "slots": 1
+        }
+      ],
+      "tools": [
+        {
+          "name": "First Aid Kit",
+          "suggested": true
+        },
+        {
+          "name": "Knife",
+          "suggested": true
+        },
+        {
+          "name": "Choke Bombs",
+          "suggested": true
+        },
+        {
+          "name": "Decoy Fuses",
+          "suggested": true
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Vitality Shot (Weak)",
+          "suggested": true
+        },
+        {
+          "name": "Stamina Shot",
+          "suggested": true
+        },
+        {
+          "name": "Waxed Dynamite Stick",
+          "suggested": true
+        },
+        {
+          "name": "Liquid Fire Bomb",
+          "suggested": true
+        }
+      ],
+      "traits": [
+        {
+          "name": "Levering",
+          "suggested": true
+        },
+        {
+          "name": "Necromancer",
+          "suggested": true
+        },
+        {
+          "name": "Magpie",
+          "suggested": true
+        },
+        {
+          "name": "Doctor",
+          "suggested": true
+        },
+        {
+          "name": "Physician",
+          "suggested": true
+        },
+        {
+          "name": "Dauntless",
+          "suggested": true
+        }
+      ],
+      "slots": 5,
+      "cost": 629,
+      "points": 27,
+      "hasSuggestions": true
+    }
+  ]
+}
