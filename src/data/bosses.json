@@ -1,0 +1,406 @@
+{
+  "id": "bosses",
+  "label": "Bosses",
+  "kind": "bosses",
+  "sources": [
+    {
+      "label": "Fextralife (multiplicadores de dano)",
+      "url": "https://huntshowdown1896.wiki.fextralife.com/Bosses"
+    },
+    {
+      "label": "BoostRoom (guia de Bounty Hunt)",
+      "url": "https://boostroom.com/blog/hunt-showdown-1896-bounty-hunt-guide-bosses-bounties-extraction-and-pvp-tips"
+    },
+    {
+      "label": "REXNOR (guia do Bloodskin)",
+      "url": "https://rexnor.tv/the-ultimate-bloodskin-boss-guide-everything-you-need-to-know-2026/"
+    },
+    {
+      "label": "Hunt: Showdown 1896 Wiki",
+      "url": "https://huntshowdown.wiki.gg/wiki/Targets"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "butcher",
+      "name": "Butcher",
+      "type": "boss",
+      "summary": "Um porco deformado com um gancho em chamas, que incendeia o covil e quem chega perto. Fica mais rápido e agressivo nas fúrias, deixa fogo pelo caminho e não cambaleia.",
+      "weaknesses": [
+        {
+          "label": "Munição explosiva",
+          "value": "×4"
+        },
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×3"
+        },
+        {
+          "label": "Bala e virote venenosos",
+          "value": "×2"
+        },
+        {
+          "label": "Arpão do Bomb Lance",
+          "value": "×2"
+        },
+        {
+          "label": "Corte (machado)",
+          "value": "×1,15"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Fogo e chão em chamas",
+          "value": "imune"
+        },
+        {
+          "label": "Incendiária e Dragon Breath",
+          "value": "×0,1"
+        },
+        {
+          "label": "Tiros na cabeça",
+          "value": "imune"
+        },
+        {
+          "label": "Nitro, chumbo, slug e flechas",
+          "value": "×0,5–0,6"
+        }
+      ],
+      "easiest": [
+        "Jogue uma Choke Bomb nele para apagar o fogo: a luta fica muito mais fácil. Ele volta a pegar fogo ao encostar em qualquer chama, então mantenha lanternas longe.",
+        "Mire no corpo. Tiro na cabeça não causa dano; a cabeça só sofre dano corpo a corpo.",
+        "Gaste o dano pesado no tronco: Frag Bomb, munição explosiva ou veneno. Se for de arma comum, Nitro Express e Shredder são as que matam com menos tiros.",
+        "Bata e recue. Na fúria ele leva menos dano, então espere passar em vez de dar \"só mais um golpe\"."
+      ],
+      "bring": "Choke Bomb, Frag Bomb, munição explosiva ou venenosa, machado.",
+      "avoid": "Munição incendiária, Dragon Breath, lanternas e lutar já pegando fogo."
+    },
+    {
+      "id": "spider",
+      "name": "Spider",
+      "type": "boss",
+      "summary": "Aranha gigante que anda pelas paredes e pelo teto, salta em cima de você e envenena. Na fúria fica extremamente agressiva.",
+      "weaknesses": [
+        {
+          "label": "Munição explosiva",
+          "value": "×5"
+        },
+        {
+          "label": "Munição incendiária",
+          "value": "×3"
+        },
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×3"
+        },
+        {
+          "label": "Fogo no chão e Dragon Breath",
+          "value": "×2"
+        },
+        {
+          "label": "Cabeça",
+          "value": "mais dano com tudo"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Virote e nuvem venenosos",
+          "value": "imune"
+        },
+        {
+          "label": "Bala venenosa",
+          "value": "×0,1"
+        },
+        {
+          "label": "Gás da Choke Bomb",
+          "value": "imune"
+        },
+        {
+          "label": "Chumbo, slug e flechas",
+          "value": "×0,7"
+        }
+      ],
+      "easiest": [
+        "Leve fogo: uma lanterna ou Fire Bomb no chão do covil e munição incendiária fazem dano enorme.",
+        "Não persiga a Spider pelo covil. Fique num canto com a espingarda e deixe ela vir; o barulho da perseguição esconde times inimigos chegando.",
+        "Mire na cabeça: ela leva mais dano de qualquer fonte. Com a Nitro Express, um tiro na cabeça já tira uma fatia enorme.",
+        "Dano suficiente durante a preparação do salto interrompe o ataque e a joga para longe."
+      ],
+      "bring": "Lanterna ou Fire Bomb, munição incendiária ou explosiva, injeção de antídoto.",
+      "avoid": "Qualquer veneno (virote, nuvem, bala) e Sticky Bomb, que quase nunca gruda nela."
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "type": "boss",
+      "summary": "Figura alta que vira um enxame de insetos, aparece pelas costas, faz sangrar com adagas e atrapalha a visão. Na fúria cria clones.",
+      "weaknesses": [
+        {
+          "label": "Nuvem venenosa (Poison Bomb)",
+          "value": "×4"
+        },
+        {
+          "label": "Munição explosiva",
+          "value": "×4"
+        },
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×3"
+        },
+        {
+          "label": "Virote venenoso",
+          "value": "×2,5"
+        },
+        {
+          "label": "Bala venenosa",
+          "value": "×2"
+        },
+        {
+          "label": "Dumdum",
+          "value": "×1,65"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Gás da Choke Bomb",
+          "value": "imune"
+        },
+        {
+          "label": "Lança de arremesso",
+          "value": "×0,52"
+        },
+        {
+          "label": "Flechas",
+          "value": "×0,6"
+        },
+        {
+          "label": "Slug",
+          "value": "×0,65"
+        },
+        {
+          "label": "Sticky Bomb",
+          "value": "cai quando ele vira insetos"
+        }
+      ],
+      "easiest": [
+        "Jogue uma Poison Bomb no covil: a nuvem venenosa é o que mais machuca o Assassin.",
+        "Mire no tronco, que recebe o maior multiplicador. Bala ou virote venenoso no tronco rendem ainda mais.",
+        "Na fúria, destrua os clones rápido: eles são frágeis.",
+        "Ataque quando ele se expuser e recue. Não fique trocando dano sangrando nem lute no desespero."
+      ],
+      "bring": "Poison Bomb, munição venenosa ou explosiva, Frag Bomb, algo para estancar sangramento.",
+      "avoid": "Lança de arremesso, flechas e Sticky Bomb."
+    },
+    {
+      "id": "scrapbeak",
+      "name": "Scrapbeak",
+      "type": "boss",
+      "summary": "Criatura-pássaro com uma mochila enorme onde guarda todos os itens do compound (kits, munição, armas de chão num raio de ~100 m). Em cada fúria derruba suprimentos, solta arame farpado que faz sangrar e grita alto, abafando o som de inimigos.",
+      "weaknesses": [
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×3"
+        },
+        {
+          "label": "Virote venenoso",
+          "value": "×2 em qualquer parte"
+        },
+        {
+          "label": "Munição explosiva",
+          "value": "×2"
+        },
+        {
+          "label": "Flechette",
+          "value": "×1,6"
+        },
+        {
+          "label": "Estocada (baioneta, forcado)",
+          "value": "×1,4"
+        },
+        {
+          "label": "Bala venenosa",
+          "value": "×1,5"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Arame (Concertina)",
+          "value": "imune"
+        },
+        {
+          "label": "Gás da Choke Bomb",
+          "value": "imune"
+        },
+        {
+          "label": "Mochila nas costas",
+          "value": "balas ×0,4"
+        },
+        {
+          "label": "Chumbo, slug, corte e contundente",
+          "value": "×0,7"
+        },
+        {
+          "label": "Penny Shot",
+          "value": "×0,56"
+        }
+      ],
+      "easiest": [
+        "Antes de começar, apague as luzes do covil: ele quebra as lâmpadas e pega fogo.",
+        "Ataque de frente ou de lado. A mochila nas costas absorve quase todo o dano.",
+        "Use Frag Bomb, virote venenoso ou estocada (baioneta, forcado do chão): é o dano que passa pela proteção dele.",
+        "Evite fogo e explosão no golpe que dispara a fúria: queimam os kits e a munição que ele derruba. Se o time está sem cura, vale a pena preservar esses suprimentos."
+      ],
+      "bring": "Frag Bomb, virotes venenosos, arma com baioneta, kits de cura (o compound não tem).",
+      "avoid": "Penny Shot, atirar na mochila e explodir os suprimentos que ele derruba."
+    },
+    {
+      "id": "bloodskin",
+      "name": "Bloodskin",
+      "type": "boss",
+      "isNew": true,
+      "summary": "Boss novo do patch 2.9, com duas fases. Na primeira é lento e coberto por cinco placas de armadura (braços, peito, costas e cabeça). Na segunda solta a armadura e se teleporta entre os Blood Wells para emboscar.",
+      "weaknesses": [
+        {
+          "label": "Perfuração (flecha, virote, lança)",
+          "value": "fraqueza"
+        },
+        {
+          "label": "Fogo (lanterna, Dragon Bolt, incendiária, Flame Rifle)",
+          "value": "fraqueza"
+        },
+        {
+          "label": "Corte (machado, katana com Martialist)",
+          "value": "só na fase 2"
+        },
+        {
+          "label": "Pontos fracos sob as placas",
+          "value": "dano alto"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Veneno",
+          "value": "resistente"
+        },
+        {
+          "label": "Contundente (martelo, taco)",
+          "value": "resistente"
+        },
+        {
+          "label": "Sticky Bomb, lança, machado e faca",
+          "value": "ricocheteiam na armadura"
+        },
+        {
+          "label": "Explosivo grudado",
+          "value": "cai no teleporte da fase 2"
+        }
+      ],
+      "easiest": [
+        "Fase 1: você não precisa quebrar todas as placas. Quebre a do peito (quebrar uma placa o atordoa) e acerte o ponto fraco exposto até a primeira barra de vida acabar.",
+        "O jeito mais rápido é a Nitro Express: o primeiro tiro quebra a placa e o segundo, no ponto fraco, quase mata. O dano que sobra passa para a segunda barra.",
+        "Mantenha distância e use cobertura na fase 1: os golpes dele não atravessam paredes.",
+        "Fase 2: fique de olho nos Blood Wells, que viraram pontos de teleporte. Ele aparece por trás com rajada de sangue (~30 + sangramento), investida (~45) ou tentáculo que te puxa (~20 + golpe de ~50). Agora corte também funciona.",
+        "Atalhos: a carta de tarô The Tower tira três quartos da vida dele, e uma Big Dynamite Bundle bem colocada causa dano enorme."
+      ],
+      "bring": "Nitro Express, arco, Shredder ou katana; munição incendiária ou Dragon Bolts; lança de arremesso para quebrar placas.",
+      "avoid": "Veneno, armas contundentes e explosivos que grudam antes de quebrar a armadura.",
+      "extra": "Ao ser banido, os monstros próximos entram em frenesi durante todo o banimento. Ele dropa o trait Siphon."
+    },
+    {
+      "id": "rotjaw",
+      "name": "Rotjaw",
+      "type": "wild",
+      "summary": "Jacaré gigante, alvo selvagem que vive na água fora dos compounds (Stillwater Bayou, Lawson Delta e DeSalle). Solta rastros elétricos que zeram sua stamina e, na fúria, avança mais rápido do que você corre e te derruba. Achado pelos rastros no Dark Sight.",
+      "weaknesses": [
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×3,5"
+        },
+        {
+          "label": "Munição explosiva",
+          "value": "×2"
+        },
+        {
+          "label": "Veneno (bala, virote, nuvem)",
+          "value": "×1,2"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Gás da Choke Bomb",
+          "value": "imune"
+        },
+        {
+          "label": "Balas comuns, chumbo, flechas e virotes",
+          "value": "×0,35–0,45"
+        },
+        {
+          "label": "Nitro Express",
+          "value": "×0,7"
+        },
+        {
+          "label": "Contundente",
+          "value": "×0,78"
+        }
+      ],
+      "easiest": [
+        "Leve Frag Bombs: estilhaço é de longe o que mais machuca a Rotjaw. Balas comuns e chumbo quase não fazem nada.",
+        "Ela só sai da água quando alguém entra perto. Atraia, recue para a margem e jogue as bombas quando ela emergir.",
+        "Tome uma injeção de stamina antes: ela anula o efeito elétrico que zera sua stamina.",
+        "Não fique em água funda sem rota de fuga nem num ponto visto de cima. Matar restaura sua vida e dá um token sem banimento, mas a luta costuma atrair outros times."
+      ],
+      "bring": "Frag Bombs, munição explosiva, injeção de stamina.",
+      "avoid": "Chumbo, Dragon Breath, flechas e brigar dentro da água."
+    },
+    {
+      "id": "hellborn",
+      "name": "Hellborn",
+      "type": "wild",
+      "summary": "Um Immolator gigante, alvo selvagem fora dos compounds. Arremessa bolas de fogo que queimam pedaços da sua vida. Achado pelos gritos no Dark Sight (que dão só a direção). Dropa um trait burn ao morrer.",
+      "weaknesses": [
+        {
+          "label": "Gás da Choke Bomb",
+          "value": "×35"
+        },
+        {
+          "label": "Estilhaços (Frag Bomb)",
+          "value": "×2,5"
+        },
+        {
+          "label": "Garrafa d’água",
+          "value": "fraqueza"
+        },
+        {
+          "label": "Cabeça e tronco",
+          "value": "×1,4"
+        }
+      ],
+      "resistances": [
+        {
+          "label": "Fogo no chão",
+          "value": "imune"
+        },
+        {
+          "label": "Nuvem venenosa",
+          "value": "imune"
+        },
+        {
+          "label": "Explosões",
+          "value": "×0,8 (mais resistente desde o 2.7)"
+        },
+        {
+          "label": "Corpo a corpo",
+          "value": "quase impossível por causa do fogo"
+        }
+      ],
+      "easiest": [
+        "Jogue Choke Bombs nele: o gás causa dano enorme (×35) e é a forma mais fácil de derrubá-lo. Garrafas d’água também funcionam.",
+        "Complete com tiros na cabeça ou no tronco. Fique longe: o fogo torna o corpo a corpo quase impossível.",
+        "Cuidado com explosivos: as bolas de fogo detonam dinamite no ar ou na sua mão se o pavio já estiver aceso.",
+        "A carta de tarô The Tower é outro jeito seguro. Depois de matar, o grito dele é ouvido no mapa inteiro: saqueie rápido e prepare-se para PvP."
+      ],
+      "bring": "Choke Bombs, garrafas d’água, Frag Bomb, arma de longe.",
+      "avoid": "Fogo, nuvem venenosa, corpo a corpo e segurar dinamite acesa perto das bolas de fogo."
+    }
+  ]
+}

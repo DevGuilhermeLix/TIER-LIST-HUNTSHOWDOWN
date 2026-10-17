@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { changedIds, moveWeapon, sameLayout, shiftWeapon, tierOf } from '@/lib/layout';
 import { TIERS, TIER_BY_ID, tierForBand } from '@/lib/tiers';
 import { useTierLayouts } from '@/lib/useTierLayouts';
+import BossGuide from './BossGuide';
 import MoveBar from './MoveBar';
 import TierRow from './TierRow';
 import WeaponChip from './WeaponChip';
@@ -24,6 +25,8 @@ export default function TierBoard({ data }) {
     useTierLayouts(allCategories);
 
   const [viewId, setViewId] = useState(data.views[0].id);
+  // O guia de bosses não é uma tier list: ao abri-lo, a última lista fica guardada em viewId.
+  const [showBosses, setShowBosses] = useState(false);
   const [categoryByView, setCategoryByView] = useState(() =>
     Object.fromEntries(data.views.map((v) => [v.id, v.categories[0].id])),
   );
@@ -90,6 +93,13 @@ export default function TierBoard({ data }) {
 
   function switchView(id) {
     setViewId(id);
+    setShowBosses(false);
+    setSelectedId(null);
+  }
+
+  function openBosses() {
+    setShowBosses(true);
+    setEditing(false);
     setSelectedId(null);
   }
 
@@ -161,7 +171,7 @@ export default function TierBoard({ data }) {
       <header>
         <p className="font-display text-xs uppercase tracking-[0.3em] text-brass">Hunt: Showdown 1896</p>
         <h1 className="mt-2 font-display text-4xl font-semibold uppercase tracking-wide sm:text-5xl">
-          Tier list de {noun.other}
+          {showBosses ? 'Guia de bosses' : `Tier list de ${noun.other}`}
         </h1>
       </header>
 
@@ -172,18 +182,31 @@ export default function TierBoard({ data }) {
               <button
                 key={v.id}
                 type="button"
-                aria-pressed={v.id === viewId}
+                aria-pressed={!showBosses && v.id === viewId}
                 onClick={() => switchView(v.id)}
                 className={[
                   'rounded px-3 py-1.5 text-sm font-medium transition-colors',
-                  v.id === viewId ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
+                  !showBosses && v.id === viewId ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
                 ].join(' ')}
               >
                 {v.label}
               </button>
             ))}
+            <button
+              type="button"
+              aria-pressed={showBosses}
+              onClick={openBosses}
+              className={[
+                'rounded px-3 py-1.5 text-sm font-medium transition-colors',
+                showBosses ? 'bg-brass text-ink' : 'text-muted hover:text-bone',
+              ].join(' ')}
+            >
+              {data.bosses.label}
+            </button>
           </div>
 
+          {showBosses ? null : (
+            <>
           <input
             type="search"
             value={query}
@@ -204,8 +227,11 @@ export default function TierBoard({ data }) {
           >
             {editing ? 'Concluir edição' : 'Editar tiers'}
           </button>
+            </>
+          )}
         </div>
 
+        {showBosses ? null : (
         <div className="mt-3 flex gap-1 overflow-x-auto [scrollbar-width:none] sm:flex-wrap" role="tablist" aria-label={view.label}>
           {(groups
             ? [{ id: null, label: 'Todos' }, ...groups].map((g) => ({
@@ -246,8 +272,13 @@ export default function TierBoard({ data }) {
             );
           })}
         </div>
+        )}
       </div>
 
+      {showBosses ? (
+        <BossGuide guide={data.bosses} />
+      ) : (
+        <>
       {editing ? (
         <div className="mt-4 rounded-lg border border-brass/40 bg-brass/5 p-3 sm:p-4">
           <p className="text-sm text-bone">
@@ -383,6 +414,8 @@ export default function TierBoard({ data }) {
         </span>
         <span className="basis-full">{view.credit} Hunt: Showdown e suas imagens pertencem à Crytek.</span>
       </footer>
+        </>
+      )}
 
       <WeaponDetail
         weapon={opened}

@@ -6,7 +6,7 @@ const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
 
 export const metadata = {
   title: 'Tier lists — Hunt: Showdown 1896',
-  description: 'Armas e traits de Hunt: Showdown 1896 organizados por tier, com o motivo de cada posição.',
+  description: 'Armas e traits de Hunt: Showdown 1896 organizados por tier, e um guia com a fraqueza de cada boss.',
 };
 
 export default function RootLayout({ children }) {

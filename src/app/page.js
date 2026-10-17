@@ -1,4 +1,5 @@
 import TierBoard from '@/components/TierBoard';
+import bosses from '@/data/bosses.json';
 import traits from '@/data/traits.json';
 import weapons from '@/data/weapons.json';
 
@@ -19,6 +20,7 @@ const data = {
       credit: `Tiers e comentários: guia de traits de ${traits.source.author} (maio de 2026), resumido em português e atualizado com as mudanças dos patches 2.8 e 2.9. Custos e ícones: ${WIKI}.`,
     },
   ],
+  bosses,
 };
 
 export default function Home() {
