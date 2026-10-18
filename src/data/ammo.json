@@ -2,7 +2,8 @@
  "ammo": [
   {
    "id": "high-velocity-ammo",
-   "name": "High Velocity",
+   "pt": "Alta velocidade",
+   "en": "High Velocity",
    "key": "High Velocity Ammo",
    "group": "Balas",
    "what": "Bala mais rápida e com mais alcance antes de começar a cair, ao custo de cerca de 5% de dano, um pouco mais de recuo e menos munição de reserva.",
@@ -301,7 +302,8 @@
   },
   {
    "id": "fmj-ammo",
-   "name": "FMJ",
+   "pt": "Encamisada",
+   "en": "FMJ",
    "key": "FMJ Ammo",
    "group": "Balas",
    "what": "Mais penetração (atravessa madeira fina e chapa de metal fina) e o dano só começa a cair 10 m mais longe. Perde velocidade e um pouco de alcance sem queda.",
@@ -625,7 +627,8 @@
   },
   {
    "id": "subsonic-ammo",
-   "name": "Subsônica",
+   "pt": "Subsônica",
+   "en": "Subsonic",
    "key": "Subsonic Ammo",
    "group": "Balas",
    "what": "Tiro bem mais silencioso, mas muito mais lento e com bem mais queda de bala.",
@@ -869,7 +872,8 @@
   },
   {
    "id": "incendiary-ammo",
-   "name": "Incendiária",
+   "pt": "Incendiária",
+   "en": "Incendiary",
    "key": "Incendiary Ammo",
    "group": "Balas",
    "what": "Acende o caçador atingido antes da distância de queda de dano, explode barris vermelhos e amarelos e queima bosses. Fogo destrói pedaços de vida. Deixa um rastro visível e não atravessa nada.",
@@ -1167,7 +1171,8 @@
   },
   {
    "id": "poison-ammo",
-   "name": "Venenosa",
+   "pt": "Venenosa",
+   "en": "Poison",
    "key": "Poison Ammo",
    "group": "Balas",
    "what": "Envenena quem é atingido: borra a visão, atrapalha a audição e impede de curar enquanto durar. Não atravessa superfícies.",
@@ -1365,7 +1370,8 @@
   },
   {
    "id": "dumdum-ammo",
-   "name": "Dumdum",
+   "pt": "Expansiva",
+   "en": "Dumdum",
    "key": "Dumdum Ammo",
    "group": "Balas",
    "what": "Causa sangramento forte, mas perde velocidade e não atravessa nada. É rara desde o patch 2.8: não dá para comprar, só achar no mapa.",
@@ -1557,7 +1563,8 @@
   },
   {
    "id": "explosive-ammo",
-   "name": "Explosiva",
+   "pt": "Explosiva",
+   "en": "Explosive",
    "key": "Explosive Ammo",
    "group": "Balas",
    "what": "Explode no impacto: quebra portas, janelas e arame Concertina, e é muito forte contra bosses (×4 a ×5). Dá menos dano direto e é mais lenta. Rara desde o patch 2.8.",
@@ -1656,7 +1663,8 @@
   },
   {
    "id": "spitzer-ammo",
-   "name": "Spitzer",
+   "pt": "Pontiaguda",
+   "en": "Spitzer",
    "key": "Spitzer Ammo",
    "group": "Balas",
    "what": "Bem mais rápida (+190 a +220 m/s) e com mais penetração, mas com cerca de 19 de dano a menos. Rara desde o patch 2.8.",
@@ -1751,7 +1759,8 @@
   },
   {
    "id": "slug",
-   "name": "Slug",
+   "pt": "Balote",
+   "en": "Slug",
    "key": "Slug",
    "group": "Espingarda",
    "what": "Um projétil só em vez de chumbo: alcance efetivo muito maior e penetração, mas menos precisão no tiro sem mirar e menos munição.",
@@ -1894,7 +1903,8 @@
   },
   {
    "id": "penny-shot",
-   "name": "Penny Shot",
+   "pt": "Moedas",
+   "en": "Penny Shot",
    "key": "Penny Shot",
    "group": "Espingarda",
    "what": "Moedas no lugar do chumbo: dano altíssimo colado no alvo, imprevisível de longe e não atravessa paredes.",
@@ -2021,7 +2031,8 @@
   },
   {
    "id": "flechette",
-   "name": "Flechette",
+   "pt": "Dardos",
+   "en": "Flechette",
    "key": "Flechette",
    "group": "Espingarda",
    "what": "Dardos que abrem menos: alcance um pouco maior que o chumbo, menos dano por tiro e causam sangramento.",
@@ -2120,7 +2131,8 @@
   },
   {
    "id": "dragon-breath",
-   "name": "Dragon Breath",
+   "pt": "Bafo de dragão",
+   "en": "Dragon Breath",
    "key": "Dragon Breath",
    "group": "Espingarda",
    "what": "Jato de fogo de alguns metros que incendeia tudo no caminho e destrói pedaços de vida. Alcance curto.",
@@ -2255,7 +2267,8 @@
   },
   {
    "id": "starshell",
-   "name": "Starshell",
+   "pt": "Sinalizadora",
+   "en": "Starshell",
    "key": "Starshell",
    "group": "Espingarda",
    "what": "Sinalizador que desce devagar: ilumina, cega e incendeia, quase sem dano.",
@@ -2318,7 +2331,8 @@
   },
   {
    "id": "steel-bolt",
-   "name": "Steel Bolt",
+   "pt": "Virote de aço",
+   "en": "Steel Bolt",
    "key": "Steel Bolt",
    "group": "Bestas e arco",
    "what": "Virote de metal: mais rápido e com mais alcance sem queda. Gruda no alvo e dá para recolher.",
@@ -2350,7 +2364,8 @@
   },
   {
    "id": "shot-bolt",
-   "name": "Shot Bolt",
+   "pt": "Virote de chumbo",
+   "en": "Shot Bolt",
    "key": "Shot Bolt",
    "group": "Bestas e arco",
    "what": "Virote com cartucho de chumbo que explode no impacto como uma espingarda. Em teoria mata em um tiro a qualquer distância, mas cai muito.",
@@ -2385,7 +2400,8 @@
   },
   {
    "id": "choke-bolt",
-   "name": "Virote Choke",
+   "pt": "Virote sufocante",
+   "en": "Choke Bolt",
    "key": "Choke Bolt",
    "group": "Bestas e arco",
    "what": "Cria uma pequena nuvem de choke: apaga fogo e pavios, faz tossir e causa exatamente 1 de dano.",
@@ -2410,7 +2426,8 @@
   },
   {
    "id": "poison-bolt",
-   "name": "Virote venenoso",
+   "pt": "Virote venenoso",
+   "en": "Poison Bolt",
    "key": "Poison Bolt",
    "group": "Bestas e arco",
    "what": "Solta uma nuvem venenosa que dura bastante e causa 6 de dano por segundo a quem fica dentro.",
@@ -2435,7 +2452,8 @@
   },
   {
    "id": "chaos-bolt",
-   "name": "Virote Chaos",
+   "pt": "Virote do caos",
+   "en": "Chaos Bolt",
    "key": "Chaos Bolt",
    "group": "Bestas e arco",
    "what": "Imita o som de um tiroteio, como uma Chaos Bomb, por menos tempo.",
@@ -2463,7 +2481,8 @@
   },
   {
    "id": "dragon-bolt",
-   "name": "Virote Dragon Breath",
+   "pt": "Virote bafo de dragão",
+   "en": "Dragon Breath Bolt",
    "key": "Dragon Bolt",
    "group": "Bestas e arco",
    "what": "Explode num jato de fogo no impacto e destrói pedaços de vida.",
@@ -2488,7 +2507,8 @@
   },
   {
    "id": "explosive-bolt",
-   "name": "Virote explosivo",
+   "pt": "Virote explosivo",
+   "en": "Explosive Bolt",
    "key": "Explosive Bolt",
    "group": "Bestas e arco",
    "what": "Virote que explode no impacto, com menos dano direto e menos velocidade. Raro.",
@@ -2527,7 +2547,8 @@
   },
   {
    "id": "concertina-arrows",
-   "name": "Flecha Concertina",
+   "pt": "Flecha de arame farpado",
+   "en": "Concertina Arrow",
    "key": "Concertina Arrows",
    "group": "Bestas e arco",
    "what": "Flecha com uma pequena bomba de arame Concertina: explode no impacto e causa sangramento.",
@@ -2555,7 +2576,8 @@
   },
   {
    "id": "poison-arrows",
-   "name": "Flecha venenosa",
+   "pt": "Flecha venenosa",
+   "en": "Poison Arrow",
    "key": "Poison Arrows",
    "group": "Bestas e arco",
    "what": "Flecha envenenada que ainda causa sangramento e pode ser recolhida.",
@@ -2577,7 +2599,8 @@
   },
   {
    "id": "frag-arrows",
-   "name": "Flecha Frag",
+   "pt": "Flecha de fragmentação",
+   "en": "Frag Arrow",
    "key": "Frag Arrows",
    "group": "Bestas e arco",
    "what": "Flecha com uma pequena Frag Bomb que quica e explode depois de um tempo. Rara.",
@@ -2605,7 +2628,8 @@
   },
   {
    "id": "harpoon",
-   "name": "Arpão",
+   "pt": "Arpão",
+   "en": "Harpoon",
    "key": "Harpoon",
    "group": "Bomb Lance e Bomb Launcher",
    "what": "Arpão que gruda, causa sangramento e pode ser recolhido.",
@@ -2637,7 +2661,8 @@
   },
   {
    "id": "steel-ball-ammo",
-   "name": "Bolas de aço",
+   "pt": "Bolas de aço",
+   "en": "Steel Ball",
    "key": "Steel Ball Ammo",
    "group": "Bomb Lance e Bomb Launcher",
    "what": "Rajada silenciosa de bolas de aço, devastadora de perto e imprevisível de longe.",
@@ -2669,7 +2694,8 @@
   },
   {
    "id": "waxed-frag-charge",
-   "name": "Carga Frag encerada",
+   "pt": "Carga de fragmentação encerada",
+   "en": "Waxed Frag Charge",
    "key": "Waxed Frag Charge",
    "group": "Bomb Lance e Bomb Launcher",
    "what": "Carga explosiva encerada com explosão atrasada, que funciona até debaixo d’água. Rara.",
@@ -2698,7 +2724,8 @@
   },
   {
    "id": "shredder-ammo",
-   "name": "Shredder",
+   "pt": "Dilacerante",
+   "en": "Shredder",
    "key": "Shredder Ammo",
    "group": "Nitro Express",
    "what": "Bala que se abre no impacto e causa sangramento forte, perdendo um pouco de velocidade e penetração. Rara.",

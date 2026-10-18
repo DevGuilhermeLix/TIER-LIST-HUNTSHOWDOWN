@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import images from '@/data/weapon-images.json';
+import { ammoText, itemPt } from '@/lib/names';
 import { TraitIcon } from './WeaponChip';
 
 const FILTERS = [
@@ -55,11 +56,11 @@ function WeaponBox({ weapon }) {
         <div className="mt-2 flex flex-wrap gap-1.5">
           {weapon.ammo.map((ammo) => (
             <span
-              key={ammo.name}
+              key={ammo.en}
               title={ammo.scarce ? 'Munição rara: não dá para comprar, só achar no mapa' : undefined}
               className="rounded border border-line bg-ink/60 px-1.5 py-0.5 text-[11px] text-bone"
             >
-              {ammo.name}
+              {ammoText(ammo)}
               {ammo.scarce ? <span className="text-muted"> · rara</span> : null}
             </span>
           ))}
@@ -80,7 +81,8 @@ function ItemList({ title, items }) {
         {items.map((item) => (
           <li key={item.name}>
             <Suggested item={item}>
-              {item.name}
+              {itemPt(item.name) || item.name}
+              {itemPt(item.name) ? <span className="text-muted"> · {item.name}</span> : null}
               {item.count ? <span className="text-muted"> ×{item.count}</span> : null}
             </Suggested>
           </li>

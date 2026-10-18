@@ -37,7 +37,10 @@ function AmmoCard({ ammo, onOpenCalculator }) {
   return (
     <article id={`ammo-${ammo.id}`} className="scroll-mt-32 rounded-lg border border-line bg-panel p-4 sm:p-5">
       <div className="flex flex-wrap items-start justify-between gap-2">
-        <h3 className="font-display text-2xl font-semibold uppercase tracking-wide">{ammo.name}</h3>
+        <div>
+          <h3 className="font-display text-2xl font-semibold uppercase tracking-wide">{ammo.pt}</h3>
+          {ammo.en !== ammo.pt ? <p className="text-sm text-muted">no jogo: {ammo.en}</p> : null}
+        </div>
         <div className="flex flex-wrap gap-1.5">
           {ammo.scarce ? (
             <span className="rounded bg-blood/15 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-blood">

@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import data from '@/data/damage.json';
 import { hitsToKill, killBands, shotDamage } from '@/lib/damage';
+import { ammoText } from '@/lib/names';
 
 const HEALTH = [150, 125, 100, 75, 50];
 const MAX_DISTANCE = 200;
@@ -133,7 +134,7 @@ export default function DamageCalculator({ preset }) {
             {weapon.barrels.map((b, bi) => {
               const options = b.ammo.map((a, ai) => (
                 <option key={a.key} value={`${bi}:${ai}`}>
-                  {a.name}
+                  {ammoText(a)}
                   {a.price ? ` ($${a.price})` : ''}
                   {a.scarce ? ' · rara' : ''}
                 </option>

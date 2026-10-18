@@ -22,7 +22,9 @@
           "name": "Officer Carbine",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "slots": 3
@@ -31,7 +33,9 @@
           "name": "LeMat",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "count": 2,
@@ -137,10 +141,14 @@
           "name": "LeMat Carbine",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             },
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "note": "revólver com High Velocity, cano de espingarda com chumbo",
@@ -150,7 +158,9 @@
           "name": "LeMat",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "slots": 1
@@ -245,10 +255,14 @@
           "name": "LeMat Carbine",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             },
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "slots": 3
@@ -257,7 +271,9 @@
           "name": "Bornheim No. 3 Match",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "slots": 2
@@ -357,7 +373,9 @@
           "name": "Burgess",
           "ammo": [
             {
-              "name": "Slug"
+              "pt": "Balote",
+              "en": "Slug",
+              "standard": false
             }
           ],
           "slots": 3
@@ -366,10 +384,14 @@
           "name": "LeMat Carbine",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             },
             {
-              "name": "Slug"
+              "pt": "Balote",
+              "en": "Slug",
+              "standard": false
             }
           ],
           "slots": 3
@@ -472,7 +494,9 @@
           "name": "Terminus",
           "ammo": [
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "slots": 4
@@ -481,7 +505,9 @@
           "name": "Pax Trueshot",
           "ammo": [
             {
-              "name": "FMJ"
+              "pt": "Encamisada",
+              "en": "FMJ",
+              "standard": false
             }
           ],
           "slots": 1
@@ -558,7 +584,9 @@
           "name": "Crossbow",
           "ammo": [
             {
-              "name": "Virote padrão"
+              "pt": "Virote",
+              "en": "Bolt",
+              "standard": true
             }
           ],
           "note": "Whityyy prefere Steel Bolt + Shot Bolt",
@@ -568,7 +596,9 @@
           "name": "Pax",
           "ammo": [
             {
-              "name": "Padrão"
+              "pt": "Média",
+              "en": "Medium",
+              "standard": true
             }
           ],
           "slots": 1
@@ -641,7 +671,9 @@
           "name": "Mosin-Nagant Sniper",
           "ammo": [
             {
-              "name": "Spitzer",
+              "pt": "Pontiaguda",
+              "en": "Spitzer",
+              "standard": false,
               "scarce": true
             }
           ],
@@ -651,10 +683,14 @@
           "name": "LeMat",
           "ammo": [
             {
-              "name": "Incendiária"
+              "pt": "Incendiária",
+              "en": "Incendiary",
+              "standard": false
             },
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "slots": 1
@@ -754,7 +790,9 @@
           "name": "Frontier 73C Silencer",
           "ammo": [
             {
-              "name": "Padrão"
+              "pt": "Compacta",
+              "en": "Compact",
+              "standard": true
             }
           ],
           "slots": 3
@@ -763,7 +801,9 @@
           "name": "Hunting Bow",
           "ammo": [
             {
-              "name": "Flecha padrão"
+              "pt": "Flecha",
+              "en": "Arrow",
+              "standard": true
             }
           ],
           "slots": 3
@@ -856,10 +896,14 @@
           "name": "Springfield 1866 Marksman",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             },
             {
-              "name": "Padrão"
+              "pt": "Média",
+              "en": "Medium",
+              "standard": true
             }
           ],
           "slots": 4
@@ -868,7 +912,9 @@
           "name": "LeMat",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "suggested": true,
@@ -973,7 +1019,9 @@
           "name": "Marathon Swift",
           "ammo": [
             {
-              "name": "High Velocity"
+              "pt": "Alta velocidade",
+              "en": "High Velocity",
+              "standard": false
             }
           ],
           "slots": 4
@@ -982,7 +1030,9 @@
           "name": "Sparks Pistol",
           "ammo": [
             {
-              "name": "Padrão"
+              "pt": "Longa",
+              "en": "Long",
+              "standard": true
             }
           ],
           "slots": 1
@@ -1085,10 +1135,14 @@
           "name": "Romero 77",
           "ammo": [
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             },
             {
-              "name": "Penny Shot"
+              "pt": "Moedas",
+              "en": "Penny Shot",
+              "standard": false
             }
           ],
           "slots": 4
@@ -1097,7 +1151,9 @@
           "name": "Pax Trueshot",
           "ammo": [
             {
-              "name": "FMJ"
+              "pt": "Encamisada",
+              "en": "FMJ",
+              "standard": false
             }
           ],
           "suggested": true,
@@ -1198,10 +1254,14 @@
           "name": "Sparks Sniper",
           "ammo": [
             {
-              "name": "Venenosa"
+              "pt": "Venenosa",
+              "en": "Poison",
+              "standard": false
             },
             {
-              "name": "Padrão"
+              "pt": "Longa",
+              "en": "Long",
+              "standard": true
             }
           ],
           "note": "a Sparks comum também funciona",
@@ -1211,10 +1271,14 @@
           "name": "Hand Crossbow",
           "ammo": [
             {
-              "name": "Virote Choke"
+              "pt": "Virote sufocante",
+              "en": "Choke Bolt",
+              "standard": false
             },
             {
-              "name": "Virote padrão"
+              "pt": "Virote compacto",
+              "en": "Compact Bolt",
+              "standard": true
             }
           ],
           "slots": 1
@@ -1300,7 +1364,9 @@
           "name": "Bomb Lance",
           "ammo": [
             {
-              "name": "Carga Dragon Breath"
+              "pt": "Carga bafo de dragão",
+              "en": "Dragon Breath Charge",
+              "standard": false
             }
           ],
           "slots": 3
@@ -1309,7 +1375,9 @@
           "name": "Hand Crossbow",
           "ammo": [
             {
-              "name": "Virote venenoso"
+              "pt": "Virote venenoso",
+              "en": "Poison Bolt",
+              "standard": false
             }
           ],
           "slots": 1
@@ -1396,7 +1464,9 @@
           "name": "Hand Crossbow",
           "ammo": [
             {
-              "name": "Virote venenoso"
+              "pt": "Virote venenoso",
+              "en": "Poison Bolt",
+              "standard": false
             }
           ],
           "slots": 1
@@ -1488,7 +1558,9 @@
           "name": "Drilling",
           "ammo": [
             {
-              "name": "Dumdum",
+              "pt": "Expansiva",
+              "en": "Dumdum",
+              "standard": false,
               "scarce": true
             }
           ],
@@ -1582,7 +1654,9 @@
           "name": "Frontier 73C Silencer",
           "ammo": [
             {
-              "name": "Incendiária"
+              "pt": "Incendiária",
+              "en": "Incendiary",
+              "standard": false
             }
           ],
           "slots": 3
@@ -1591,7 +1665,9 @@
           "name": "Specter 1882 Shorty",
           "ammo": [
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "slots": 2
@@ -1681,7 +1757,9 @@
           "name": "Mako 1895 Aperture",
           "ammo": [
             {
-              "name": "Padrão"
+              "pt": "Longa",
+              "en": "Long",
+              "standard": true
             }
           ],
           "slots": 4
@@ -1690,7 +1768,9 @@
           "name": "Hand Crossbow",
           "ammo": [
             {
-              "name": "Virote venenoso"
+              "pt": "Virote venenoso",
+              "en": "Poison Bolt",
+              "standard": false
             }
           ],
           "slots": 1
@@ -1778,7 +1858,9 @@
           "name": "Centennial Trauma",
           "ammo": [
             {
-              "name": "FMJ"
+              "pt": "Encamisada",
+              "en": "FMJ",
+              "standard": false
             }
           ],
           "slots": 4
@@ -1787,10 +1869,14 @@
           "name": "LeMat",
           "ammo": [
             {
-              "name": "Incendiária"
+              "pt": "Incendiária",
+              "en": "Incendiary",
+              "standard": false
             },
             {
-              "name": "Chumbo (padrão)"
+              "pt": "Chumbo",
+              "en": "Buckshot",
+              "standard": true
             }
           ],
           "slots": 1
