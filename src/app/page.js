@@ -23,6 +23,8 @@ const data = {
   ],
   guides: [
     { ...loadouts, heading: 'Loadouts do meta' },
+    { id: 'damage', label: 'Dano', kind: 'damage', heading: 'Quantos tiros para matar' },
+    { id: 'ammo', label: 'Munições', kind: 'ammo', heading: 'Guia de munições' },
     { ...bosses, heading: 'Guia de bosses' },
   ],
 };

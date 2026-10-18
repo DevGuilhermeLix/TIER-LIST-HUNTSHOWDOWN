@@ -1,0 +1,2728 @@
+{
+ "ammo": [
+  {
+   "id": "high-velocity-ammo",
+   "name": "High Velocity",
+   "key": "High Velocity Ammo",
+   "group": "Balas",
+   "what": "Bala mais rápida e com mais alcance antes de começar a cair, ao custo de cerca de 5% de dano, um pouco mais de recuo e menos munição de reserva.",
+   "when": "Para acertar de longe sem precisar adiantar tanto a mira. No patch 2.9 virou peça-chave da LeMat e da Officer Carbine. Dica do REXNOR: leve uma pilha de High Velocity e outra normal, assim você reabastece em qualquer caixa de munição.",
+   "users": [
+    {
+     "name": "1890 Cavalry",
+     "slug": "1890-cavalry"
+    },
+    {
+     "name": "Bornheim No. 3",
+     "slug": "bornheim-no-3"
+    },
+    {
+     "name": "Bornheim No. 3 Extended",
+     "slug": "bornheim-no-3-extended"
+    },
+    {
+     "name": "Bornheim No. 3 Match",
+     "slug": "bornheim-no-3-match"
+    },
+    {
+     "name": "Bornheim No. 3 Silencer",
+     "slug": "bornheim-no-3-silencer"
+    },
+    {
+     "name": "Centennial",
+     "slug": "centennial"
+    },
+    {
+     "name": "Centennial Pointman",
+     "slug": "centennial-pointman"
+    },
+    {
+     "name": "Centennial Shorty",
+     "slug": "centennial-shorty"
+    },
+    {
+     "name": "Centennial Shorty Silencer",
+     "slug": "centennial-shorty-silencer"
+    },
+    {
+     "name": "Centennial Sniper",
+     "slug": "centennial-sniper"
+    },
+    {
+     "name": "Centennial Trauma",
+     "slug": "centennial-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Frontier 73C",
+     "slug": "frontier-73c"
+    },
+    {
+     "name": "Frontier 73C Marksman",
+     "slug": "frontier-73c-marksman"
+    },
+    {
+     "name": "Frontier 73C Silencer",
+     "slug": "frontier-73c-silencer"
+    },
+    {
+     "name": "Infantry 73L",
+     "slug": "infantry-73l"
+    },
+    {
+     "name": "Infantry 73L Bayonet",
+     "slug": "infantry-73l-bayonet"
+    },
+    {
+     "name": "Infantry 73L Sniper",
+     "slug": "infantry-73l-sniper"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Marathon",
+     "slug": "marathon"
+    },
+    {
+     "name": "Marathon Swift",
+     "slug": "marathon-swift"
+    },
+    {
+     "name": "Martini-Henry",
+     "slug": "martini-henry"
+    },
+    {
+     "name": "Martini-Henry Deadeye",
+     "slug": "martini-henry-deadeye"
+    },
+    {
+     "name": "Martini-Henry Ironside",
+     "slug": "martini-henry-ironside"
+    },
+    {
+     "name": "Martini-Henry Marksman",
+     "slug": "martini-henry-marksman"
+    },
+    {
+     "name": "Martini-Henry Riposte",
+     "slug": "martini-henry-riposte"
+    },
+    {
+     "name": "Maynard Sniper",
+     "slug": "maynard-sniper"
+    },
+    {
+     "name": "Maynard Sniper Silencer",
+     "slug": "maynard-sniper-silencer"
+    },
+    {
+     "name": "Nagant M1895",
+     "slug": "nagant-m1895"
+    },
+    {
+     "name": "Nagant M1895 Deadeye",
+     "slug": "nagant-m1895-deadeye"
+    },
+    {
+     "name": "Nagant M1895 Precision",
+     "slug": "nagant-m1895-precision"
+    },
+    {
+     "name": "Nagant M1895 Silencer",
+     "slug": "nagant-m1895-silencer"
+    },
+    {
+     "name": "Officer",
+     "slug": "officer"
+    },
+    {
+     "name": "Officer Brawler",
+     "slug": "officer-brawler"
+    },
+    {
+     "name": "Officer Carbine",
+     "slug": "officer-carbine"
+    },
+    {
+     "name": "Officer Carbine Deadeye",
+     "slug": "officer-carbine-deadeye"
+    },
+    {
+     "name": "Pax",
+     "slug": "pax"
+    },
+    {
+     "name": "Pax Claw",
+     "slug": "pax-claw"
+    },
+    {
+     "name": "Pax Trueshot",
+     "slug": "pax-trueshot"
+    },
+    {
+     "name": "Ranger 73",
+     "slug": "ranger-73"
+    },
+    {
+     "name": "Ranger 73 Aperture",
+     "slug": "ranger-73-aperture"
+    },
+    {
+     "name": "Ranger 73 Swift",
+     "slug": "ranger-73-swift"
+    },
+    {
+     "name": "Ranger 73 Talon",
+     "slug": "ranger-73-talon"
+    },
+    {
+     "name": "Scottfield",
+     "slug": "scottfield"
+    },
+    {
+     "name": "Scottfield Brawler",
+     "slug": "scottfield-brawler"
+    },
+    {
+     "name": "Scottfield Precision",
+     "slug": "scottfield-precision"
+    },
+    {
+     "name": "Scottfield Spitfire",
+     "slug": "scottfield-spitfire"
+    },
+    {
+     "name": "Scottfield Swift",
+     "slug": "scottfield-swift"
+    },
+    {
+     "name": "Springfield 1866",
+     "slug": "springfield-1866"
+    },
+    {
+     "name": "Springfield 1866 Bayonet",
+     "slug": "springfield-1866-bayonet"
+    },
+    {
+     "name": "Springfield 1866 Bullseye",
+     "slug": "springfield-1866-bullseye"
+    },
+    {
+     "name": "Springfield 1866 Marksman",
+     "slug": "springfield-1866-marksman"
+    },
+    {
+     "name": "Springfield 1866 Shorty",
+     "slug": "springfield-1866-shorty"
+    },
+    {
+     "name": "Springfield 1866 Striker",
+     "slug": "springfield-1866-striker"
+    },
+    {
+     "name": "Vandal 73C",
+     "slug": "vandal-73c"
+    },
+    {
+     "name": "Vandal 73C Bullseye",
+     "slug": "vandal-73c-bullseye"
+    },
+    {
+     "name": "Vandal 73C Striker",
+     "slug": "vandal-73c-striker"
+    },
+    {
+     "name": "Vetterli 71",
+     "slug": "vetterli-71"
+    },
+    {
+     "name": "Vetterli 71 Bayonet",
+     "slug": "vetterli-71-bayonet"
+    },
+    {
+     "name": "Vetterli 71 Cyclone",
+     "slug": "vetterli-71-cyclone"
+    },
+    {
+     "name": "Vetterli 71 Deadeye",
+     "slug": "vetterli-71-deadeye"
+    },
+    {
+     "name": "Vetterli 71 Marksman",
+     "slug": "vetterli-71-marksman"
+    },
+    {
+     "name": "Vetterli 71 Silencer",
+     "slug": "vetterli-71-silencer"
+    },
+    {
+     "name": "Wildland",
+     "slug": "wildland"
+    }
+   ],
+   "price": [
+    30,
+    70
+   ],
+   "scarce": false,
+   "velocity": [
+    75,
+    125
+   ],
+   "damage": [
+    -8,
+    -4
+   ],
+   "dropRange": [
+    5,
+    30
+   ]
+  },
+  {
+   "id": "fmj-ammo",
+   "name": "FMJ",
+   "key": "FMJ Ammo",
+   "group": "Balas",
+   "what": "Mais penetração (atravessa madeira fina e chapa de metal fina) e o dano só começa a cair 10 m mais longe. Perde velocidade e um pouco de alcance sem queda.",
+   "when": "Para brigar atrás de cobertura ou a média distância com arma de munição compacta ou média. O NOAURA usa na Pax Trueshot: o dano cheio no tronco vai até 40 m, como numa arma de munição longa.",
+   "users": [
+    {
+     "name": "1865 Carbine",
+     "slug": "1865-carbine"
+    },
+    {
+     "name": "1865 Carbine Aperture",
+     "slug": "1865-carbine-aperture"
+    },
+    {
+     "name": "1865 Carbine Silencer",
+     "slug": "1865-carbine-silencer"
+    },
+    {
+     "name": "1890 Cavalry",
+     "slug": "1890-cavalry"
+    },
+    {
+     "name": "Centennial",
+     "slug": "centennial"
+    },
+    {
+     "name": "Centennial Pointman",
+     "slug": "centennial-pointman"
+    },
+    {
+     "name": "Centennial Shorty",
+     "slug": "centennial-shorty"
+    },
+    {
+     "name": "Centennial Shorty Silencer",
+     "slug": "centennial-shorty-silencer"
+    },
+    {
+     "name": "Centennial Sniper",
+     "slug": "centennial-sniper"
+    },
+    {
+     "name": "Centennial Trauma",
+     "slug": "centennial-trauma"
+    },
+    {
+     "name": "Conversion",
+     "slug": "conversion"
+    },
+    {
+     "name": "Conversion Chain Pistol",
+     "slug": "conversion-chain-pistol"
+    },
+    {
+     "name": "Dolch 96",
+     "slug": "dolch-96"
+    },
+    {
+     "name": "Dolch 96 Bullseye",
+     "slug": "dolch-96-bullseye"
+    },
+    {
+     "name": "Dolch 96 Claw",
+     "slug": "dolch-96-claw"
+    },
+    {
+     "name": "Dolch 96 Precision",
+     "slug": "dolch-96-precision"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Frontier 73C",
+     "slug": "frontier-73c"
+    },
+    {
+     "name": "Frontier 73C Marksman",
+     "slug": "frontier-73c-marksman"
+    },
+    {
+     "name": "Frontier 73C Silencer",
+     "slug": "frontier-73c-silencer"
+    },
+    {
+     "name": "Haymaker",
+     "slug": "haymaker"
+    },
+    {
+     "name": "Infantry 73L",
+     "slug": "infantry-73l"
+    },
+    {
+     "name": "Infantry 73L Bayonet",
+     "slug": "infantry-73l-bayonet"
+    },
+    {
+     "name": "Infantry 73L Sniper",
+     "slug": "infantry-73l-sniper"
+    },
+    {
+     "name": "Krag",
+     "slug": "krag"
+    },
+    {
+     "name": "Krag Bayonet",
+     "slug": "krag-bayonet"
+    },
+    {
+     "name": "Krag Silencer",
+     "slug": "krag-silencer"
+    },
+    {
+     "name": "Krag Sniper",
+     "slug": "krag-sniper"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Mako 1895",
+     "slug": "mako-1895"
+    },
+    {
+     "name": "Mako 1895 Aperture",
+     "slug": "mako-1895-aperture"
+    },
+    {
+     "name": "Mako 1895 Claw",
+     "slug": "mako-1895-claw"
+    },
+    {
+     "name": "Marathon",
+     "slug": "marathon"
+    },
+    {
+     "name": "Marathon Swift",
+     "slug": "marathon-swift"
+    },
+    {
+     "name": "Martini-Henry",
+     "slug": "martini-henry"
+    },
+    {
+     "name": "Martini-Henry Deadeye",
+     "slug": "martini-henry-deadeye"
+    },
+    {
+     "name": "Martini-Henry Ironside",
+     "slug": "martini-henry-ironside"
+    },
+    {
+     "name": "Martini-Henry Marksman",
+     "slug": "martini-henry-marksman"
+    },
+    {
+     "name": "Martini-Henry Riposte",
+     "slug": "martini-henry-riposte"
+    },
+    {
+     "name": "New Army",
+     "slug": "new-army"
+    },
+    {
+     "name": "New Army Swift",
+     "slug": "new-army-swift"
+    },
+    {
+     "name": "Pax",
+     "slug": "pax"
+    },
+    {
+     "name": "Pax Claw",
+     "slug": "pax-claw"
+    },
+    {
+     "name": "Pax Trueshot",
+     "slug": "pax-trueshot"
+    },
+    {
+     "name": "Ranger 73",
+     "slug": "ranger-73"
+    },
+    {
+     "name": "Ranger 73 Aperture",
+     "slug": "ranger-73-aperture"
+    },
+    {
+     "name": "Ranger 73 Swift",
+     "slug": "ranger-73-swift"
+    },
+    {
+     "name": "Ranger 73 Talon",
+     "slug": "ranger-73-talon"
+    },
+    {
+     "name": "Scottfield",
+     "slug": "scottfield"
+    },
+    {
+     "name": "Scottfield Brawler",
+     "slug": "scottfield-brawler"
+    },
+    {
+     "name": "Scottfield Precision",
+     "slug": "scottfield-precision"
+    },
+    {
+     "name": "Scottfield Spitfire",
+     "slug": "scottfield-spitfire"
+    },
+    {
+     "name": "Scottfield Swift",
+     "slug": "scottfield-swift"
+    },
+    {
+     "name": "Sparks",
+     "slug": "sparks"
+    },
+    {
+     "name": "Sparks Pistol",
+     "slug": "sparks-pistol"
+    },
+    {
+     "name": "Sparks Pistol Silencer",
+     "slug": "sparks-pistol-silencer"
+    },
+    {
+     "name": "Sparks Silencer",
+     "slug": "sparks-silencer"
+    },
+    {
+     "name": "Sparks Sniper",
+     "slug": "sparks-sniper"
+    },
+    {
+     "name": "Uppercut",
+     "slug": "uppercut"
+    },
+    {
+     "name": "Uppercut Deadeye",
+     "slug": "uppercut-deadeye"
+    },
+    {
+     "name": "Uppercut Precision",
+     "slug": "uppercut-precision"
+    },
+    {
+     "name": "Vandal 73C",
+     "slug": "vandal-73c"
+    },
+    {
+     "name": "Vandal 73C Bullseye",
+     "slug": "vandal-73c-bullseye"
+    },
+    {
+     "name": "Vandal 73C Striker",
+     "slug": "vandal-73c-striker"
+    },
+    {
+     "name": "Vetterli 71",
+     "slug": "vetterli-71"
+    },
+    {
+     "name": "Vetterli 71 Bayonet",
+     "slug": "vetterli-71-bayonet"
+    },
+    {
+     "name": "Vetterli 71 Cyclone",
+     "slug": "vetterli-71-cyclone"
+    },
+    {
+     "name": "Vetterli 71 Deadeye",
+     "slug": "vetterli-71-deadeye"
+    },
+    {
+     "name": "Vetterli 71 Marksman",
+     "slug": "vetterli-71-marksman"
+    },
+    {
+     "name": "Vetterli 71 Silencer",
+     "slug": "vetterli-71-silencer"
+    },
+    {
+     "name": "Wildland",
+     "slug": "wildland"
+    }
+   ],
+   "price": [
+    30,
+    60
+   ],
+   "scarce": false,
+   "velocity": [
+    -163,
+    -5
+   ],
+   "damage": null,
+   "dropRange": [
+    -20,
+    -5
+   ]
+  },
+  {
+   "id": "subsonic-ammo",
+   "name": "Subsônica",
+   "key": "Subsonic Ammo",
+   "group": "Balas",
+   "what": "Tiro bem mais silencioso, mas muito mais lento e com bem mais queda de bala.",
+   "when": "Para jogar escondido e limpar monstros sem chamar atenção. Atrapalha em duelo de média e longa distância.",
+   "users": [
+    {
+     "name": "1865 Carbine",
+     "slug": "1865-carbine"
+    },
+    {
+     "name": "1865 Carbine Aperture",
+     "slug": "1865-carbine-aperture"
+    },
+    {
+     "name": "1865 Carbine Silencer",
+     "slug": "1865-carbine-silencer"
+    },
+    {
+     "name": "Bornheim No. 3",
+     "slug": "bornheim-no-3"
+    },
+    {
+     "name": "Bornheim No. 3 Extended",
+     "slug": "bornheim-no-3-extended"
+    },
+    {
+     "name": "Bornheim No. 3 Match",
+     "slug": "bornheim-no-3-match"
+    },
+    {
+     "name": "Bornheim No. 3 Silencer",
+     "slug": "bornheim-no-3-silencer"
+    },
+    {
+     "name": "Centennial",
+     "slug": "centennial"
+    },
+    {
+     "name": "Centennial Pointman",
+     "slug": "centennial-pointman"
+    },
+    {
+     "name": "Centennial Shorty",
+     "slug": "centennial-shorty"
+    },
+    {
+     "name": "Centennial Shorty Silencer",
+     "slug": "centennial-shorty-silencer"
+    },
+    {
+     "name": "Centennial Sniper",
+     "slug": "centennial-sniper"
+    },
+    {
+     "name": "Centennial Trauma",
+     "slug": "centennial-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Frontier 73C",
+     "slug": "frontier-73c"
+    },
+    {
+     "name": "Frontier 73C Marksman",
+     "slug": "frontier-73c-marksman"
+    },
+    {
+     "name": "Frontier 73C Silencer",
+     "slug": "frontier-73c-silencer"
+    },
+    {
+     "name": "Infantry 73L",
+     "slug": "infantry-73l"
+    },
+    {
+     "name": "Infantry 73L Bayonet",
+     "slug": "infantry-73l-bayonet"
+    },
+    {
+     "name": "Infantry 73L Sniper",
+     "slug": "infantry-73l-sniper"
+    },
+    {
+     "name": "Krag",
+     "slug": "krag"
+    },
+    {
+     "name": "Krag Bayonet",
+     "slug": "krag-bayonet"
+    },
+    {
+     "name": "Krag Silencer",
+     "slug": "krag-silencer"
+    },
+    {
+     "name": "Krag Sniper",
+     "slug": "krag-sniper"
+    },
+    {
+     "name": "Maynard Sniper",
+     "slug": "maynard-sniper"
+    },
+    {
+     "name": "Maynard Sniper Silencer",
+     "slug": "maynard-sniper-silencer"
+    },
+    {
+     "name": "Nagant M1895",
+     "slug": "nagant-m1895"
+    },
+    {
+     "name": "Nagant M1895 Deadeye",
+     "slug": "nagant-m1895-deadeye"
+    },
+    {
+     "name": "Nagant M1895 Precision",
+     "slug": "nagant-m1895-precision"
+    },
+    {
+     "name": "Nagant M1895 Silencer",
+     "slug": "nagant-m1895-silencer"
+    },
+    {
+     "name": "Officer",
+     "slug": "officer"
+    },
+    {
+     "name": "Officer Brawler",
+     "slug": "officer-brawler"
+    },
+    {
+     "name": "Officer Carbine",
+     "slug": "officer-carbine"
+    },
+    {
+     "name": "Officer Carbine Deadeye",
+     "slug": "officer-carbine-deadeye"
+    },
+    {
+     "name": "Ranger 73",
+     "slug": "ranger-73"
+    },
+    {
+     "name": "Ranger 73 Aperture",
+     "slug": "ranger-73-aperture"
+    },
+    {
+     "name": "Ranger 73 Swift",
+     "slug": "ranger-73-swift"
+    },
+    {
+     "name": "Ranger 73 Talon",
+     "slug": "ranger-73-talon"
+    },
+    {
+     "name": "Sparks",
+     "slug": "sparks"
+    },
+    {
+     "name": "Sparks Pistol",
+     "slug": "sparks-pistol"
+    },
+    {
+     "name": "Sparks Pistol Silencer",
+     "slug": "sparks-pistol-silencer"
+    },
+    {
+     "name": "Sparks Silencer",
+     "slug": "sparks-silencer"
+    },
+    {
+     "name": "Sparks Sniper",
+     "slug": "sparks-sniper"
+    },
+    {
+     "name": "Vandal 73C",
+     "slug": "vandal-73c"
+    },
+    {
+     "name": "Vandal 73C Bullseye",
+     "slug": "vandal-73c-bullseye"
+    },
+    {
+     "name": "Vandal 73C Striker",
+     "slug": "vandal-73c-striker"
+    },
+    {
+     "name": "Vetterli 71",
+     "slug": "vetterli-71"
+    },
+    {
+     "name": "Vetterli 71 Bayonet",
+     "slug": "vetterli-71-bayonet"
+    },
+    {
+     "name": "Vetterli 71 Cyclone",
+     "slug": "vetterli-71-cyclone"
+    },
+    {
+     "name": "Vetterli 71 Deadeye",
+     "slug": "vetterli-71-deadeye"
+    },
+    {
+     "name": "Vetterli 71 Marksman",
+     "slug": "vetterli-71-marksman"
+    },
+    {
+     "name": "Vetterli 71 Silencer",
+     "slug": "vetterli-71-silencer"
+    },
+    {
+     "name": "Wildland",
+     "slug": "wildland"
+    }
+   ],
+   "price": [
+    5,
+    20
+   ],
+   "scarce": false,
+   "velocity": [
+    -314,
+    -59
+   ],
+   "damage": null,
+   "dropRange": [
+    -40,
+    -10
+   ]
+  },
+  {
+   "id": "incendiary-ammo",
+   "name": "Incendiária",
+   "key": "Incendiary Ammo",
+   "group": "Balas",
+   "what": "Acende o caçador atingido antes da distância de queda de dano, explode barris vermelhos e amarelos e queima bosses. Fogo destrói pedaços de vida. Deixa um rastro visível e não atravessa nada.",
+   "when": "Para arrancar pedaços de vida, queimar corpos e acender barris de longe. Contra a Spider rende muito (×3 de dano).",
+   "users": [
+    {
+     "name": "Berthier 1892",
+     "slug": "berthier-1892"
+    },
+    {
+     "name": "Berthier 1892 Deadeye",
+     "slug": "berthier-1892-deadeye"
+    },
+    {
+     "name": "Berthier 1892 Marksman",
+     "slug": "berthier-1892-marksman"
+    },
+    {
+     "name": "Berthier 1892 Riposte",
+     "slug": "berthier-1892-riposte"
+    },
+    {
+     "name": "Bornheim No. 3",
+     "slug": "bornheim-no-3"
+    },
+    {
+     "name": "Bornheim No. 3 Extended",
+     "slug": "bornheim-no-3-extended"
+    },
+    {
+     "name": "Bornheim No. 3 Match",
+     "slug": "bornheim-no-3-match"
+    },
+    {
+     "name": "Bornheim No. 3 Silencer",
+     "slug": "bornheim-no-3-silencer"
+    },
+    {
+     "name": "Frontier 73C",
+     "slug": "frontier-73c"
+    },
+    {
+     "name": "Frontier 73C Marksman",
+     "slug": "frontier-73c-marksman"
+    },
+    {
+     "name": "Frontier 73C Silencer",
+     "slug": "frontier-73c-silencer"
+    },
+    {
+     "name": "Infantry 73L",
+     "slug": "infantry-73l"
+    },
+    {
+     "name": "Infantry 73L Bayonet",
+     "slug": "infantry-73l-bayonet"
+    },
+    {
+     "name": "Infantry 73L Sniper",
+     "slug": "infantry-73l-sniper"
+    },
+    {
+     "name": "Krag",
+     "slug": "krag"
+    },
+    {
+     "name": "Krag Bayonet",
+     "slug": "krag-bayonet"
+    },
+    {
+     "name": "Krag Silencer",
+     "slug": "krag-silencer"
+    },
+    {
+     "name": "Krag Sniper",
+     "slug": "krag-sniper"
+    },
+    {
+     "name": "Lebel 1886",
+     "slug": "lebel-1886"
+    },
+    {
+     "name": "Lebel 1886 Aperture",
+     "slug": "lebel-1886-aperture"
+    },
+    {
+     "name": "Lebel 1886 Marksman",
+     "slug": "lebel-1886-marksman"
+    },
+    {
+     "name": "Lebel 1886 Talon",
+     "slug": "lebel-1886-talon"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Marathon",
+     "slug": "marathon"
+    },
+    {
+     "name": "Marathon Swift",
+     "slug": "marathon-swift"
+    },
+    {
+     "name": "Martini-Henry",
+     "slug": "martini-henry"
+    },
+    {
+     "name": "Martini-Henry Deadeye",
+     "slug": "martini-henry-deadeye"
+    },
+    {
+     "name": "Martini-Henry Ironside",
+     "slug": "martini-henry-ironside"
+    },
+    {
+     "name": "Martini-Henry Marksman",
+     "slug": "martini-henry-marksman"
+    },
+    {
+     "name": "Martini-Henry Riposte",
+     "slug": "martini-henry-riposte"
+    },
+    {
+     "name": "Mosin Obrez",
+     "slug": "mosin-obrez"
+    },
+    {
+     "name": "Mosin Obrez Extended",
+     "slug": "mosin-obrez-extended"
+    },
+    {
+     "name": "Mosin Obrez Mace",
+     "slug": "mosin-obrez-mace"
+    },
+    {
+     "name": "Mosin Obrez Match",
+     "slug": "mosin-obrez-match"
+    },
+    {
+     "name": "Mosin Obrez Sharpeye",
+     "slug": "mosin-obrez-sharpeye"
+    },
+    {
+     "name": "Mosin-Nagant",
+     "slug": "mosin-nagant"
+    },
+    {
+     "name": "Mosin-Nagant Avtomat",
+     "slug": "mosin-nagant-avtomat"
+    },
+    {
+     "name": "Mosin-Nagant Bayonet",
+     "slug": "mosin-nagant-bayonet"
+    },
+    {
+     "name": "Mosin-Nagant Sniper",
+     "slug": "mosin-nagant-sniper"
+    },
+    {
+     "name": "Pax",
+     "slug": "pax"
+    },
+    {
+     "name": "Pax Claw",
+     "slug": "pax-claw"
+    },
+    {
+     "name": "Pax Trueshot",
+     "slug": "pax-trueshot"
+    },
+    {
+     "name": "Ranger 73",
+     "slug": "ranger-73"
+    },
+    {
+     "name": "Ranger 73 Aperture",
+     "slug": "ranger-73-aperture"
+    },
+    {
+     "name": "Ranger 73 Swift",
+     "slug": "ranger-73-swift"
+    },
+    {
+     "name": "Ranger 73 Talon",
+     "slug": "ranger-73-talon"
+    },
+    {
+     "name": "Scottfield",
+     "slug": "scottfield"
+    },
+    {
+     "name": "Scottfield Brawler",
+     "slug": "scottfield-brawler"
+    },
+    {
+     "name": "Scottfield Precision",
+     "slug": "scottfield-precision"
+    },
+    {
+     "name": "Scottfield Spitfire",
+     "slug": "scottfield-spitfire"
+    },
+    {
+     "name": "Scottfield Swift",
+     "slug": "scottfield-swift"
+    },
+    {
+     "name": "Sparks",
+     "slug": "sparks"
+    },
+    {
+     "name": "Sparks Pistol",
+     "slug": "sparks-pistol"
+    },
+    {
+     "name": "Sparks Pistol Silencer",
+     "slug": "sparks-pistol-silencer"
+    },
+    {
+     "name": "Sparks Silencer",
+     "slug": "sparks-silencer"
+    },
+    {
+     "name": "Sparks Sniper",
+     "slug": "sparks-sniper"
+    },
+    {
+     "name": "Uppercut",
+     "slug": "uppercut"
+    },
+    {
+     "name": "Uppercut Deadeye",
+     "slug": "uppercut-deadeye"
+    },
+    {
+     "name": "Uppercut Precision",
+     "slug": "uppercut-precision"
+    },
+    {
+     "name": "Vandal 73C",
+     "slug": "vandal-73c"
+    },
+    {
+     "name": "Vandal 73C Bullseye",
+     "slug": "vandal-73c-bullseye"
+    },
+    {
+     "name": "Vandal 73C Striker",
+     "slug": "vandal-73c-striker"
+    },
+    {
+     "name": "Vetterli 71",
+     "slug": "vetterli-71"
+    },
+    {
+     "name": "Vetterli 71 Bayonet",
+     "slug": "vetterli-71-bayonet"
+    },
+    {
+     "name": "Vetterli 71 Cyclone",
+     "slug": "vetterli-71-cyclone"
+    },
+    {
+     "name": "Vetterli 71 Deadeye",
+     "slug": "vetterli-71-deadeye"
+    },
+    {
+     "name": "Vetterli 71 Marksman",
+     "slug": "vetterli-71-marksman"
+    },
+    {
+     "name": "Vetterli 71 Silencer",
+     "slug": "vetterli-71-silencer"
+    }
+   ],
+   "price": [
+    35,
+    70
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": null,
+   "dropRange": null
+  },
+  {
+   "id": "poison-ammo",
+   "name": "Venenosa",
+   "key": "Poison Ammo",
+   "group": "Balas",
+   "what": "Envenena quem é atingido: borra a visão, atrapalha a audição e impede de curar enquanto durar. Não atravessa superfícies.",
+   "when": "Para impedir que o inimigo se cure depois do primeiro tiro, como no combo Sparks + virote Choke do REXNOR. Não faz efeito em quem tomou injeção de antídoto.",
+   "users": [
+    {
+     "name": "Centennial",
+     "slug": "centennial"
+    },
+    {
+     "name": "Centennial Pointman",
+     "slug": "centennial-pointman"
+    },
+    {
+     "name": "Centennial Shorty",
+     "slug": "centennial-shorty"
+    },
+    {
+     "name": "Centennial Shorty Silencer",
+     "slug": "centennial-shorty-silencer"
+    },
+    {
+     "name": "Centennial Sniper",
+     "slug": "centennial-sniper"
+    },
+    {
+     "name": "Centennial Trauma",
+     "slug": "centennial-trauma"
+    },
+    {
+     "name": "Frontier 73C",
+     "slug": "frontier-73c"
+    },
+    {
+     "name": "Frontier 73C Marksman",
+     "slug": "frontier-73c-marksman"
+    },
+    {
+     "name": "Frontier 73C Silencer",
+     "slug": "frontier-73c-silencer"
+    },
+    {
+     "name": "Haymaker",
+     "slug": "haymaker"
+    },
+    {
+     "name": "Infantry 73L",
+     "slug": "infantry-73l"
+    },
+    {
+     "name": "Infantry 73L Bayonet",
+     "slug": "infantry-73l-bayonet"
+    },
+    {
+     "name": "Infantry 73L Sniper",
+     "slug": "infantry-73l-sniper"
+    },
+    {
+     "name": "Marathon",
+     "slug": "marathon"
+    },
+    {
+     "name": "Marathon Swift",
+     "slug": "marathon-swift"
+    },
+    {
+     "name": "Nagant M1895",
+     "slug": "nagant-m1895"
+    },
+    {
+     "name": "Nagant M1895 Deadeye",
+     "slug": "nagant-m1895-deadeye"
+    },
+    {
+     "name": "Nagant M1895 Precision",
+     "slug": "nagant-m1895-precision"
+    },
+    {
+     "name": "Nagant M1895 Silencer",
+     "slug": "nagant-m1895-silencer"
+    },
+    {
+     "name": "Officer",
+     "slug": "officer"
+    },
+    {
+     "name": "Officer Brawler",
+     "slug": "officer-brawler"
+    },
+    {
+     "name": "Officer Carbine",
+     "slug": "officer-carbine"
+    },
+    {
+     "name": "Officer Carbine Deadeye",
+     "slug": "officer-carbine-deadeye"
+    },
+    {
+     "name": "Pax",
+     "slug": "pax"
+    },
+    {
+     "name": "Pax Claw",
+     "slug": "pax-claw"
+    },
+    {
+     "name": "Pax Trueshot",
+     "slug": "pax-trueshot"
+    },
+    {
+     "name": "Ranger 73",
+     "slug": "ranger-73"
+    },
+    {
+     "name": "Ranger 73 Aperture",
+     "slug": "ranger-73-aperture"
+    },
+    {
+     "name": "Ranger 73 Swift",
+     "slug": "ranger-73-swift"
+    },
+    {
+     "name": "Ranger 73 Talon",
+     "slug": "ranger-73-talon"
+    },
+    {
+     "name": "Sparks",
+     "slug": "sparks"
+    },
+    {
+     "name": "Sparks Pistol",
+     "slug": "sparks-pistol"
+    },
+    {
+     "name": "Sparks Pistol Silencer",
+     "slug": "sparks-pistol-silencer"
+    },
+    {
+     "name": "Sparks Silencer",
+     "slug": "sparks-silencer"
+    },
+    {
+     "name": "Sparks Sniper",
+     "slug": "sparks-sniper"
+    },
+    {
+     "name": "Springfield 1866",
+     "slug": "springfield-1866"
+    },
+    {
+     "name": "Springfield 1866 Bayonet",
+     "slug": "springfield-1866-bayonet"
+    },
+    {
+     "name": "Springfield 1866 Bullseye",
+     "slug": "springfield-1866-bullseye"
+    },
+    {
+     "name": "Springfield 1866 Marksman",
+     "slug": "springfield-1866-marksman"
+    },
+    {
+     "name": "Springfield 1866 Shorty",
+     "slug": "springfield-1866-shorty"
+    },
+    {
+     "name": "Springfield 1866 Striker",
+     "slug": "springfield-1866-striker"
+    },
+    {
+     "name": "Vandal 73C",
+     "slug": "vandal-73c"
+    },
+    {
+     "name": "Vandal 73C Bullseye",
+     "slug": "vandal-73c-bullseye"
+    },
+    {
+     "name": "Vandal 73C Striker",
+     "slug": "vandal-73c-striker"
+    },
+    {
+     "name": "Wildland",
+     "slug": "wildland"
+    }
+   ],
+   "price": [
+    25,
+    60
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": null,
+   "dropRange": null
+  },
+  {
+   "id": "dumdum-ammo",
+   "name": "Dumdum",
+   "key": "Dumdum Ammo",
+   "group": "Balas",
+   "what": "Causa sangramento forte, mas perde velocidade e não atravessa nada. É rara desde o patch 2.8: não dá para comprar, só achar no mapa.",
+   "when": "Se achar, use. Na Springfield o inimigo sangra até cair em poucos segundos, segundo o Whityyy.",
+   "users": [
+    {
+     "name": "Centennial",
+     "slug": "centennial"
+    },
+    {
+     "name": "Centennial Pointman",
+     "slug": "centennial-pointman"
+    },
+    {
+     "name": "Centennial Shorty",
+     "slug": "centennial-shorty"
+    },
+    {
+     "name": "Centennial Shorty Silencer",
+     "slug": "centennial-shorty-silencer"
+    },
+    {
+     "name": "Centennial Sniper",
+     "slug": "centennial-sniper"
+    },
+    {
+     "name": "Centennial Trauma",
+     "slug": "centennial-trauma"
+    },
+    {
+     "name": "Conversion",
+     "slug": "conversion"
+    },
+    {
+     "name": "Conversion Chain Pistol",
+     "slug": "conversion-chain-pistol"
+    },
+    {
+     "name": "Dolch 96",
+     "slug": "dolch-96"
+    },
+    {
+     "name": "Dolch 96 Bullseye",
+     "slug": "dolch-96-bullseye"
+    },
+    {
+     "name": "Dolch 96 Claw",
+     "slug": "dolch-96-claw"
+    },
+    {
+     "name": "Dolch 96 Precision",
+     "slug": "dolch-96-precision"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Maynard Sniper",
+     "slug": "maynard-sniper"
+    },
+    {
+     "name": "Maynard Sniper Silencer",
+     "slug": "maynard-sniper-silencer"
+    },
+    {
+     "name": "Nagant M1895",
+     "slug": "nagant-m1895"
+    },
+    {
+     "name": "Nagant M1895 Deadeye",
+     "slug": "nagant-m1895-deadeye"
+    },
+    {
+     "name": "Nagant M1895 Precision",
+     "slug": "nagant-m1895-precision"
+    },
+    {
+     "name": "Nagant M1895 Silencer",
+     "slug": "nagant-m1895-silencer"
+    },
+    {
+     "name": "New Army",
+     "slug": "new-army"
+    },
+    {
+     "name": "New Army Swift",
+     "slug": "new-army-swift"
+    },
+    {
+     "name": "Officer",
+     "slug": "officer"
+    },
+    {
+     "name": "Officer Brawler",
+     "slug": "officer-brawler"
+    },
+    {
+     "name": "Officer Carbine",
+     "slug": "officer-carbine"
+    },
+    {
+     "name": "Officer Carbine Deadeye",
+     "slug": "officer-carbine-deadeye"
+    },
+    {
+     "name": "Pax",
+     "slug": "pax"
+    },
+    {
+     "name": "Pax Claw",
+     "slug": "pax-claw"
+    },
+    {
+     "name": "Pax Trueshot",
+     "slug": "pax-trueshot"
+    },
+    {
+     "name": "Scottfield",
+     "slug": "scottfield"
+    },
+    {
+     "name": "Scottfield Brawler",
+     "slug": "scottfield-brawler"
+    },
+    {
+     "name": "Scottfield Precision",
+     "slug": "scottfield-precision"
+    },
+    {
+     "name": "Scottfield Spitfire",
+     "slug": "scottfield-spitfire"
+    },
+    {
+     "name": "Scottfield Swift",
+     "slug": "scottfield-swift"
+    },
+    {
+     "name": "Springfield 1866",
+     "slug": "springfield-1866"
+    },
+    {
+     "name": "Springfield 1866 Bayonet",
+     "slug": "springfield-1866-bayonet"
+    },
+    {
+     "name": "Springfield 1866 Bullseye",
+     "slug": "springfield-1866-bullseye"
+    },
+    {
+     "name": "Springfield 1866 Marksman",
+     "slug": "springfield-1866-marksman"
+    },
+    {
+     "name": "Springfield 1866 Shorty",
+     "slug": "springfield-1866-shorty"
+    },
+    {
+     "name": "Springfield 1866 Striker",
+     "slug": "springfield-1866-striker"
+    },
+    {
+     "name": "Wildland",
+     "slug": "wildland"
+    }
+   ],
+   "price": [
+    25,
+    50
+   ],
+   "scarce": true,
+   "velocity": [
+    -159,
+    -5
+   ],
+   "damage": null,
+   "dropRange": [
+    -20,
+    -5
+   ]
+  },
+  {
+   "id": "explosive-ammo",
+   "name": "Explosiva",
+   "key": "Explosive Ammo",
+   "group": "Balas",
+   "what": "Explode no impacto: quebra portas, janelas e arame Concertina, e é muito forte contra bosses (×4 a ×5). Dá menos dano direto e é mais lenta. Rara desde o patch 2.8.",
+   "when": "Para boss e para abrir caminho. Se achar, guarde para a luta do covil.",
+   "users": [
+    {
+     "name": "Mako 1895",
+     "slug": "mako-1895"
+    },
+    {
+     "name": "Mako 1895 Aperture",
+     "slug": "mako-1895-aperture"
+    },
+    {
+     "name": "Mako 1895 Claw",
+     "slug": "mako-1895-claw"
+    },
+    {
+     "name": "Martini-Henry",
+     "slug": "martini-henry"
+    },
+    {
+     "name": "Martini-Henry Deadeye",
+     "slug": "martini-henry-deadeye"
+    },
+    {
+     "name": "Martini-Henry Ironside",
+     "slug": "martini-henry-ironside"
+    },
+    {
+     "name": "Martini-Henry Marksman",
+     "slug": "martini-henry-marksman"
+    },
+    {
+     "name": "Martini-Henry Riposte",
+     "slug": "martini-henry-riposte"
+    },
+    {
+     "name": "Nitro Express",
+     "slug": "nitro-express"
+    },
+    {
+     "name": "Springfield 1866",
+     "slug": "springfield-1866"
+    },
+    {
+     "name": "Springfield 1866 Bayonet",
+     "slug": "springfield-1866-bayonet"
+    },
+    {
+     "name": "Springfield 1866 Bullseye",
+     "slug": "springfield-1866-bullseye"
+    },
+    {
+     "name": "Springfield 1866 Marksman",
+     "slug": "springfield-1866-marksman"
+    },
+    {
+     "name": "Springfield 1866 Shorty",
+     "slug": "springfield-1866-shorty"
+    },
+    {
+     "name": "Springfield 1866 Striker",
+     "slug": "springfield-1866-striker"
+    },
+    {
+     "name": "Uppercut",
+     "slug": "uppercut"
+    },
+    {
+     "name": "Uppercut Deadeye",
+     "slug": "uppercut-deadeye"
+    },
+    {
+     "name": "Uppercut Precision",
+     "slug": "uppercut-precision"
+    }
+   ],
+   "price": [
+    45,
+    200
+   ],
+   "scarce": true,
+   "velocity": [
+    -140,
+    -80
+   ],
+   "damage": [
+    -201,
+    -1
+   ],
+   "dropRange": [
+    -40,
+    -20
+   ]
+  },
+  {
+   "id": "spitzer-ammo",
+   "name": "Spitzer",
+   "key": "Spitzer Ammo",
+   "group": "Balas",
+   "what": "Bem mais rápida (+190 a +220 m/s) e com mais penetração, mas com cerca de 19 de dano a menos. Rara desde o patch 2.8.",
+   "when": "Em sniper de munição longa especial: atravessa paredes e permite acertar dois de uma vez. Com o dano menor, um tiro no corpo de quem acabou de levantar não derruba de novo.",
+   "users": [
+    {
+     "name": "Berthier 1892",
+     "slug": "berthier-1892"
+    },
+    {
+     "name": "Berthier 1892 Deadeye",
+     "slug": "berthier-1892-deadeye"
+    },
+    {
+     "name": "Berthier 1892 Marksman",
+     "slug": "berthier-1892-marksman"
+    },
+    {
+     "name": "Berthier 1892 Riposte",
+     "slug": "berthier-1892-riposte"
+    },
+    {
+     "name": "Lebel 1886",
+     "slug": "lebel-1886"
+    },
+    {
+     "name": "Lebel 1886 Aperture",
+     "slug": "lebel-1886-aperture"
+    },
+    {
+     "name": "Lebel 1886 Marksman",
+     "slug": "lebel-1886-marksman"
+    },
+    {
+     "name": "Lebel 1886 Talon",
+     "slug": "lebel-1886-talon"
+    },
+    {
+     "name": "Mosin Obrez",
+     "slug": "mosin-obrez"
+    },
+    {
+     "name": "Mosin Obrez Extended",
+     "slug": "mosin-obrez-extended"
+    },
+    {
+     "name": "Mosin Obrez Mace",
+     "slug": "mosin-obrez-mace"
+    },
+    {
+     "name": "Mosin Obrez Match",
+     "slug": "mosin-obrez-match"
+    },
+    {
+     "name": "Mosin Obrez Sharpeye",
+     "slug": "mosin-obrez-sharpeye"
+    },
+    {
+     "name": "Mosin-Nagant",
+     "slug": "mosin-nagant"
+    },
+    {
+     "name": "Mosin-Nagant Avtomat",
+     "slug": "mosin-nagant-avtomat"
+    },
+    {
+     "name": "Mosin-Nagant Bayonet",
+     "slug": "mosin-nagant-bayonet"
+    },
+    {
+     "name": "Mosin-Nagant Sniper",
+     "slug": "mosin-nagant-sniper"
+    }
+   ],
+   "price": [
+    75,
+    150
+   ],
+   "scarce": true,
+   "velocity": [
+    190,
+    220
+   ],
+   "damage": [
+    -20,
+    -19
+   ],
+   "dropRange": [
+    20,
+    25
+   ]
+  },
+  {
+   "id": "slug",
+   "name": "Slug",
+   "key": "Slug",
+   "group": "Espingarda",
+   "what": "Um projétil só em vez de chumbo: alcance efetivo muito maior e penetração, mas menos precisão no tiro sem mirar e menos munição.",
+   "when": "Para usar a espingarda como um rifle de curta e média distância. O RachtaZ recomenda na Burgess e na LeMat Carbine.",
+   "users": [
+    {
+     "name": "Auto-4 Shorty",
+     "slug": "auto-4-shorty"
+    },
+    {
+     "name": "Auto-5",
+     "slug": "auto-5"
+    },
+    {
+     "name": "Burgess",
+     "slug": "burgess"
+    },
+    {
+     "name": "Burgess Bayonet",
+     "slug": "burgess-bayonet"
+    },
+    {
+     "name": "Burgess Trauma",
+     "slug": "burgess-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Haymaker",
+     "slug": "haymaker"
+    },
+    {
+     "name": "Homestead 78",
+     "slug": "homestead-78"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Rival 78",
+     "slug": "rival-78"
+    },
+    {
+     "name": "Rival 78 Mace",
+     "slug": "rival-78-mace"
+    },
+    {
+     "name": "Rival 78 Shorty",
+     "slug": "rival-78-shorty"
+    },
+    {
+     "name": "Rival 78 Trauma",
+     "slug": "rival-78-trauma"
+    },
+    {
+     "name": "Romero 77",
+     "slug": "romero-77"
+    },
+    {
+     "name": "Romero 77 Alamo",
+     "slug": "romero-77-alamo"
+    },
+    {
+     "name": "Romero 77 Hatchet",
+     "slug": "romero-77-hatchet"
+    },
+    {
+     "name": "Romero 77 Shorty",
+     "slug": "romero-77-shorty"
+    },
+    {
+     "name": "Romero 77 Talon",
+     "slug": "romero-77-talon"
+    },
+    {
+     "name": "Slate",
+     "slug": "slate"
+    },
+    {
+     "name": "Slate Riposte",
+     "slug": "slate-riposte"
+    },
+    {
+     "name": "Specter 1882",
+     "slug": "specter-1882"
+    },
+    {
+     "name": "Specter 1882 Bayonet",
+     "slug": "specter-1882-bayonet"
+    },
+    {
+     "name": "Specter 1882 Shorty",
+     "slug": "specter-1882-shorty"
+    },
+    {
+     "name": "Terminus",
+     "slug": "terminus"
+    },
+    {
+     "name": "Terminus Shorty",
+     "slug": "terminus-shorty"
+    }
+   ],
+   "price": [
+    40,
+    130
+   ],
+   "scarce": false,
+   "velocity": [
+    -180,
+    -25
+   ],
+   "damage": [
+    -57,
+    60
+   ],
+   "dropRange": [
+    -125,
+    -45
+   ]
+  },
+  {
+   "id": "penny-shot",
+   "name": "Penny Shot",
+   "key": "Penny Shot",
+   "group": "Espingarda",
+   "what": "Moedas no lugar do chumbo: dano altíssimo colado no alvo, imprevisível de longe e não atravessa paredes.",
+   "when": "Para abrir portas e bater em boss. O REXNOR leva na Romero junto com o chumbo comum.",
+   "users": [
+    {
+     "name": "Auto-4 Shorty",
+     "slug": "auto-4-shorty"
+    },
+    {
+     "name": "Auto-5",
+     "slug": "auto-5"
+    },
+    {
+     "name": "Burgess",
+     "slug": "burgess"
+    },
+    {
+     "name": "Burgess Bayonet",
+     "slug": "burgess-bayonet"
+    },
+    {
+     "name": "Burgess Trauma",
+     "slug": "burgess-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Homestead 78",
+     "slug": "homestead-78"
+    },
+    {
+     "name": "Rival 78",
+     "slug": "rival-78"
+    },
+    {
+     "name": "Rival 78 Mace",
+     "slug": "rival-78-mace"
+    },
+    {
+     "name": "Rival 78 Shorty",
+     "slug": "rival-78-shorty"
+    },
+    {
+     "name": "Rival 78 Trauma",
+     "slug": "rival-78-trauma"
+    },
+    {
+     "name": "Romero 77",
+     "slug": "romero-77"
+    },
+    {
+     "name": "Romero 77 Alamo",
+     "slug": "romero-77-alamo"
+    },
+    {
+     "name": "Romero 77 Hatchet",
+     "slug": "romero-77-hatchet"
+    },
+    {
+     "name": "Romero 77 Shorty",
+     "slug": "romero-77-shorty"
+    },
+    {
+     "name": "Romero 77 Talon",
+     "slug": "romero-77-talon"
+    },
+    {
+     "name": "Slate",
+     "slug": "slate"
+    },
+    {
+     "name": "Slate Riposte",
+     "slug": "slate-riposte"
+    },
+    {
+     "name": "Specter 1882",
+     "slug": "specter-1882"
+    },
+    {
+     "name": "Specter 1882 Bayonet",
+     "slug": "specter-1882-bayonet"
+    },
+    {
+     "name": "Specter 1882 Shorty",
+     "slug": "specter-1882-shorty"
+    },
+    {
+     "name": "Terminus",
+     "slug": "terminus"
+    },
+    {
+     "name": "Terminus Shorty",
+     "slug": "terminus-shorty"
+    }
+   ],
+   "price": [
+    5,
+    10
+   ],
+   "scarce": false,
+   "velocity": [
+    -80,
+    -49
+   ],
+   "damage": [
+    -117,
+    70
+   ],
+   "dropRange": [
+    -125,
+    -105
+   ]
+  },
+  {
+   "id": "flechette",
+   "name": "Flechette",
+   "key": "Flechette",
+   "group": "Espingarda",
+   "what": "Dardos que abrem menos: alcance um pouco maior que o chumbo, menos dano por tiro e causam sangramento.",
+   "when": "Para quem quer uma espingarda que segure um pouco mais de distância.",
+   "users": [
+    {
+     "name": "Auto-4 Shorty",
+     "slug": "auto-4-shorty"
+    },
+    {
+     "name": "Auto-5",
+     "slug": "auto-5"
+    },
+    {
+     "name": "Burgess",
+     "slug": "burgess"
+    },
+    {
+     "name": "Burgess Bayonet",
+     "slug": "burgess-bayonet"
+    },
+    {
+     "name": "Burgess Trauma",
+     "slug": "burgess-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Homestead 78",
+     "slug": "homestead-78"
+    },
+    {
+     "name": "Rival 78",
+     "slug": "rival-78"
+    },
+    {
+     "name": "Rival 78 Mace",
+     "slug": "rival-78-mace"
+    },
+    {
+     "name": "Rival 78 Shorty",
+     "slug": "rival-78-shorty"
+    },
+    {
+     "name": "Rival 78 Trauma",
+     "slug": "rival-78-trauma"
+    },
+    {
+     "name": "Specter 1882",
+     "slug": "specter-1882"
+    },
+    {
+     "name": "Specter 1882 Bayonet",
+     "slug": "specter-1882-bayonet"
+    },
+    {
+     "name": "Specter 1882 Shorty",
+     "slug": "specter-1882-shorty"
+    },
+    {
+     "name": "Terminus",
+     "slug": "terminus"
+    },
+    {
+     "name": "Terminus Shorty",
+     "slug": "terminus-shorty"
+    }
+   ],
+   "price": [
+    20,
+    40
+   ],
+   "scarce": false,
+   "velocity": [
+    -80,
+    -49
+   ],
+   "damage": [
+    -97,
+    12
+   ],
+   "dropRange": [
+    -125,
+    -100
+   ]
+  },
+  {
+   "id": "dragon-breath",
+   "name": "Dragon Breath",
+   "key": "Dragon Breath",
+   "group": "Espingarda",
+   "what": "Jato de fogo de alguns metros que incendeia tudo no caminho e destrói pedaços de vida. Alcance curto.",
+   "when": "Para queimar corpos, segurar portas e brigar dentro de prédio.",
+   "users": [
+    {
+     "name": "Bomb Lance",
+     "slug": null
+    },
+    {
+     "name": "Bomb Launcher",
+     "slug": null
+    },
+    {
+     "name": "Burgess",
+     "slug": "burgess"
+    },
+    {
+     "name": "Burgess Bayonet",
+     "slug": "burgess-bayonet"
+    },
+    {
+     "name": "Burgess Trauma",
+     "slug": "burgess-trauma"
+    },
+    {
+     "name": "Drilling",
+     "slug": "drilling"
+    },
+    {
+     "name": "Drilling Hatchet",
+     "slug": "drilling-hatchet"
+    },
+    {
+     "name": "Drilling Shorty",
+     "slug": "drilling-shorty"
+    },
+    {
+     "name": "Haymaker",
+     "slug": "haymaker"
+    },
+    {
+     "name": "Homestead 78",
+     "slug": "homestead-78"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Rival 78",
+     "slug": "rival-78"
+    },
+    {
+     "name": "Rival 78 Mace",
+     "slug": "rival-78-mace"
+    },
+    {
+     "name": "Rival 78 Shorty",
+     "slug": "rival-78-shorty"
+    },
+    {
+     "name": "Rival 78 Trauma",
+     "slug": "rival-78-trauma"
+    },
+    {
+     "name": "Romero 77",
+     "slug": "romero-77"
+    },
+    {
+     "name": "Romero 77 Alamo",
+     "slug": "romero-77-alamo"
+    },
+    {
+     "name": "Romero 77 Hatchet",
+     "slug": "romero-77-hatchet"
+    },
+    {
+     "name": "Romero 77 Shorty",
+     "slug": "romero-77-shorty"
+    },
+    {
+     "name": "Romero 77 Talon",
+     "slug": "romero-77-talon"
+    },
+    {
+     "name": "Specter 1882",
+     "slug": "specter-1882"
+    },
+    {
+     "name": "Specter 1882 Bayonet",
+     "slug": "specter-1882-bayonet"
+    },
+    {
+     "name": "Specter 1882 Shorty",
+     "slug": "specter-1882-shorty"
+    },
+    {
+     "name": "Terminus",
+     "slug": "terminus"
+    },
+    {
+     "name": "Terminus Shorty",
+     "slug": "terminus-shorty"
+    }
+   ],
+   "price": [
+    10,
+    20
+   ],
+   "scarce": false,
+   "velocity": [
+    -430,
+    40
+   ],
+   "damage": [
+    -111,
+    22
+   ],
+   "dropRange": [
+    -125,
+    -45
+   ]
+  },
+  {
+   "id": "starshell",
+   "name": "Starshell",
+   "key": "Starshell",
+   "group": "Espingarda",
+   "what": "Sinalizador que desce devagar: ilumina, cega e incendeia, quase sem dano.",
+   "when": "Para iluminar a área à noite, distrair ou acender um corpo.",
+   "users": [
+    {
+     "name": "Haymaker",
+     "slug": "haymaker"
+    },
+    {
+     "name": "LeMat",
+     "slug": "lemat"
+    },
+    {
+     "name": "LeMat Carbine",
+     "slug": "lemat-carbine"
+    },
+    {
+     "name": "LeMat Carbine Marksman",
+     "slug": "lemat-carbine-marksman"
+    },
+    {
+     "name": "Romero 77",
+     "slug": "romero-77"
+    },
+    {
+     "name": "Romero 77 Alamo",
+     "slug": "romero-77-alamo"
+    },
+    {
+     "name": "Romero 77 Hatchet",
+     "slug": "romero-77-hatchet"
+    },
+    {
+     "name": "Romero 77 Shorty",
+     "slug": "romero-77-shorty"
+    },
+    {
+     "name": "Romero 77 Talon",
+     "slug": "romero-77-talon"
+    }
+   ],
+   "price": [
+    5,
+    10
+   ],
+   "scarce": false,
+   "velocity": [
+    -455,
+    -300
+   ],
+   "damage": [
+    -217,
+    -96
+   ],
+   "dropRange": [
+    -105,
+    -45
+   ]
+  },
+  {
+   "id": "steel-bolt",
+   "name": "Steel Bolt",
+   "key": "Steel Bolt",
+   "group": "Bestas e arco",
+   "what": "Virote de metal: mais rápido e com mais alcance sem queda. Gruda no alvo e dá para recolher.",
+   "when": "O Whityyy recomenda na besta: faz o mesmo dano do virote comum e voa melhor.",
+   "users": [
+    {
+     "name": "Crossbow",
+     "slug": "crossbow"
+    },
+    {
+     "name": "Crossbow Deadeye",
+     "slug": "crossbow-deadeye"
+    }
+   ],
+   "price": [
+    40,
+    40
+   ],
+   "scarce": false,
+   "velocity": [
+    75,
+    75
+   ],
+   "damage": null,
+   "dropRange": [
+    15,
+    15
+   ]
+  },
+  {
+   "id": "shot-bolt",
+   "name": "Shot Bolt",
+   "key": "Shot Bolt",
+   "group": "Bestas e arco",
+   "what": "Virote com cartucho de chumbo que explode no impacto como uma espingarda. Em teoria mata em um tiro a qualquer distância, mas cai muito.",
+   "when": "Em meia a meia com Steel Bolt, para reabastecer nas duas caixas de munição.",
+   "users": [
+    {
+     "name": "Crossbow",
+     "slug": "crossbow"
+    },
+    {
+     "name": "Crossbow Deadeye",
+     "slug": "crossbow-deadeye"
+    }
+   ],
+   "price": [
+    40,
+    40
+   ],
+   "scarce": false,
+   "velocity": [
+    -50,
+    -50
+   ],
+   "damage": [
+    208,
+    208
+   ],
+   "dropRange": [
+    -5,
+    -5
+   ]
+  },
+  {
+   "id": "choke-bolt",
+   "name": "Virote Choke",
+   "key": "Choke Bolt",
+   "group": "Bestas e arco",
+   "what": "Cria uma pequena nuvem de choke: apaga fogo e pavios, faz tossir e causa exatamente 1 de dano.",
+   "when": "Para finalizar quem ficou com 1 de vida, como no combo Sparks 149 + 1 do REXNOR, e para apagar fogo em aliado.",
+   "users": [
+    {
+     "name": "Hand Crossbow",
+     "slug": "hand-crossbow"
+    }
+   ],
+   "price": [
+    10,
+    10
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": [
+    -194,
+    -194
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "poison-bolt",
+   "name": "Virote venenoso",
+   "key": "Poison Bolt",
+   "group": "Bestas e arco",
+   "what": "Solta uma nuvem venenosa que dura bastante e causa 6 de dano por segundo a quem fica dentro.",
+   "when": "Para negar área, envenenar quem está escondido e impedir que se curem.",
+   "users": [
+    {
+     "name": "Hand Crossbow",
+     "slug": "hand-crossbow"
+    }
+   ],
+   "price": [
+    25,
+    25
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": [
+    -85,
+    -85
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "chaos-bolt",
+   "name": "Virote Chaos",
+   "key": "Chaos Bolt",
+   "group": "Bestas e arco",
+   "what": "Imita o som de um tiroteio, como uma Chaos Bomb, por menos tempo.",
+   "when": "Para distrair um time e fazer ele olhar para o lado errado.",
+   "users": [
+    {
+     "name": "Hand Crossbow",
+     "slug": "hand-crossbow"
+    }
+   ],
+   "price": [
+    10,
+    10
+   ],
+   "scarce": false,
+   "velocity": [
+    -50,
+    -50
+   ],
+   "damage": [
+    -130,
+    -130
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "dragon-bolt",
+   "name": "Virote Dragon Breath",
+   "key": "Dragon Bolt",
+   "group": "Bestas e arco",
+   "what": "Explode num jato de fogo no impacto e destrói pedaços de vida.",
+   "when": "Para queimar corpos de longe e incendiar o Bloodskin, que é fraco a fogo.",
+   "users": [
+    {
+     "name": "Hand Crossbow",
+     "slug": "hand-crossbow"
+    }
+   ],
+   "price": [
+    40,
+    40
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": [
+    -184,
+    -184
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "explosive-bolt",
+   "name": "Virote explosivo",
+   "key": "Explosive Bolt",
+   "group": "Bestas e arco",
+   "what": "Virote que explode no impacto, com menos dano direto e menos velocidade. Raro.",
+   "when": "Se achar: contra bosses e para abrir caminho.",
+   "users": [
+    {
+     "name": "Chu Ko Nu",
+     "slug": "chu-ko-nu"
+    },
+    {
+     "name": "Crossbow",
+     "slug": "crossbow"
+    },
+    {
+     "name": "Crossbow Deadeye",
+     "slug": "crossbow-deadeye"
+    }
+   ],
+   "price": [
+    35,
+    50
+   ],
+   "scarce": true,
+   "velocity": [
+    -90,
+    -45
+   ],
+   "damage": [
+    -51,
+    -26
+   ],
+   "dropRange": [
+    -10,
+    -7
+   ]
+  },
+  {
+   "id": "concertina-arrows",
+   "name": "Flecha Concertina",
+   "key": "Concertina Arrows",
+   "group": "Bestas e arco",
+   "what": "Flecha com uma pequena bomba de arame Concertina: explode no impacto e causa sangramento.",
+   "when": "Para fechar portas e passagens à distância.",
+   "users": [
+    {
+     "name": "Hunting Bow",
+     "slug": "hunting-bow"
+    }
+   ],
+   "price": [
+    30,
+    30
+   ],
+   "scarce": false,
+   "velocity": [
+    -70,
+    -70
+   ],
+   "damage": null,
+   "dropRange": [
+    -20,
+    -20
+   ]
+  },
+  {
+   "id": "poison-arrows",
+   "name": "Flecha venenosa",
+   "key": "Poison Arrows",
+   "group": "Bestas e arco",
+   "what": "Flecha envenenada que ainda causa sangramento e pode ser recolhida.",
+   "when": "Para impedir a cura depois de um acerto que não matou.",
+   "users": [
+    {
+     "name": "Hunting Bow",
+     "slug": "hunting-bow"
+    }
+   ],
+   "price": [
+    25,
+    25
+   ],
+   "scarce": false,
+   "velocity": null,
+   "damage": null,
+   "dropRange": null
+  },
+  {
+   "id": "frag-arrows",
+   "name": "Flecha Frag",
+   "key": "Frag Arrows",
+   "group": "Bestas e arco",
+   "what": "Flecha com uma pequena Frag Bomb que quica e explode depois de um tempo. Rara.",
+   "when": "Se achar: para tirar alguém de trás de cobertura.",
+   "users": [
+    {
+     "name": "Hunting Bow",
+     "slug": "hunting-bow"
+    }
+   ],
+   "price": [
+    70,
+    70
+   ],
+   "scarce": true,
+   "velocity": [
+    -70,
+    -70
+   ],
+   "damage": null,
+   "dropRange": [
+    -20,
+    -20
+   ]
+  },
+  {
+   "id": "harpoon",
+   "name": "Arpão",
+   "key": "Harpoon",
+   "group": "Bomb Lance e Bomb Launcher",
+   "what": "Arpão que gruda, causa sangramento e pode ser recolhido.",
+   "when": "Mata em um tiro no braço até 30 m no Bomb Launcher, segundo o Whityyy.",
+   "users": [
+    {
+     "name": "Bomb Lance",
+     "slug": null
+    },
+    {
+     "name": "Bomb Launcher",
+     "slug": null
+    }
+   ],
+   "price": [
+    5,
+    5
+   ],
+   "scarce": false,
+   "velocity": [
+    20,
+    20
+   ],
+   "damage": [
+    110,
+    110
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "steel-ball-ammo",
+   "name": "Bolas de aço",
+   "key": "Steel Ball Ammo",
+   "group": "Bomb Lance e Bomb Launcher",
+   "what": "Rajada silenciosa de bolas de aço, devastadora de perto e imprevisível de longe.",
+   "when": "Para luta de curta distância em silêncio.",
+   "users": [
+    {
+     "name": "Bomb Lance",
+     "slug": null
+    },
+    {
+     "name": "Bomb Launcher",
+     "slug": null
+    }
+   ],
+   "price": [
+    5,
+    5
+   ],
+   "scarce": false,
+   "velocity": [
+    390,
+    390
+   ],
+   "damage": [
+    89,
+    89
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "waxed-frag-charge",
+   "name": "Carga Frag encerada",
+   "key": "Waxed Frag Charge",
+   "group": "Bomb Lance e Bomb Launcher",
+   "what": "Carga explosiva encerada com explosão atrasada, que funciona até debaixo d’água. Rara.",
+   "when": "Se achar: contra a Rotjaw e para tirar gente de cobertura.",
+   "users": [
+    {
+     "name": "Bomb Lance",
+     "slug": null
+    },
+    {
+     "name": "Bomb Launcher",
+     "slug": null
+    }
+   ],
+   "price": [
+    50,
+    50
+   ],
+   "scarce": true,
+   "velocity": null,
+   "damage": [
+    -24,
+    24
+   ],
+   "dropRange": null
+  },
+  {
+   "id": "shredder-ammo",
+   "name": "Shredder",
+   "key": "Shredder Ammo",
+   "group": "Nitro Express",
+   "what": "Bala que se abre no impacto e causa sangramento forte, perdendo um pouco de velocidade e penetração. Rara.",
+   "when": "Se achar, na Nitro Express.",
+   "users": [
+    {
+     "name": "Nitro Express",
+     "slug": "nitro-express"
+    }
+   ],
+   "price": [
+    225,
+    225
+   ],
+   "scarce": true,
+   "velocity": [
+    -55,
+    -55
+   ],
+   "damage": null,
+   "dropRange": [
+    -5,
+    -5
+   ]
+  }
+ ]
+}

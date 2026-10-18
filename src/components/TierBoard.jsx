@@ -4,7 +4,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { changedIds, moveWeapon, sameLayout, shiftWeapon, tierOf } from '@/lib/layout';
 import { TIERS, TIER_BY_ID, tierForBand } from '@/lib/tiers';
 import { useTierLayouts } from '@/lib/useTierLayouts';
+import AmmoGuide from './AmmoGuide';
 import BossGuide from './BossGuide';
+import DamageCalculator from './DamageCalculator';
 import LoadoutGuide from './LoadoutGuide';
 import MoveBar from './MoveBar';
 import TierRow from './TierRow';
@@ -29,6 +31,8 @@ export default function TierBoard({ data }) {
   // Os guias (loadouts, bosses) não são tier lists: ao abrir um, a última lista fica guardada em viewId.
   const [guideId, setGuideId] = useState(null);
   const guide = data.guides.find((g) => g.id === guideId) || null;
+  // Arma e munição pré-selecionadas quando o guia de munições abre a calculadora.
+  const [calcPreset, setCalcPreset] = useState(null);
   const [categoryByView, setCategoryByView] = useState(() =>
     Object.fromEntries(data.views.map((v) => [v.id, v.categories[0].id])),
   );
@@ -179,7 +183,7 @@ export default function TierBoard({ data }) {
 
       <div className="sticky top-0 z-20 -mx-4 mt-6 border-b border-line bg-ink/90 px-4 py-3 backdrop-blur">
         <div className="flex flex-wrap items-center gap-3">
-          <div className="flex rounded-md border border-line bg-panel p-0.5">
+          <div className="flex flex-wrap rounded-md border border-line bg-panel p-0.5">
             {data.views.map((v) => (
               <button
                 key={v.id}
@@ -280,7 +284,17 @@ export default function TierBoard({ data }) {
         )}
       </div>
 
-      {guide?.kind === 'bosses' ? (
+      {guide?.kind === 'damage' ? (
+        <DamageCalculator key={JSON.stringify(calcPreset)} preset={calcPreset} />
+      ) : guide?.kind === 'ammo' ? (
+        <AmmoGuide
+          onOpenCalculator={(slug, ammo) => {
+            setCalcPreset({ slug, ammo });
+            openGuide('damage');
+            window.scrollTo({ top: 0 });
+          }}
+        />
+      ) : guide?.kind === 'bosses' ? (
         <BossGuide guide={guide} />
       ) : guide?.kind === 'loadouts' ? (
         <LoadoutGuide guide={guide} />
